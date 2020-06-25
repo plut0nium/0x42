@@ -1,0 +1,3231 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title "0x42"
+Date "2020-06-23"
+Rev "v01"
+Comp "plut0nium"
+Comment1 ""
+Comment2 "- USB-C, backlight & RGB underglow"
+Comment3 "- For MX-style switches"
+Comment4 "60% Ortholinear Mechanical Keyboard"
+$EndDescr
+Wire Wire Line
+	3300 1300 3400 1300
+Wire Wire Line
+	4000 1300 4100 1300
+Wire Wire Line
+	4700 1300 4800 1300
+$Comp
+L power:GND #PWR?
+U 1 1 5DAD0723
+P 3000 1650
+AR Path="/5DAD0723" Ref="#PWR?"  Part="1" 
+AR Path="/5DA8D286/5DAD0723" Ref="#PWR023"  Part="1" 
+F 0 "#PWR023" H 3000 1400 50  0001 C CNN
+F 1 "GND" H 3005 1477 50  0000 C CNN
+F 2 "" H 3000 1650 50  0001 C CNN
+F 3 "" H 3000 1650 50  0001 C CNN
+	1    3000 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DAD0729
+P 3700 1650
+AR Path="/5DAD0729" Ref="#PWR?"  Part="1" 
+AR Path="/5DA8D286/5DAD0729" Ref="#PWR027"  Part="1" 
+F 0 "#PWR027" H 3700 1400 50  0001 C CNN
+F 1 "GND" H 3705 1477 50  0000 C CNN
+F 2 "" H 3700 1650 50  0001 C CNN
+F 3 "" H 3700 1650 50  0001 C CNN
+	1    3700 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DAD072F
+P 4400 1650
+AR Path="/5DAD072F" Ref="#PWR?"  Part="1" 
+AR Path="/5DA8D286/5DAD072F" Ref="#PWR030"  Part="1" 
+F 0 "#PWR030" H 4400 1400 50  0001 C CNN
+F 1 "GND" H 4405 1477 50  0000 C CNN
+F 2 "" H 4400 1650 50  0001 C CNN
+F 3 "" H 4400 1650 50  0001 C CNN
+	1    4400 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 1600 3000 1650
+Wire Wire Line
+	3700 1600 3700 1650
+Wire Wire Line
+	4400 1600 4400 1650
+$Comp
+L power:+5V #PWR?
+U 1 1 5DAD073F
+P 3000 950
+AR Path="/5DAD073F" Ref="#PWR?"  Part="1" 
+AR Path="/5DA8D286/5DAD073F" Ref="#PWR022"  Part="1" 
+F 0 "#PWR022" H 3000 800 50  0001 C CNN
+F 1 "+5V" H 3015 1123 50  0000 C CNN
+F 2 "" H 3000 950 50  0001 C CNN
+F 3 "" H 3000 950 50  0001 C CNN
+	1    3000 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5DAD0745
+P 3700 950
+AR Path="/5DAD0745" Ref="#PWR?"  Part="1" 
+AR Path="/5DA8D286/5DAD0745" Ref="#PWR026"  Part="1" 
+F 0 "#PWR026" H 3700 800 50  0001 C CNN
+F 1 "+5V" H 3715 1123 50  0000 C CNN
+F 2 "" H 3700 950 50  0001 C CNN
+F 3 "" H 3700 950 50  0001 C CNN
+	1    3700 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5DAD074B
+P 4400 950
+AR Path="/5DAD074B" Ref="#PWR?"  Part="1" 
+AR Path="/5DA8D286/5DAD074B" Ref="#PWR029"  Part="1" 
+F 0 "#PWR029" H 4400 800 50  0001 C CNN
+F 1 "+5V" H 4415 1123 50  0000 C CNN
+F 2 "" H 4400 950 50  0001 C CNN
+F 3 "" H 4400 950 50  0001 C CNN
+	1    4400 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 950  3000 1000
+Wire Wire Line
+	3700 950  3700 1000
+Wire Wire Line
+	4400 950  4400 1000
+Wire Wire Line
+	5400 1300 5500 1300
+$Comp
+L power:GND #PWR?
+U 1 1 5DAD0776
+P 5100 1650
+AR Path="/5DAD0776" Ref="#PWR?"  Part="1" 
+AR Path="/5DA8D286/5DAD0776" Ref="#PWR034"  Part="1" 
+F 0 "#PWR034" H 5100 1400 50  0001 C CNN
+F 1 "GND" H 5105 1477 50  0000 C CNN
+F 2 "" H 5100 1650 50  0001 C CNN
+F 3 "" H 5100 1650 50  0001 C CNN
+	1    5100 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DAD077C
+P 5800 1650
+AR Path="/5DAD077C" Ref="#PWR?"  Part="1" 
+AR Path="/5DA8D286/5DAD077C" Ref="#PWR036"  Part="1" 
+F 0 "#PWR036" H 5800 1400 50  0001 C CNN
+F 1 "GND" H 5805 1477 50  0000 C CNN
+F 2 "" H 5800 1650 50  0001 C CNN
+F 3 "" H 5800 1650 50  0001 C CNN
+	1    5800 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 1600 5100 1650
+Wire Wire Line
+	5800 1600 5800 1650
+$Comp
+L power:+5V #PWR?
+U 1 1 5DAD0792
+P 5100 950
+AR Path="/5DAD0792" Ref="#PWR?"  Part="1" 
+AR Path="/5DA8D286/5DAD0792" Ref="#PWR033"  Part="1" 
+F 0 "#PWR033" H 5100 800 50  0001 C CNN
+F 1 "+5V" H 5115 1123 50  0000 C CNN
+F 2 "" H 5100 950 50  0001 C CNN
+F 3 "" H 5100 950 50  0001 C CNN
+	1    5100 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5DAD0798
+P 5800 950
+AR Path="/5DAD0798" Ref="#PWR?"  Part="1" 
+AR Path="/5DA8D286/5DAD0798" Ref="#PWR035"  Part="1" 
+F 0 "#PWR035" H 5800 800 50  0001 C CNN
+F 1 "+5V" H 5815 1123 50  0000 C CNN
+F 2 "" H 5800 950 50  0001 C CNN
+F 3 "" H 5800 950 50  0001 C CNN
+	1    5800 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 950  5100 1000
+Wire Wire Line
+	5800 950  5800 1000
+Wire Wire Line
+	1350 1300 1150 1300
+$Comp
+L Device:R R?
+U 1 1 5DAE7E2D
+P 1500 1300
+AR Path="/5DAE7E2D" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5DAE7E2D" Ref="R10"  Part="1" 
+F 0 "R10" V 1400 1300 50  0000 C CNN
+F 1 "330" V 1500 1300 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 1430 1300 50  0001 C CNN
+F 3 "~" H 1500 1300 50  0001 C CNN
+	1    1500 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DB0B481
+P 9250 1300
+AR Path="/5DB0B481" Ref="C?"  Part="1" 
+AR Path="/5DA8D286/5DB0B481" Ref="C10"  Part="1" 
+F 0 "C10" H 9365 1346 50  0000 L CNN
+F 1 "100n" H 9365 1255 50  0000 L CNN
+F 2 "0xLib_Passive_SMD:C_0603_1608Metric" H 9288 1150 50  0001 C CNN
+F 3 "~" H 9250 1300 50  0001 C CNN
+	1    9250 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DB0B487
+P 9500 1300
+AR Path="/5DB0B487" Ref="C?"  Part="1" 
+AR Path="/5DA8D286/5DB0B487" Ref="C11"  Part="1" 
+F 0 "C11" H 9615 1346 50  0000 L CNN
+F 1 "100n" H 9615 1255 50  0000 L CNN
+F 2 "0xLib_Passive_SMD:C_0603_1608Metric" H 9538 1150 50  0001 C CNN
+F 3 "~" H 9500 1300 50  0001 C CNN
+	1    9500 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5DB0B493
+P 9250 1000
+AR Path="/5DB0B493" Ref="#PWR?"  Part="1" 
+AR Path="/5DA8D286/5DB0B493" Ref="#PWR041"  Part="1" 
+F 0 "#PWR041" H 9250 850 50  0001 C CNN
+F 1 "+5V" H 9265 1173 50  0000 C CNN
+F 2 "" H 9250 1000 50  0001 C CNN
+F 3 "" H 9250 1000 50  0001 C CNN
+	1    9250 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DB0B499
+P 9250 1600
+AR Path="/5DB0B499" Ref="#PWR?"  Part="1" 
+AR Path="/5DA8D286/5DB0B499" Ref="#PWR042"  Part="1" 
+F 0 "#PWR042" H 9250 1350 50  0001 C CNN
+F 1 "GND" H 9255 1427 50  0000 C CNN
+F 2 "" H 9250 1600 50  0001 C CNN
+F 3 "" H 9250 1600 50  0001 C CNN
+	1    9250 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 1150 9250 1100
+Wire Wire Line
+	9250 1100 9500 1100
+Wire Wire Line
+	9500 1150 9500 1100
+Connection ~ 9500 1100
+Wire Wire Line
+	9250 1450 9250 1500
+Wire Wire Line
+	9250 1500 9500 1500
+Wire Wire Line
+	9500 1450 9500 1500
+Connection ~ 9500 1500
+Wire Wire Line
+	9250 1100 9000 1100
+Wire Wire Line
+	9000 1100 9000 1150
+Connection ~ 9250 1100
+Wire Wire Line
+	9250 1500 9000 1500
+Wire Wire Line
+	9000 1500 9000 1450
+Connection ~ 9250 1500
+$Comp
+L Device:C C?
+U 1 1 5DB0B4B7
+P 10000 1300
+AR Path="/5DB0B4B7" Ref="C?"  Part="1" 
+AR Path="/5DA8D286/5DB0B4B7" Ref="C13"  Part="1" 
+F 0 "C13" H 10115 1346 50  0000 L CNN
+F 1 "100n" H 10115 1255 50  0000 L CNN
+F 2 "0xLib_Passive_SMD:C_0603_1608Metric" H 10038 1150 50  0001 C CNN
+F 3 "~" H 10000 1300 50  0001 C CNN
+	1    10000 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DB0B4BD
+P 10250 1300
+AR Path="/5DB0B4BD" Ref="C?"  Part="1" 
+AR Path="/5DA8D286/5DB0B4BD" Ref="C14"  Part="1" 
+F 0 "C14" H 10365 1346 50  0000 L CNN
+F 1 "100n" H 10365 1255 50  0000 L CNN
+F 2 "0xLib_Passive_SMD:C_0603_1608Metric" H 10288 1150 50  0001 C CNN
+F 3 "~" H 10250 1300 50  0001 C CNN
+	1    10250 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 1500 9750 1450
+Wire Wire Line
+	9750 1500 10000 1500
+Wire Wire Line
+	10000 1500 10000 1450
+Connection ~ 9750 1500
+Wire Wire Line
+	10000 1500 10250 1500
+Wire Wire Line
+	10250 1500 10250 1450
+Connection ~ 10000 1500
+Connection ~ 9750 1100
+Wire Wire Line
+	10000 1150 10000 1100
+Connection ~ 10000 1100
+Wire Wire Line
+	10000 1100 9750 1100
+Wire Wire Line
+	10250 1150 10250 1100
+Wire Wire Line
+	10250 1100 10000 1100
+Text HLabel 1150 1300 0    50   Input ~ 0
+LED_DIN
+$Comp
+L 0xLib_LEDs:SK6812MINI LED1
+U 1 1 5F10243E
+P 3000 1300
+F 0 "LED1" H 2750 1550 50  0000 L CNN
+F 1 "SK6812MINI" H 3000 1050 50  0000 L CNN
+F 2 "0xLib_LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3050 1000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3100 925 50  0001 L TNN
+	1    3000 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 1300 2000 1300
+$Comp
+L power:GND #PWR?
+U 1 1 5F1076EA
+P 2300 1650
+AR Path="/5F1076EA" Ref="#PWR?"  Part="1" 
+AR Path="/5DA8D286/5F1076EA" Ref="#PWR0108"  Part="1" 
+F 0 "#PWR0108" H 2300 1400 50  0001 C CNN
+F 1 "GND" H 2305 1477 50  0000 C CNN
+F 2 "" H 2300 1650 50  0001 C CNN
+F 3 "" H 2300 1650 50  0001 C CNN
+	1    2300 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F107B22
+P 2300 950
+AR Path="/5F107B22" Ref="#PWR?"  Part="1" 
+AR Path="/5DA8D286/5F107B22" Ref="#PWR0109"  Part="1" 
+F 0 "#PWR0109" H 2300 800 50  0001 C CNN
+F 1 "+5V" H 2315 1123 50  0000 C CNN
+F 2 "" H 2300 950 50  0001 C CNN
+F 3 "" H 2300 950 50  0001 C CNN
+	1    2300 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 1650 2300 1600
+Wire Wire Line
+	2300 1000 2300 950 
+$Comp
+L 0xLib_LEDs:SK6812MINI LED2
+U 1 1 5F110E8A
+P 3700 1300
+F 0 "LED2" H 3450 1550 50  0000 L CNN
+F 1 "SK6812MINI" H 3700 1050 50  0000 L CNN
+F 2 "0xLib_LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3750 1000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3800 925 50  0001 L TNN
+	1    3700 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_LEDs:SK6812MINI LED3
+U 1 1 5F111398
+P 4400 1300
+F 0 "LED3" H 4150 1550 50  0000 L CNN
+F 1 "SK6812MINI" H 4400 1050 50  0000 L CNN
+F 2 "0xLib_LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4450 1000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4500 925 50  0001 L TNN
+	1    4400 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_LEDs:SK6812MINI LED4
+U 1 1 5F111D4B
+P 5100 1300
+F 0 "LED4" H 4850 1550 50  0000 L CNN
+F 1 "SK6812MINI" H 5100 1050 50  0000 L CNN
+F 2 "0xLib_LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 5150 1000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 5200 925 50  0001 L TNN
+	1    5100 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_LEDs:SK6812MINI LED5
+U 1 1 5F112021
+P 5800 1300
+F 0 "LED5" H 5550 1550 50  0000 L CNN
+F 1 "SK6812MINI" H 5800 1050 50  0000 L CNN
+F 2 "0xLib_LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 5850 1000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 5900 925 50  0001 L TNN
+	1    5800 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_LEDs:SK6812MINI LED0
+U 1 1 5F113474
+P 2300 1300
+F 0 "LED0" H 2050 1550 50  0000 L CNN
+F 1 "SK6812MINI" H 2300 1050 50  0000 L CNN
+F 2 "0xLib_LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 2350 1000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 2400 925 50  0001 L TNN
+	1    2300 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 1300 2700 1300
+Wire Wire Line
+	9750 1150 9750 1100
+$Comp
+L Device:C C?
+U 1 1 5DB0B4C9
+P 9750 1300
+AR Path="/5DB0B4C9" Ref="C?"  Part="1" 
+AR Path="/5DA8D286/5DB0B4C9" Ref="C12"  Part="1" 
+F 0 "C12" H 9865 1346 50  0000 L CNN
+F 1 "100n" H 9865 1255 50  0000 L CNN
+F 2 "0xLib_Passive_SMD:C_0603_1608Metric" H 9788 1150 50  0001 C CNN
+F 3 "~" H 9750 1300 50  0001 C CNN
+	1    9750 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 1100 9750 1100
+Wire Wire Line
+	9500 1500 9750 1500
+Wire Wire Line
+	6100 1300 6200 1300
+$Comp
+L power:GND #PWR?
+U 1 1 5F08BE7F
+P 6500 1650
+AR Path="/5F08BE7F" Ref="#PWR?"  Part="1" 
+AR Path="/5DA8D286/5F08BE7F" Ref="#PWR0104"  Part="1" 
+F 0 "#PWR0104" H 6500 1400 50  0001 C CNN
+F 1 "GND" H 6505 1477 50  0000 C CNN
+F 2 "" H 6500 1650 50  0001 C CNN
+F 3 "" H 6500 1650 50  0001 C CNN
+	1    6500 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 1600 6500 1650
+$Comp
+L power:+5V #PWR?
+U 1 1 5F08BE8A
+P 6500 950
+AR Path="/5F08BE8A" Ref="#PWR?"  Part="1" 
+AR Path="/5DA8D286/5F08BE8A" Ref="#PWR0107"  Part="1" 
+F 0 "#PWR0107" H 6500 800 50  0001 C CNN
+F 1 "+5V" H 6515 1123 50  0000 C CNN
+F 2 "" H 6500 950 50  0001 C CNN
+F 3 "" H 6500 950 50  0001 C CNN
+	1    6500 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 950  6500 1000
+$Comp
+L 0xLib_LEDs:SK6812MINI LED6
+U 1 1 5F08BE95
+P 6500 1300
+F 0 "LED6" H 6250 1550 50  0000 L CNN
+F 1 "SK6812MINI" H 6500 1050 50  0000 L CNN
+F 2 "0xLib_LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 6550 1000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 6600 925 50  0001 L TNN
+	1    6500 1300
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6800 1300
+$Comp
+L Device:C C?
+U 1 1 5F08E722
+P 10500 1300
+AR Path="/5F08E722" Ref="C?"  Part="1" 
+AR Path="/5DA8D286/5F08E722" Ref="C15"  Part="1" 
+F 0 "C15" H 10615 1346 50  0000 L CNN
+F 1 "100n" H 10615 1255 50  0000 L CNN
+F 2 "0xLib_Passive_SMD:C_0603_1608Metric" H 10538 1150 50  0001 C CNN
+F 3 "~" H 10500 1300 50  0001 C CNN
+	1    10500 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10250 1100 10500 1100
+Wire Wire Line
+	10500 1100 10500 1150
+Connection ~ 10250 1100
+Wire Wire Line
+	10250 1500 10500 1500
+Wire Wire Line
+	10500 1500 10500 1450
+Connection ~ 10250 1500
+Wire Wire Line
+	9250 1000 9250 1100
+Wire Wire Line
+	9250 1600 9250 1500
+$Comp
+L Device:C C?
+U 1 1 5DB0B4AB
+P 9000 1300
+AR Path="/5DB0B4AB" Ref="C?"  Part="1" 
+AR Path="/5DA8D286/5DB0B4AB" Ref="C9"  Part="1" 
+F 0 "C9" H 9115 1346 50  0000 L CNN
+F 1 "100n" H 9115 1255 50  0000 L CNN
+F 2 "0xLib_Passive_SMD:C_0603_1608Metric" H 9038 1150 50  0001 C CNN
+F 3 "~" H 9000 1300 50  0001 C CNN
+	1    9000 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F1366E1
+P 1700 2650
+AR Path="/5F1366E1" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F1366E1" Ref="R000"  Part="1" 
+F 0 "R000" V 1600 2650 50  0000 C CNN
+F 1 "1K" V 1700 2650 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 1630 2650 50  0001 C CNN
+F 3 "~" H 1700 2650 50  0001 C CNN
+	1    1700 2650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1700 2850 1700 2800
+Wire Wire Line
+	1700 2500 1700 2450
+Wire Wire Line
+	1700 3150 1700 3200
+$Comp
+L 0xLib_MK:Key_Switch_LED K001
+U 2 1 5F13A0A6
+P 2000 3000
+F 0 "K001" V 2100 3000 50  0000 R CNN
+F 1 "1U" H 2000 2900 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 2000 3000 50  0001 C CNN
+F 3 "" H 2000 3000 50  0001 C CNN
+	2    2000 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F13A0B0
+P 2000 2650
+AR Path="/5F13A0B0" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F13A0B0" Ref="R001"  Part="1" 
+F 0 "R001" V 1900 2650 50  0000 C CNN
+F 1 "1K" V 2000 2650 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 1930 2650 50  0001 C CNN
+F 3 "~" H 2000 2650 50  0001 C CNN
+	1    2000 2650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2000 2850 2000 2800
+Wire Wire Line
+	2000 2500 2000 2450
+Wire Wire Line
+	2000 3150 2000 3200
+$Comp
+L 0xLib_MK:Key_Switch_LED K002
+U 2 1 5F13CBB3
+P 2300 3000
+F 0 "K002" V 2400 3000 50  0000 R CNN
+F 1 "1U" H 2300 2900 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 2300 3000 50  0001 C CNN
+F 3 "" H 2300 3000 50  0001 C CNN
+	2    2300 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F13CBBD
+P 2300 2650
+AR Path="/5F13CBBD" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F13CBBD" Ref="R002"  Part="1" 
+F 0 "R002" V 2200 2650 50  0000 C CNN
+F 1 "1K" V 2300 2650 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 2230 2650 50  0001 C CNN
+F 3 "~" H 2300 2650 50  0001 C CNN
+	1    2300 2650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2300 2850 2300 2800
+Wire Wire Line
+	2300 2500 2300 2450
+Wire Wire Line
+	2300 3150 2300 3200
+$Comp
+L 0xLib_MK:Key_Switch_LED K003
+U 2 1 5F13CBCA
+P 2600 3000
+F 0 "K003" V 2700 3000 50  0000 R CNN
+F 1 "1U" H 2600 2900 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 2600 3000 50  0001 C CNN
+F 3 "" H 2600 3000 50  0001 C CNN
+	2    2600 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F13CBD4
+P 2600 2650
+AR Path="/5F13CBD4" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F13CBD4" Ref="R003"  Part="1" 
+F 0 "R003" V 2500 2650 50  0000 C CNN
+F 1 "1K" V 2600 2650 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 2530 2650 50  0001 C CNN
+F 3 "~" H 2600 2650 50  0001 C CNN
+	1    2600 2650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2600 2850 2600 2800
+Wire Wire Line
+	2600 2500 2600 2450
+Wire Wire Line
+	2600 3150 2600 3200
+$Comp
+L 0xLib_MK:Key_Switch_LED K004
+U 2 1 5F141520
+P 2900 3000
+F 0 "K004" V 3000 3000 50  0000 R CNN
+F 1 "1U" H 2900 2900 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 2900 3000 50  0001 C CNN
+F 3 "" H 2900 3000 50  0001 C CNN
+	2    2900 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F14152A
+P 2900 2650
+AR Path="/5F14152A" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F14152A" Ref="R004"  Part="1" 
+F 0 "R004" V 2800 2650 50  0000 C CNN
+F 1 "1K" V 2900 2650 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 2830 2650 50  0001 C CNN
+F 3 "~" H 2900 2650 50  0001 C CNN
+	1    2900 2650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2900 2850 2900 2800
+Wire Wire Line
+	2900 2500 2900 2450
+Wire Wire Line
+	2900 3150 2900 3200
+$Comp
+L 0xLib_MK:Key_Switch_LED K005
+U 2 1 5F141537
+P 3200 3000
+F 0 "K005" V 3300 3000 50  0000 R CNN
+F 1 "1U" H 3200 2900 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 3200 3000 50  0001 C CNN
+F 3 "" H 3200 3000 50  0001 C CNN
+	2    3200 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F141541
+P 3200 2650
+AR Path="/5F141541" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F141541" Ref="R005"  Part="1" 
+F 0 "R005" V 3100 2650 50  0000 C CNN
+F 1 "1K" V 3200 2650 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 3130 2650 50  0001 C CNN
+F 3 "~" H 3200 2650 50  0001 C CNN
+	1    3200 2650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3200 2850 3200 2800
+Wire Wire Line
+	3200 2500 3200 2450
+Wire Wire Line
+	3200 3150 3200 3200
+$Comp
+L 0xLib_MK:Key_Switch_LED K006
+U 2 1 5F14154E
+P 3500 3000
+F 0 "K006" V 3600 3000 50  0000 R CNN
+F 1 "1U" H 3500 2900 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 3500 3000 50  0001 C CNN
+F 3 "" H 3500 3000 50  0001 C CNN
+	2    3500 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F141558
+P 3500 2650
+AR Path="/5F141558" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F141558" Ref="R006"  Part="1" 
+F 0 "R006" V 3400 2650 50  0000 C CNN
+F 1 "1K" V 3500 2650 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 3430 2650 50  0001 C CNN
+F 3 "~" H 3500 2650 50  0001 C CNN
+	1    3500 2650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3500 2850 3500 2800
+Wire Wire Line
+	3500 2500 3500 2450
+Wire Wire Line
+	3500 3150 3500 3200
+$Comp
+L 0xLib_MK:Key_Switch_LED K007
+U 2 1 5F141565
+P 3800 3000
+F 0 "K007" V 3900 3000 50  0000 R CNN
+F 1 "1U" H 3800 2900 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 3800 3000 50  0001 C CNN
+F 3 "" H 3800 3000 50  0001 C CNN
+	2    3800 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F14156F
+P 3800 2650
+AR Path="/5F14156F" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F14156F" Ref="R007"  Part="1" 
+F 0 "R007" V 3700 2650 50  0000 C CNN
+F 1 "1K" V 3800 2650 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 3730 2650 50  0001 C CNN
+F 3 "~" H 3800 2650 50  0001 C CNN
+	1    3800 2650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3800 2850 3800 2800
+Wire Wire Line
+	3800 2500 3800 2450
+Wire Wire Line
+	3800 3150 3800 3200
+$Comp
+L 0xLib_MK:Key_Switch_LED K008
+U 2 1 5F14F23B
+P 4100 3000
+F 0 "K008" V 4200 3000 50  0000 R CNN
+F 1 "1U" H 4100 2900 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 4100 3000 50  0001 C CNN
+F 3 "" H 4100 3000 50  0001 C CNN
+	2    4100 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F14F245
+P 4100 2650
+AR Path="/5F14F245" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F14F245" Ref="R008"  Part="1" 
+F 0 "R008" V 4000 2650 50  0000 C CNN
+F 1 "1K" V 4100 2650 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 4030 2650 50  0001 C CNN
+F 3 "~" H 4100 2650 50  0001 C CNN
+	1    4100 2650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4100 2850 4100 2800
+Wire Wire Line
+	4100 2500 4100 2450
+Wire Wire Line
+	4100 3150 4100 3200
+$Comp
+L 0xLib_MK:Key_Switch_LED K009
+U 2 1 5F14F252
+P 4400 3000
+F 0 "K009" V 4500 3000 50  0000 R CNN
+F 1 "1U" H 4400 2900 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 4400 3000 50  0001 C CNN
+F 3 "" H 4400 3000 50  0001 C CNN
+	2    4400 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F14F25C
+P 4400 2650
+AR Path="/5F14F25C" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F14F25C" Ref="R009"  Part="1" 
+F 0 "R009" V 4300 2650 50  0000 C CNN
+F 1 "1K" V 4400 2650 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 4330 2650 50  0001 C CNN
+F 3 "~" H 4400 2650 50  0001 C CNN
+	1    4400 2650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4400 2850 4400 2800
+Wire Wire Line
+	4400 2500 4400 2450
+Wire Wire Line
+	4400 3150 4400 3200
+$Comp
+L 0xLib_MK:Key_Switch_LED K010
+U 2 1 5F14F269
+P 4700 3000
+F 0 "K010" V 4800 3000 50  0000 R CNN
+F 1 "1U" H 4700 2900 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 4700 3000 50  0001 C CNN
+F 3 "" H 4700 3000 50  0001 C CNN
+	2    4700 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F14F273
+P 4700 2650
+AR Path="/5F14F273" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F14F273" Ref="R010"  Part="1" 
+F 0 "R010" V 4600 2650 50  0000 C CNN
+F 1 "1K" V 4700 2650 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 4630 2650 50  0001 C CNN
+F 3 "~" H 4700 2650 50  0001 C CNN
+	1    4700 2650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4700 2850 4700 2800
+Wire Wire Line
+	4700 2500 4700 2450
+Wire Wire Line
+	4700 3150 4700 3200
+$Comp
+L 0xLib_MK:Key_Switch_LED K011
+U 2 1 5F14F280
+P 5000 3000
+F 0 "K011" V 5100 3000 50  0000 R CNN
+F 1 "1U" H 5000 2900 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 5000 3000 50  0001 C CNN
+F 3 "" H 5000 3000 50  0001 C CNN
+	2    5000 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F14F28A
+P 5000 2650
+AR Path="/5F14F28A" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F14F28A" Ref="R011"  Part="1" 
+F 0 "R011" V 4900 2650 50  0000 C CNN
+F 1 "1K" V 5000 2650 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 4930 2650 50  0001 C CNN
+F 3 "~" H 5000 2650 50  0001 C CNN
+	1    5000 2650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5000 2850 5000 2800
+Wire Wire Line
+	5000 2500 5000 2450
+Wire Wire Line
+	5000 3150 5000 3200
+$Comp
+L 0xLib_MK:Key_Switch_LED K012
+U 2 1 5F14F297
+P 5300 3000
+F 0 "K012" V 5400 3000 50  0000 R CNN
+F 1 "1U" H 5300 2900 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 5300 3000 50  0001 C CNN
+F 3 "" H 5300 3000 50  0001 C CNN
+	2    5300 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F14F2A1
+P 5300 2650
+AR Path="/5F14F2A1" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F14F2A1" Ref="R012"  Part="1" 
+F 0 "R012" V 5200 2650 50  0000 C CNN
+F 1 "1K" V 5300 2650 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 5230 2650 50  0001 C CNN
+F 3 "~" H 5300 2650 50  0001 C CNN
+	1    5300 2650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5300 2850 5300 2800
+Wire Wire Line
+	5300 2500 5300 2450
+Wire Wire Line
+	5300 3150 5300 3200
+$Comp
+L Device:R R?
+U 1 1 5F14F2B8
+P 5600 2650
+AR Path="/5F14F2B8" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F14F2B8" Ref="R013"  Part="1" 
+F 0 "R013" V 5500 2650 50  0000 C CNN
+F 1 "1K" V 5600 2650 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 5530 2650 50  0001 C CNN
+F 3 "~" H 5600 2650 50  0001 C CNN
+	1    5600 2650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5600 2850 5600 2800
+Wire Wire Line
+	5600 2500 5600 2450
+Wire Wire Line
+	5600 3150 5600 3200
+Wire Wire Line
+	1700 2450 2000 2450
+Connection ~ 2000 2450
+Wire Wire Line
+	2000 2450 2300 2450
+Connection ~ 2300 2450
+Wire Wire Line
+	2300 2450 2600 2450
+Connection ~ 2600 2450
+Wire Wire Line
+	2600 2450 2900 2450
+Connection ~ 2900 2450
+Wire Wire Line
+	2900 2450 3200 2450
+Connection ~ 3200 2450
+Wire Wire Line
+	3200 2450 3500 2450
+Connection ~ 3500 2450
+Wire Wire Line
+	3500 2450 3800 2450
+Connection ~ 3800 2450
+Wire Wire Line
+	3800 2450 4100 2450
+Connection ~ 4100 2450
+Wire Wire Line
+	4100 2450 4400 2450
+Connection ~ 4400 2450
+Wire Wire Line
+	4400 2450 4700 2450
+Connection ~ 4700 2450
+Wire Wire Line
+	4700 2450 5000 2450
+Connection ~ 5000 2450
+Wire Wire Line
+	5000 2450 5300 2450
+Connection ~ 5300 2450
+Wire Wire Line
+	5300 2450 5600 2450
+Wire Wire Line
+	5600 3200 5300 3200
+Connection ~ 2000 3200
+Wire Wire Line
+	2000 3200 1700 3200
+Connection ~ 2300 3200
+Wire Wire Line
+	2300 3200 2000 3200
+Connection ~ 2600 3200
+Wire Wire Line
+	2600 3200 2300 3200
+Connection ~ 2900 3200
+Wire Wire Line
+	2900 3200 2600 3200
+Connection ~ 3200 3200
+Wire Wire Line
+	3200 3200 2900 3200
+Connection ~ 3500 3200
+Wire Wire Line
+	3500 3200 3200 3200
+Connection ~ 3800 3200
+Wire Wire Line
+	3800 3200 3500 3200
+Connection ~ 4100 3200
+Wire Wire Line
+	4100 3200 3800 3200
+Connection ~ 4400 3200
+Wire Wire Line
+	4400 3200 4100 3200
+Connection ~ 4700 3200
+Wire Wire Line
+	4700 3200 4400 3200
+Connection ~ 5000 3200
+Wire Wire Line
+	5000 3200 4700 3200
+Connection ~ 5300 3200
+Wire Wire Line
+	5300 3200 5000 3200
+Wire Wire Line
+	5600 3200 5850 3200
+Connection ~ 5600 3200
+Wire Wire Line
+	1700 2450 1450 2450
+Connection ~ 1700 2450
+Wire Wire Line
+	5850 3200 5850 4150
+Wire Wire Line
+	1450 2450 1450 2200
+$Comp
+L power:+5V #PWR?
+U 1 1 5F49BAF0
+P 1450 2200
+AR Path="/5F49BAF0" Ref="#PWR?"  Part="1" 
+AR Path="/5DA8D286/5F49BAF0" Ref="#PWR0110"  Part="1" 
+F 0 "#PWR0110" H 1450 2050 50  0001 C CNN
+F 1 "+5V" H 1465 2373 50  0000 C CNN
+F 2 "" H 1450 2200 50  0001 C CNN
+F 3 "" H 1450 2200 50  0001 C CNN
+	1    1450 2200
+	1    0    0    -1  
+$EndComp
+Text HLabel 5850 7200 3    50   Input ~ 0
+LED_GND
+$Comp
+L 0xLib_MK:Key_Switch_LED K013
+U 2 1 5F14F2AE
+P 5600 3000
+F 0 "K013" V 5700 3000 50  0000 R CNN
+F 1 "1.5U" H 5600 2900 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1.5U" H 5600 3000 50  0001 C CNN
+F 3 "" H 5600 3000 50  0001 C CNN
+	2    5600 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K000
+U 2 1 5F10B1CB
+P 1700 3000
+F 0 "K000" V 1800 3000 50  0000 R CNN
+F 1 "1.5U" H 1700 2900 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1.5U-Vertical" H 1700 3000 50  0001 C CNN
+F 3 "" H 1700 3000 50  0001 C CNN
+	2    1700 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F0A2E8D
+P 1700 3600
+AR Path="/5F0A2E8D" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F0A2E8D" Ref="R100"  Part="1" 
+F 0 "R100" V 1600 3600 50  0000 C CNN
+F 1 "1K" V 1700 3600 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 1630 3600 50  0001 C CNN
+F 3 "~" H 1700 3600 50  0001 C CNN
+	1    1700 3600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1700 3800 1700 3750
+Wire Wire Line
+	1700 3450 1700 3400
+Wire Wire Line
+	1700 4100 1700 4150
+$Comp
+L 0xLib_MK:Key_Switch_LED K101
+U 2 1 5F0A2E9A
+P 2000 3950
+F 0 "K101" V 2100 3950 50  0000 R CNN
+F 1 "1U" H 2000 3850 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 2000 3950 50  0001 C CNN
+F 3 "" H 2000 3950 50  0001 C CNN
+	2    2000 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F0A2EA4
+P 2000 3600
+AR Path="/5F0A2EA4" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F0A2EA4" Ref="R101"  Part="1" 
+F 0 "R101" V 1900 3600 50  0000 C CNN
+F 1 "1K" V 2000 3600 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 1930 3600 50  0001 C CNN
+F 3 "~" H 2000 3600 50  0001 C CNN
+	1    2000 3600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2000 3800 2000 3750
+Wire Wire Line
+	2000 3450 2000 3400
+Wire Wire Line
+	2000 4100 2000 4150
+$Comp
+L 0xLib_MK:Key_Switch_LED K102
+U 2 1 5F0A2EB1
+P 2300 3950
+F 0 "K102" V 2400 3950 50  0000 R CNN
+F 1 "1U" H 2300 3850 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 2300 3950 50  0001 C CNN
+F 3 "" H 2300 3950 50  0001 C CNN
+	2    2300 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F0A2EBB
+P 2300 3600
+AR Path="/5F0A2EBB" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F0A2EBB" Ref="R102"  Part="1" 
+F 0 "R102" V 2200 3600 50  0000 C CNN
+F 1 "1K" V 2300 3600 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 2230 3600 50  0001 C CNN
+F 3 "~" H 2300 3600 50  0001 C CNN
+	1    2300 3600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2300 3800 2300 3750
+Wire Wire Line
+	2300 3450 2300 3400
+Wire Wire Line
+	2300 4100 2300 4150
+$Comp
+L 0xLib_MK:Key_Switch_LED K103
+U 2 1 5F0A2EC8
+P 2600 3950
+F 0 "K103" V 2700 3950 50  0000 R CNN
+F 1 "1U" H 2600 3850 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 2600 3950 50  0001 C CNN
+F 3 "" H 2600 3950 50  0001 C CNN
+	2    2600 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F0A2ED2
+P 2600 3600
+AR Path="/5F0A2ED2" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F0A2ED2" Ref="R103"  Part="1" 
+F 0 "R103" V 2500 3600 50  0000 C CNN
+F 1 "1K" V 2600 3600 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 2530 3600 50  0001 C CNN
+F 3 "~" H 2600 3600 50  0001 C CNN
+	1    2600 3600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2600 3800 2600 3750
+Wire Wire Line
+	2600 3450 2600 3400
+Wire Wire Line
+	2600 4100 2600 4150
+$Comp
+L 0xLib_MK:Key_Switch_LED K104
+U 2 1 5F0A2EDF
+P 2900 3950
+F 0 "K104" V 3000 3950 50  0000 R CNN
+F 1 "1U" H 2900 3850 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 2900 3950 50  0001 C CNN
+F 3 "" H 2900 3950 50  0001 C CNN
+	2    2900 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F0A2EE9
+P 2900 3600
+AR Path="/5F0A2EE9" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F0A2EE9" Ref="R104"  Part="1" 
+F 0 "R104" V 2800 3600 50  0000 C CNN
+F 1 "1K" V 2900 3600 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 2830 3600 50  0001 C CNN
+F 3 "~" H 2900 3600 50  0001 C CNN
+	1    2900 3600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2900 3800 2900 3750
+Wire Wire Line
+	2900 3450 2900 3400
+Wire Wire Line
+	2900 4100 2900 4150
+$Comp
+L 0xLib_MK:Key_Switch_LED K105
+U 2 1 5F0A2EF6
+P 3200 3950
+F 0 "K105" V 3300 3950 50  0000 R CNN
+F 1 "1U" H 3200 3850 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 3200 3950 50  0001 C CNN
+F 3 "" H 3200 3950 50  0001 C CNN
+	2    3200 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F0A2F00
+P 3200 3600
+AR Path="/5F0A2F00" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F0A2F00" Ref="R105"  Part="1" 
+F 0 "R105" V 3100 3600 50  0000 C CNN
+F 1 "1K" V 3200 3600 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 3130 3600 50  0001 C CNN
+F 3 "~" H 3200 3600 50  0001 C CNN
+	1    3200 3600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3200 3800 3200 3750
+Wire Wire Line
+	3200 3450 3200 3400
+Wire Wire Line
+	3200 4100 3200 4150
+$Comp
+L 0xLib_MK:Key_Switch_LED K106
+U 2 1 5F0A2F0D
+P 3500 3950
+F 0 "K106" V 3600 3950 50  0000 R CNN
+F 1 "1U" H 3500 3850 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 3500 3950 50  0001 C CNN
+F 3 "" H 3500 3950 50  0001 C CNN
+	2    3500 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F0A2F17
+P 3500 3600
+AR Path="/5F0A2F17" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F0A2F17" Ref="R106"  Part="1" 
+F 0 "R106" V 3400 3600 50  0000 C CNN
+F 1 "1K" V 3500 3600 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 3430 3600 50  0001 C CNN
+F 3 "~" H 3500 3600 50  0001 C CNN
+	1    3500 3600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3500 3800 3500 3750
+Wire Wire Line
+	3500 3450 3500 3400
+Wire Wire Line
+	3500 4100 3500 4150
+$Comp
+L 0xLib_MK:Key_Switch_LED K107
+U 2 1 5F0A2F24
+P 3800 3950
+F 0 "K107" V 3900 3950 50  0000 R CNN
+F 1 "1U" H 3800 3850 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 3800 3950 50  0001 C CNN
+F 3 "" H 3800 3950 50  0001 C CNN
+	2    3800 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F0A2F2E
+P 3800 3600
+AR Path="/5F0A2F2E" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F0A2F2E" Ref="R107"  Part="1" 
+F 0 "R107" V 3700 3600 50  0000 C CNN
+F 1 "1K" V 3800 3600 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 3730 3600 50  0001 C CNN
+F 3 "~" H 3800 3600 50  0001 C CNN
+	1    3800 3600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3800 3800 3800 3750
+Wire Wire Line
+	3800 3450 3800 3400
+Wire Wire Line
+	3800 4100 3800 4150
+$Comp
+L 0xLib_MK:Key_Switch_LED K108
+U 2 1 5F0A2F3B
+P 4100 3950
+F 0 "K108" V 4200 3950 50  0000 R CNN
+F 1 "1U" H 4100 3850 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 4100 3950 50  0001 C CNN
+F 3 "" H 4100 3950 50  0001 C CNN
+	2    4100 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F0A2F45
+P 4100 3600
+AR Path="/5F0A2F45" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F0A2F45" Ref="R108"  Part="1" 
+F 0 "R108" V 4000 3600 50  0000 C CNN
+F 1 "1K" V 4100 3600 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 4030 3600 50  0001 C CNN
+F 3 "~" H 4100 3600 50  0001 C CNN
+	1    4100 3600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4100 3800 4100 3750
+Wire Wire Line
+	4100 3450 4100 3400
+Wire Wire Line
+	4100 4100 4100 4150
+$Comp
+L 0xLib_MK:Key_Switch_LED K109
+U 2 1 5F0A2F52
+P 4400 3950
+F 0 "K109" V 4500 3950 50  0000 R CNN
+F 1 "1U" H 4400 3850 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 4400 3950 50  0001 C CNN
+F 3 "" H 4400 3950 50  0001 C CNN
+	2    4400 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F0A2F5C
+P 4400 3600
+AR Path="/5F0A2F5C" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F0A2F5C" Ref="R109"  Part="1" 
+F 0 "R109" V 4300 3600 50  0000 C CNN
+F 1 "1K" V 4400 3600 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 4330 3600 50  0001 C CNN
+F 3 "~" H 4400 3600 50  0001 C CNN
+	1    4400 3600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4400 3800 4400 3750
+Wire Wire Line
+	4400 3450 4400 3400
+Wire Wire Line
+	4400 4100 4400 4150
+$Comp
+L 0xLib_MK:Key_Switch_LED K110
+U 2 1 5F0A2F69
+P 4700 3950
+F 0 "K110" V 4800 3950 50  0000 R CNN
+F 1 "1U" H 4700 3850 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 4700 3950 50  0001 C CNN
+F 3 "" H 4700 3950 50  0001 C CNN
+	2    4700 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F0A2F73
+P 4700 3600
+AR Path="/5F0A2F73" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F0A2F73" Ref="R110"  Part="1" 
+F 0 "R110" V 4600 3600 50  0000 C CNN
+F 1 "1K" V 4700 3600 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 4630 3600 50  0001 C CNN
+F 3 "~" H 4700 3600 50  0001 C CNN
+	1    4700 3600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4700 3800 4700 3750
+Wire Wire Line
+	4700 3450 4700 3400
+Wire Wire Line
+	4700 4100 4700 4150
+$Comp
+L 0xLib_MK:Key_Switch_LED K111
+U 2 1 5F0A2F80
+P 5000 3950
+F 0 "K111" V 5100 3950 50  0000 R CNN
+F 1 "1U" H 5000 3850 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 5000 3950 50  0001 C CNN
+F 3 "" H 5000 3950 50  0001 C CNN
+	2    5000 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F0A2F8A
+P 5000 3600
+AR Path="/5F0A2F8A" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F0A2F8A" Ref="R111"  Part="1" 
+F 0 "R111" V 4900 3600 50  0000 C CNN
+F 1 "1K" V 5000 3600 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 4930 3600 50  0001 C CNN
+F 3 "~" H 5000 3600 50  0001 C CNN
+	1    5000 3600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5000 3800 5000 3750
+Wire Wire Line
+	5000 3450 5000 3400
+Wire Wire Line
+	5000 4100 5000 4150
+$Comp
+L 0xLib_MK:Key_Switch_LED K112
+U 2 1 5F0A2F97
+P 5300 3950
+F 0 "K112" V 5400 3950 50  0000 R CNN
+F 1 "1U" H 5300 3850 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 5300 3950 50  0001 C CNN
+F 3 "" H 5300 3950 50  0001 C CNN
+	2    5300 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F0A2FA1
+P 5300 3600
+AR Path="/5F0A2FA1" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F0A2FA1" Ref="R112"  Part="1" 
+F 0 "R112" V 5200 3600 50  0000 C CNN
+F 1 "1K" V 5300 3600 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 5230 3600 50  0001 C CNN
+F 3 "~" H 5300 3600 50  0001 C CNN
+	1    5300 3600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5300 3800 5300 3750
+Wire Wire Line
+	5300 3450 5300 3400
+Wire Wire Line
+	5300 4100 5300 4150
+$Comp
+L Device:R R?
+U 1 1 5F0A2FAE
+P 5600 3600
+AR Path="/5F0A2FAE" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F0A2FAE" Ref="R113"  Part="1" 
+F 0 "R113" V 5500 3600 50  0000 C CNN
+F 1 "1K" V 5600 3600 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 5530 3600 50  0001 C CNN
+F 3 "~" H 5600 3600 50  0001 C CNN
+	1    5600 3600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5600 3800 5600 3750
+Wire Wire Line
+	5600 3450 5600 3400
+Wire Wire Line
+	5600 4100 5600 4150
+Wire Wire Line
+	1700 3400 2000 3400
+Connection ~ 2000 3400
+Wire Wire Line
+	2000 3400 2300 3400
+Connection ~ 2300 3400
+Wire Wire Line
+	2300 3400 2600 3400
+Connection ~ 2600 3400
+Wire Wire Line
+	2600 3400 2900 3400
+Connection ~ 2900 3400
+Wire Wire Line
+	2900 3400 3200 3400
+Connection ~ 3200 3400
+Wire Wire Line
+	3200 3400 3500 3400
+Connection ~ 3500 3400
+Wire Wire Line
+	3500 3400 3800 3400
+Connection ~ 3800 3400
+Wire Wire Line
+	3800 3400 4100 3400
+Connection ~ 4100 3400
+Wire Wire Line
+	4100 3400 4400 3400
+Connection ~ 4400 3400
+Wire Wire Line
+	4400 3400 4700 3400
+Connection ~ 4700 3400
+Wire Wire Line
+	4700 3400 5000 3400
+Connection ~ 5000 3400
+Wire Wire Line
+	5000 3400 5300 3400
+Connection ~ 5300 3400
+Wire Wire Line
+	5300 3400 5600 3400
+Wire Wire Line
+	5600 4150 5300 4150
+Connection ~ 2000 4150
+Wire Wire Line
+	2000 4150 1700 4150
+Connection ~ 2300 4150
+Wire Wire Line
+	2300 4150 2000 4150
+Connection ~ 2600 4150
+Wire Wire Line
+	2600 4150 2300 4150
+Connection ~ 2900 4150
+Wire Wire Line
+	2900 4150 2600 4150
+Connection ~ 3200 4150
+Wire Wire Line
+	3200 4150 2900 4150
+Connection ~ 3500 4150
+Wire Wire Line
+	3500 4150 3200 4150
+Connection ~ 3800 4150
+Wire Wire Line
+	3800 4150 3500 4150
+Connection ~ 4100 4150
+Wire Wire Line
+	4100 4150 3800 4150
+Connection ~ 4400 4150
+Wire Wire Line
+	4400 4150 4100 4150
+Connection ~ 4700 4150
+Wire Wire Line
+	4700 4150 4400 4150
+Connection ~ 5000 4150
+Wire Wire Line
+	5000 4150 4700 4150
+Connection ~ 5300 4150
+Wire Wire Line
+	5300 4150 5000 4150
+Wire Wire Line
+	5600 4150 5850 4150
+Connection ~ 5600 4150
+Wire Wire Line
+	1700 3400 1450 3400
+Connection ~ 1700 3400
+$Comp
+L 0xLib_MK:Key_Switch_LED K113
+U 2 1 5F0A2FF2
+P 5600 3950
+F 0 "K113" V 5700 3950 50  0000 R CNN
+F 1 "1.5U" H 5600 3850 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1.5U" H 5600 3950 50  0001 C CNN
+F 3 "" H 5600 3950 50  0001 C CNN
+	2    5600 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K100
+U 2 1 5F0A2FFC
+P 1700 3950
+F 0 "K100" V 1800 3950 50  0000 R CNN
+F 1 "1.5U" H 1700 3850 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1.5U" H 1700 3950 50  0001 C CNN
+F 3 "" H 1700 3950 50  0001 C CNN
+	2    1700 3950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5850 4150
+Wire Wire Line
+	5850 4150 5850 5100
+Wire Wire Line
+	1450 2450 1450 3400
+Connection ~ 1450 2450
+$Comp
+L Device:R R?
+U 1 1 5F0D3B82
+P 1700 4550
+AR Path="/5F0D3B82" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F0D3B82" Ref="R200"  Part="1" 
+F 0 "R200" V 1600 4550 50  0000 C CNN
+F 1 "1K" V 1700 4550 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 1630 4550 50  0001 C CNN
+F 3 "~" H 1700 4550 50  0001 C CNN
+	1    1700 4550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1700 4750 1700 4700
+Wire Wire Line
+	1700 4400 1700 4350
+Wire Wire Line
+	1700 5050 1700 5100
+$Comp
+L 0xLib_MK:Key_Switch_LED K201
+U 2 1 5F0D3B8F
+P 2000 4900
+F 0 "K201" V 2100 4900 50  0000 R CNN
+F 1 "1U" H 2000 4800 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 2000 4900 50  0001 C CNN
+F 3 "" H 2000 4900 50  0001 C CNN
+	2    2000 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F0D3B99
+P 2000 4550
+AR Path="/5F0D3B99" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F0D3B99" Ref="R201"  Part="1" 
+F 0 "R201" V 1900 4550 50  0000 C CNN
+F 1 "1K" V 2000 4550 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 1930 4550 50  0001 C CNN
+F 3 "~" H 2000 4550 50  0001 C CNN
+	1    2000 4550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2000 4750 2000 4700
+Wire Wire Line
+	2000 4400 2000 4350
+Wire Wire Line
+	2000 5050 2000 5100
+$Comp
+L 0xLib_MK:Key_Switch_LED K202
+U 2 1 5F0D3BA6
+P 2300 4900
+F 0 "K202" V 2400 4900 50  0000 R CNN
+F 1 "1U" H 2300 4800 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 2300 4900 50  0001 C CNN
+F 3 "" H 2300 4900 50  0001 C CNN
+	2    2300 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F0D3BB0
+P 2300 4550
+AR Path="/5F0D3BB0" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F0D3BB0" Ref="R202"  Part="1" 
+F 0 "R202" V 2200 4550 50  0000 C CNN
+F 1 "1K" V 2300 4550 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 2230 4550 50  0001 C CNN
+F 3 "~" H 2300 4550 50  0001 C CNN
+	1    2300 4550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2300 4750 2300 4700
+Wire Wire Line
+	2300 4400 2300 4350
+Wire Wire Line
+	2300 5050 2300 5100
+$Comp
+L 0xLib_MK:Key_Switch_LED K203
+U 2 1 5F0D3BBD
+P 2600 4900
+F 0 "K203" V 2700 4900 50  0000 R CNN
+F 1 "1U" H 2600 4800 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 2600 4900 50  0001 C CNN
+F 3 "" H 2600 4900 50  0001 C CNN
+	2    2600 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F0D3BC7
+P 2600 4550
+AR Path="/5F0D3BC7" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F0D3BC7" Ref="R203"  Part="1" 
+F 0 "R203" V 2500 4550 50  0000 C CNN
+F 1 "1K" V 2600 4550 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 2530 4550 50  0001 C CNN
+F 3 "~" H 2600 4550 50  0001 C CNN
+	1    2600 4550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2600 4750 2600 4700
+Wire Wire Line
+	2600 4400 2600 4350
+Wire Wire Line
+	2600 5050 2600 5100
+$Comp
+L 0xLib_MK:Key_Switch_LED K204
+U 2 1 5F0D3BD4
+P 2900 4900
+F 0 "K204" V 3000 4900 50  0000 R CNN
+F 1 "1U" H 2900 4800 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 2900 4900 50  0001 C CNN
+F 3 "" H 2900 4900 50  0001 C CNN
+	2    2900 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F0D3BDE
+P 2900 4550
+AR Path="/5F0D3BDE" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F0D3BDE" Ref="R204"  Part="1" 
+F 0 "R204" V 2800 4550 50  0000 C CNN
+F 1 "1K" V 2900 4550 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 2830 4550 50  0001 C CNN
+F 3 "~" H 2900 4550 50  0001 C CNN
+	1    2900 4550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2900 4750 2900 4700
+Wire Wire Line
+	2900 4400 2900 4350
+Wire Wire Line
+	2900 5050 2900 5100
+$Comp
+L 0xLib_MK:Key_Switch_LED K205
+U 2 1 5F0D3BEB
+P 3200 4900
+F 0 "K205" V 3300 4900 50  0000 R CNN
+F 1 "1U" H 3200 4800 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 3200 4900 50  0001 C CNN
+F 3 "" H 3200 4900 50  0001 C CNN
+	2    3200 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F0D3BF5
+P 3200 4550
+AR Path="/5F0D3BF5" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F0D3BF5" Ref="R205"  Part="1" 
+F 0 "R205" V 3100 4550 50  0000 C CNN
+F 1 "1K" V 3200 4550 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 3130 4550 50  0001 C CNN
+F 3 "~" H 3200 4550 50  0001 C CNN
+	1    3200 4550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3200 4750 3200 4700
+Wire Wire Line
+	3200 4400 3200 4350
+Wire Wire Line
+	3200 5050 3200 5100
+$Comp
+L 0xLib_MK:Key_Switch_LED K206
+U 2 1 5F0D3C02
+P 3500 4900
+F 0 "K206" V 3600 4900 50  0000 R CNN
+F 1 "1U" H 3500 4800 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 3500 4900 50  0001 C CNN
+F 3 "" H 3500 4900 50  0001 C CNN
+	2    3500 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F0D3C0C
+P 3500 4550
+AR Path="/5F0D3C0C" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F0D3C0C" Ref="R206"  Part="1" 
+F 0 "R206" V 3400 4550 50  0000 C CNN
+F 1 "1K" V 3500 4550 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 3430 4550 50  0001 C CNN
+F 3 "~" H 3500 4550 50  0001 C CNN
+	1    3500 4550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3500 4750 3500 4700
+Wire Wire Line
+	3500 4400 3500 4350
+Wire Wire Line
+	3500 5050 3500 5100
+$Comp
+L 0xLib_MK:Key_Switch_LED K207
+U 2 1 5F0D3C19
+P 3800 4900
+F 0 "K207" V 3900 4900 50  0000 R CNN
+F 1 "1U" H 3800 4800 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 3800 4900 50  0001 C CNN
+F 3 "" H 3800 4900 50  0001 C CNN
+	2    3800 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F0D3C23
+P 3800 4550
+AR Path="/5F0D3C23" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F0D3C23" Ref="R207"  Part="1" 
+F 0 "R207" V 3700 4550 50  0000 C CNN
+F 1 "1K" V 3800 4550 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 3730 4550 50  0001 C CNN
+F 3 "~" H 3800 4550 50  0001 C CNN
+	1    3800 4550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3800 4750 3800 4700
+Wire Wire Line
+	3800 4400 3800 4350
+Wire Wire Line
+	3800 5050 3800 5100
+$Comp
+L 0xLib_MK:Key_Switch_LED K208
+U 2 1 5F0D3C30
+P 4100 4900
+F 0 "K208" V 4200 4900 50  0000 R CNN
+F 1 "1U" H 4100 4800 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 4100 4900 50  0001 C CNN
+F 3 "" H 4100 4900 50  0001 C CNN
+	2    4100 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F0D3C3A
+P 4100 4550
+AR Path="/5F0D3C3A" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F0D3C3A" Ref="R208"  Part="1" 
+F 0 "R208" V 4000 4550 50  0000 C CNN
+F 1 "1K" V 4100 4550 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 4030 4550 50  0001 C CNN
+F 3 "~" H 4100 4550 50  0001 C CNN
+	1    4100 4550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4100 4750 4100 4700
+Wire Wire Line
+	4100 4400 4100 4350
+Wire Wire Line
+	4100 5050 4100 5100
+$Comp
+L 0xLib_MK:Key_Switch_LED K209
+U 2 1 5F0D3C47
+P 4400 4900
+F 0 "K209" V 4500 4900 50  0000 R CNN
+F 1 "1U" H 4400 4800 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 4400 4900 50  0001 C CNN
+F 3 "" H 4400 4900 50  0001 C CNN
+	2    4400 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F0D3C51
+P 4400 4550
+AR Path="/5F0D3C51" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F0D3C51" Ref="R209"  Part="1" 
+F 0 "R209" V 4300 4550 50  0000 C CNN
+F 1 "1K" V 4400 4550 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 4330 4550 50  0001 C CNN
+F 3 "~" H 4400 4550 50  0001 C CNN
+	1    4400 4550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4400 4750 4400 4700
+Wire Wire Line
+	4400 4400 4400 4350
+Wire Wire Line
+	4400 5050 4400 5100
+$Comp
+L 0xLib_MK:Key_Switch_LED K210
+U 2 1 5F0D3C5E
+P 4700 4900
+F 0 "K210" V 4800 4900 50  0000 R CNN
+F 1 "1U" H 4700 4800 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 4700 4900 50  0001 C CNN
+F 3 "" H 4700 4900 50  0001 C CNN
+	2    4700 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F0D3C68
+P 4700 4550
+AR Path="/5F0D3C68" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F0D3C68" Ref="R210"  Part="1" 
+F 0 "R210" V 4600 4550 50  0000 C CNN
+F 1 "1K" V 4700 4550 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 4630 4550 50  0001 C CNN
+F 3 "~" H 4700 4550 50  0001 C CNN
+	1    4700 4550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4700 4750 4700 4700
+Wire Wire Line
+	4700 4400 4700 4350
+Wire Wire Line
+	4700 5050 4700 5100
+$Comp
+L 0xLib_MK:Key_Switch_LED K211
+U 2 1 5F0D3C75
+P 5000 4900
+F 0 "K211" V 5100 4900 50  0000 R CNN
+F 1 "1U" H 5000 4800 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 5000 4900 50  0001 C CNN
+F 3 "" H 5000 4900 50  0001 C CNN
+	2    5000 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F0D3C7F
+P 5000 4550
+AR Path="/5F0D3C7F" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F0D3C7F" Ref="R211"  Part="1" 
+F 0 "R211" V 4900 4550 50  0000 C CNN
+F 1 "1K" V 5000 4550 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 4930 4550 50  0001 C CNN
+F 3 "~" H 5000 4550 50  0001 C CNN
+	1    5000 4550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5000 4750 5000 4700
+Wire Wire Line
+	5000 4400 5000 4350
+Wire Wire Line
+	5000 5050 5000 5100
+$Comp
+L 0xLib_MK:Key_Switch_LED K212
+U 2 1 5F0D3C8C
+P 5300 4900
+F 0 "K212" V 5400 4900 50  0000 R CNN
+F 1 "1U" H 5300 4800 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 5300 4900 50  0001 C CNN
+F 3 "" H 5300 4900 50  0001 C CNN
+	2    5300 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F0D3C96
+P 5300 4550
+AR Path="/5F0D3C96" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F0D3C96" Ref="R212"  Part="1" 
+F 0 "R212" V 5200 4550 50  0000 C CNN
+F 1 "1K" V 5300 4550 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 5230 4550 50  0001 C CNN
+F 3 "~" H 5300 4550 50  0001 C CNN
+	1    5300 4550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5300 4750 5300 4700
+Wire Wire Line
+	5300 4400 5300 4350
+Wire Wire Line
+	5300 5050 5300 5100
+$Comp
+L Device:R R?
+U 1 1 5F0D3CA3
+P 5600 4550
+AR Path="/5F0D3CA3" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F0D3CA3" Ref="R213"  Part="1" 
+F 0 "R213" V 5500 4550 50  0000 C CNN
+F 1 "1K" V 5600 4550 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 5530 4550 50  0001 C CNN
+F 3 "~" H 5600 4550 50  0001 C CNN
+	1    5600 4550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5600 4750 5600 4700
+Wire Wire Line
+	5600 4400 5600 4350
+Wire Wire Line
+	5600 5050 5600 5100
+Wire Wire Line
+	1700 4350 2000 4350
+Connection ~ 2000 4350
+Wire Wire Line
+	2000 4350 2300 4350
+Connection ~ 2300 4350
+Wire Wire Line
+	2300 4350 2600 4350
+Connection ~ 2600 4350
+Wire Wire Line
+	2600 4350 2900 4350
+Connection ~ 2900 4350
+Wire Wire Line
+	2900 4350 3200 4350
+Connection ~ 3200 4350
+Wire Wire Line
+	3200 4350 3500 4350
+Connection ~ 3500 4350
+Wire Wire Line
+	3500 4350 3800 4350
+Connection ~ 3800 4350
+Wire Wire Line
+	3800 4350 4100 4350
+Connection ~ 4100 4350
+Wire Wire Line
+	4100 4350 4400 4350
+Connection ~ 4400 4350
+Wire Wire Line
+	4400 4350 4700 4350
+Connection ~ 4700 4350
+Wire Wire Line
+	4700 4350 5000 4350
+Connection ~ 5000 4350
+Wire Wire Line
+	5000 4350 5300 4350
+Connection ~ 5300 4350
+Wire Wire Line
+	5300 4350 5600 4350
+Wire Wire Line
+	5600 5100 5300 5100
+Connection ~ 2000 5100
+Wire Wire Line
+	2000 5100 1700 5100
+Connection ~ 2300 5100
+Wire Wire Line
+	2300 5100 2000 5100
+Connection ~ 2600 5100
+Wire Wire Line
+	2600 5100 2300 5100
+Connection ~ 2900 5100
+Wire Wire Line
+	2900 5100 2600 5100
+Connection ~ 3200 5100
+Wire Wire Line
+	3200 5100 2900 5100
+Connection ~ 3500 5100
+Wire Wire Line
+	3500 5100 3200 5100
+Connection ~ 3800 5100
+Wire Wire Line
+	3800 5100 3500 5100
+Connection ~ 4100 5100
+Wire Wire Line
+	4100 5100 3800 5100
+Connection ~ 4400 5100
+Wire Wire Line
+	4400 5100 4100 5100
+Connection ~ 4700 5100
+Wire Wire Line
+	4700 5100 4400 5100
+Connection ~ 5000 5100
+Wire Wire Line
+	5000 5100 4700 5100
+Connection ~ 5300 5100
+Wire Wire Line
+	5300 5100 5000 5100
+Wire Wire Line
+	5600 5100 5850 5100
+Connection ~ 5600 5100
+Wire Wire Line
+	1700 4350 1450 4350
+Connection ~ 1700 4350
+$Comp
+L 0xLib_MK:Key_Switch_LED K213
+U 2 1 5F0D3CE6
+P 5600 4900
+F 0 "K213" V 5700 4900 50  0000 R CNN
+F 1 "1.5U" H 5600 4800 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1.5U" H 5600 4900 50  0001 C CNN
+F 3 "" H 5600 4900 50  0001 C CNN
+	2    5600 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K200
+U 2 1 5F0D3CF0
+P 1700 4900
+F 0 "K200" V 1800 4900 50  0000 R CNN
+F 1 "1.5U" H 1700 4800 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1.5U" H 1700 4900 50  0001 C CNN
+F 3 "" H 1700 4900 50  0001 C CNN
+	2    1700 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F0D3CFA
+P 1700 5500
+AR Path="/5F0D3CFA" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F0D3CFA" Ref="R300"  Part="1" 
+F 0 "R300" V 1600 5500 50  0000 C CNN
+F 1 "1K" V 1700 5500 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 1630 5500 50  0001 C CNN
+F 3 "~" H 1700 5500 50  0001 C CNN
+	1    1700 5500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1700 5700 1700 5650
+Wire Wire Line
+	1700 5350 1700 5300
+Wire Wire Line
+	1700 6000 1700 6050
+$Comp
+L 0xLib_MK:Key_Switch_LED K301
+U 2 1 5F0D3D07
+P 2000 5850
+F 0 "K301" V 2100 5850 50  0000 R CNN
+F 1 "1U" H 2000 5750 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 2000 5850 50  0001 C CNN
+F 3 "" H 2000 5850 50  0001 C CNN
+	2    2000 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F0D3D11
+P 2000 5500
+AR Path="/5F0D3D11" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F0D3D11" Ref="R301"  Part="1" 
+F 0 "R301" V 1900 5500 50  0000 C CNN
+F 1 "1K" V 2000 5500 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 1930 5500 50  0001 C CNN
+F 3 "~" H 2000 5500 50  0001 C CNN
+	1    2000 5500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2000 5700 2000 5650
+Wire Wire Line
+	2000 5350 2000 5300
+Wire Wire Line
+	2000 6000 2000 6050
+$Comp
+L 0xLib_MK:Key_Switch_LED K302
+U 2 1 5F0D3D1E
+P 2300 5850
+F 0 "K302" V 2400 5850 50  0000 R CNN
+F 1 "1U" H 2300 5750 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 2300 5850 50  0001 C CNN
+F 3 "" H 2300 5850 50  0001 C CNN
+	2    2300 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F0D3D28
+P 2300 5500
+AR Path="/5F0D3D28" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F0D3D28" Ref="R302"  Part="1" 
+F 0 "R302" V 2200 5500 50  0000 C CNN
+F 1 "1K" V 2300 5500 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 2230 5500 50  0001 C CNN
+F 3 "~" H 2300 5500 50  0001 C CNN
+	1    2300 5500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2300 5700 2300 5650
+Wire Wire Line
+	2300 5350 2300 5300
+Wire Wire Line
+	2300 6000 2300 6050
+$Comp
+L 0xLib_MK:Key_Switch_LED K303
+U 2 1 5F0D3D35
+P 2600 5850
+F 0 "K303" V 2700 5850 50  0000 R CNN
+F 1 "1U" H 2600 5750 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 2600 5850 50  0001 C CNN
+F 3 "" H 2600 5850 50  0001 C CNN
+	2    2600 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F0D3D3F
+P 2600 5500
+AR Path="/5F0D3D3F" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F0D3D3F" Ref="R303"  Part="1" 
+F 0 "R303" V 2500 5500 50  0000 C CNN
+F 1 "1K" V 2600 5500 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 2530 5500 50  0001 C CNN
+F 3 "~" H 2600 5500 50  0001 C CNN
+	1    2600 5500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2600 5700 2600 5650
+Wire Wire Line
+	2600 5350 2600 5300
+Wire Wire Line
+	2600 6000 2600 6050
+$Comp
+L 0xLib_MK:Key_Switch_LED K304
+U 2 1 5F0D3D4C
+P 2900 5850
+F 0 "K304" V 3000 5850 50  0000 R CNN
+F 1 "1U" H 2900 5750 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 2900 5850 50  0001 C CNN
+F 3 "" H 2900 5850 50  0001 C CNN
+	2    2900 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F0D3D56
+P 2900 5500
+AR Path="/5F0D3D56" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F0D3D56" Ref="R304"  Part="1" 
+F 0 "R304" V 2800 5500 50  0000 C CNN
+F 1 "1K" V 2900 5500 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 2830 5500 50  0001 C CNN
+F 3 "~" H 2900 5500 50  0001 C CNN
+	1    2900 5500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2900 5700 2900 5650
+Wire Wire Line
+	2900 5350 2900 5300
+Wire Wire Line
+	2900 6000 2900 6050
+$Comp
+L 0xLib_MK:Key_Switch_LED K305
+U 2 1 5F0D3D63
+P 3200 5850
+F 0 "K305" V 3300 5850 50  0000 R CNN
+F 1 "1U" H 3200 5750 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 3200 5850 50  0001 C CNN
+F 3 "" H 3200 5850 50  0001 C CNN
+	2    3200 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F0D3D6D
+P 3200 5500
+AR Path="/5F0D3D6D" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F0D3D6D" Ref="R305"  Part="1" 
+F 0 "R305" V 3100 5500 50  0000 C CNN
+F 1 "1K" V 3200 5500 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 3130 5500 50  0001 C CNN
+F 3 "~" H 3200 5500 50  0001 C CNN
+	1    3200 5500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3200 5700 3200 5650
+Wire Wire Line
+	3200 5350 3200 5300
+Wire Wire Line
+	3200 6000 3200 6050
+$Comp
+L 0xLib_MK:Key_Switch_LED K306
+U 2 1 5F0D3D7A
+P 3500 5850
+F 0 "K306" V 3600 5850 50  0000 R CNN
+F 1 "1U" H 3500 5750 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 3500 5850 50  0001 C CNN
+F 3 "" H 3500 5850 50  0001 C CNN
+	2    3500 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F0D3D84
+P 3500 5500
+AR Path="/5F0D3D84" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F0D3D84" Ref="R306"  Part="1" 
+F 0 "R306" V 3400 5500 50  0000 C CNN
+F 1 "1K" V 3500 5500 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 3430 5500 50  0001 C CNN
+F 3 "~" H 3500 5500 50  0001 C CNN
+	1    3500 5500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3500 5700 3500 5650
+Wire Wire Line
+	3500 5350 3500 5300
+Wire Wire Line
+	3500 6000 3500 6050
+$Comp
+L 0xLib_MK:Key_Switch_LED K307
+U 2 1 5F0D3D91
+P 3800 5850
+F 0 "K307" V 3900 5850 50  0000 R CNN
+F 1 "1U" H 3800 5750 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 3800 5850 50  0001 C CNN
+F 3 "" H 3800 5850 50  0001 C CNN
+	2    3800 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F0D3D9B
+P 3800 5500
+AR Path="/5F0D3D9B" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F0D3D9B" Ref="R307"  Part="1" 
+F 0 "R307" V 3700 5500 50  0000 C CNN
+F 1 "1K" V 3800 5500 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 3730 5500 50  0001 C CNN
+F 3 "~" H 3800 5500 50  0001 C CNN
+	1    3800 5500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3800 5700 3800 5650
+Wire Wire Line
+	3800 5350 3800 5300
+Wire Wire Line
+	3800 6000 3800 6050
+$Comp
+L 0xLib_MK:Key_Switch_LED K308
+U 2 1 5F0D3DA8
+P 4100 5850
+F 0 "K308" V 4200 5850 50  0000 R CNN
+F 1 "1U" H 4100 5750 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 4100 5850 50  0001 C CNN
+F 3 "" H 4100 5850 50  0001 C CNN
+	2    4100 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F0D3DB2
+P 4100 5500
+AR Path="/5F0D3DB2" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F0D3DB2" Ref="R308"  Part="1" 
+F 0 "R308" V 4000 5500 50  0000 C CNN
+F 1 "1K" V 4100 5500 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 4030 5500 50  0001 C CNN
+F 3 "~" H 4100 5500 50  0001 C CNN
+	1    4100 5500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4100 5700 4100 5650
+Wire Wire Line
+	4100 5350 4100 5300
+Wire Wire Line
+	4100 6000 4100 6050
+$Comp
+L 0xLib_MK:Key_Switch_LED K309
+U 2 1 5F0D3DBF
+P 4400 5850
+F 0 "K309" V 4500 5850 50  0000 R CNN
+F 1 "1U" H 4400 5750 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 4400 5850 50  0001 C CNN
+F 3 "" H 4400 5850 50  0001 C CNN
+	2    4400 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F0D3DC9
+P 4400 5500
+AR Path="/5F0D3DC9" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F0D3DC9" Ref="R309"  Part="1" 
+F 0 "R309" V 4300 5500 50  0000 C CNN
+F 1 "1K" V 4400 5500 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 4330 5500 50  0001 C CNN
+F 3 "~" H 4400 5500 50  0001 C CNN
+	1    4400 5500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4400 5700 4400 5650
+Wire Wire Line
+	4400 5350 4400 5300
+Wire Wire Line
+	4400 6000 4400 6050
+$Comp
+L 0xLib_MK:Key_Switch_LED K310
+U 2 1 5F0D3DD6
+P 4700 5850
+F 0 "K310" V 4800 5850 50  0000 R CNN
+F 1 "1U" H 4700 5750 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 4700 5850 50  0001 C CNN
+F 3 "" H 4700 5850 50  0001 C CNN
+	2    4700 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F0D3DE0
+P 4700 5500
+AR Path="/5F0D3DE0" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F0D3DE0" Ref="R310"  Part="1" 
+F 0 "R310" V 4600 5500 50  0000 C CNN
+F 1 "1K" V 4700 5500 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 4630 5500 50  0001 C CNN
+F 3 "~" H 4700 5500 50  0001 C CNN
+	1    4700 5500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4700 5700 4700 5650
+Wire Wire Line
+	4700 5350 4700 5300
+Wire Wire Line
+	4700 6000 4700 6050
+$Comp
+L 0xLib_MK:Key_Switch_LED K311
+U 2 1 5F0D3DED
+P 5000 5850
+F 0 "K311" V 5100 5850 50  0000 R CNN
+F 1 "1U" H 5000 5750 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 5000 5850 50  0001 C CNN
+F 3 "" H 5000 5850 50  0001 C CNN
+	2    5000 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F0D3DF7
+P 5000 5500
+AR Path="/5F0D3DF7" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F0D3DF7" Ref="R311"  Part="1" 
+F 0 "R311" V 4900 5500 50  0000 C CNN
+F 1 "1K" V 5000 5500 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 4930 5500 50  0001 C CNN
+F 3 "~" H 5000 5500 50  0001 C CNN
+	1    5000 5500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5000 5700 5000 5650
+Wire Wire Line
+	5000 5350 5000 5300
+Wire Wire Line
+	5000 6000 5000 6050
+$Comp
+L 0xLib_MK:Key_Switch_LED K312
+U 2 1 5F0D3E04
+P 5300 5850
+F 0 "K312" V 5400 5850 50  0000 R CNN
+F 1 "1U" H 5300 5750 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 5300 5850 50  0001 C CNN
+F 3 "" H 5300 5850 50  0001 C CNN
+	2    5300 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F0D3E0E
+P 5300 5500
+AR Path="/5F0D3E0E" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F0D3E0E" Ref="R312"  Part="1" 
+F 0 "R312" V 5200 5500 50  0000 C CNN
+F 1 "1K" V 5300 5500 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 5230 5500 50  0001 C CNN
+F 3 "~" H 5300 5500 50  0001 C CNN
+	1    5300 5500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5300 5700 5300 5650
+Wire Wire Line
+	5300 5350 5300 5300
+Wire Wire Line
+	5300 6000 5300 6050
+$Comp
+L Device:R R?
+U 1 1 5F0D3E1B
+P 5600 5500
+AR Path="/5F0D3E1B" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F0D3E1B" Ref="R313"  Part="1" 
+F 0 "R313" V 5500 5500 50  0000 C CNN
+F 1 "1K" V 5600 5500 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 5530 5500 50  0001 C CNN
+F 3 "~" H 5600 5500 50  0001 C CNN
+	1    5600 5500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5600 5700 5600 5650
+Wire Wire Line
+	5600 5350 5600 5300
+Wire Wire Line
+	5600 6000 5600 6050
+Wire Wire Line
+	1700 5300 2000 5300
+Connection ~ 2000 5300
+Wire Wire Line
+	2000 5300 2300 5300
+Connection ~ 2300 5300
+Wire Wire Line
+	2300 5300 2600 5300
+Connection ~ 2600 5300
+Wire Wire Line
+	2600 5300 2900 5300
+Connection ~ 2900 5300
+Wire Wire Line
+	2900 5300 3200 5300
+Connection ~ 3200 5300
+Wire Wire Line
+	3200 5300 3500 5300
+Connection ~ 3500 5300
+Wire Wire Line
+	3500 5300 3800 5300
+Connection ~ 3800 5300
+Wire Wire Line
+	3800 5300 4100 5300
+Connection ~ 4100 5300
+Wire Wire Line
+	4100 5300 4400 5300
+Connection ~ 4400 5300
+Wire Wire Line
+	4400 5300 4700 5300
+Connection ~ 4700 5300
+Wire Wire Line
+	4700 5300 5000 5300
+Connection ~ 5000 5300
+Wire Wire Line
+	5000 5300 5300 5300
+Connection ~ 5300 5300
+Wire Wire Line
+	5300 5300 5600 5300
+Wire Wire Line
+	5600 6050 5300 6050
+Connection ~ 2000 6050
+Wire Wire Line
+	2000 6050 1700 6050
+Connection ~ 2300 6050
+Wire Wire Line
+	2300 6050 2000 6050
+Connection ~ 2600 6050
+Wire Wire Line
+	2600 6050 2300 6050
+Connection ~ 2900 6050
+Wire Wire Line
+	2900 6050 2600 6050
+Connection ~ 3200 6050
+Wire Wire Line
+	3200 6050 2900 6050
+Connection ~ 3500 6050
+Wire Wire Line
+	3500 6050 3200 6050
+Connection ~ 3800 6050
+Wire Wire Line
+	3800 6050 3500 6050
+Connection ~ 4100 6050
+Wire Wire Line
+	4100 6050 3800 6050
+Connection ~ 4400 6050
+Wire Wire Line
+	4400 6050 4100 6050
+Connection ~ 4700 6050
+Wire Wire Line
+	4700 6050 4400 6050
+Connection ~ 5000 6050
+Wire Wire Line
+	5000 6050 4700 6050
+Connection ~ 5300 6050
+Wire Wire Line
+	5300 6050 5000 6050
+Wire Wire Line
+	5600 6050 5850 6050
+Connection ~ 5600 6050
+Wire Wire Line
+	1700 5300 1450 5300
+Connection ~ 1700 5300
+$Comp
+L 0xLib_MK:Key_Switch_LED K313
+U 2 1 5F0D3E5E
+P 5600 5850
+F 0 "K313" V 5700 5850 50  0000 R CNN
+F 1 "1.5U" H 5600 5750 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1.5U" H 5600 5850 50  0001 C CNN
+F 3 "" H 5600 5850 50  0001 C CNN
+	2    5600 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K300
+U 2 1 5F0D3E68
+P 1700 5850
+F 0 "K300" V 1800 5850 50  0000 R CNN
+F 1 "1.5U" H 1700 5750 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1.5U" H 1700 5850 50  0001 C CNN
+F 3 "" H 1700 5850 50  0001 C CNN
+	2    1700 5850
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5850 5100
+Wire Wire Line
+	5850 5100 5850 6050
+Connection ~ 5850 6050
+Wire Wire Line
+	1450 3400 1450 4350
+Connection ~ 1450 3400
+Connection ~ 1450 4350
+Wire Wire Line
+	1450 4350 1450 5300
+$Comp
+L Device:R R?
+U 1 1 5F13B993
+P 1700 6450
+AR Path="/5F13B993" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F13B993" Ref="R400"  Part="1" 
+F 0 "R400" V 1600 6450 50  0000 C CNN
+F 1 "1K" V 1700 6450 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 1630 6450 50  0001 C CNN
+F 3 "~" H 1700 6450 50  0001 C CNN
+	1    1700 6450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1700 6650 1700 6600
+Wire Wire Line
+	1700 6300 1700 6250
+Wire Wire Line
+	1700 6950 1700 7000
+$Comp
+L 0xLib_MK:Key_Switch_LED K401
+U 2 1 5F13B9A0
+P 2000 6800
+F 0 "K401" V 2100 6800 50  0000 R CNN
+F 1 "1U" H 2000 6700 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 2000 6800 50  0001 C CNN
+F 3 "" H 2000 6800 50  0001 C CNN
+	2    2000 6800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F13B9AA
+P 2000 6450
+AR Path="/5F13B9AA" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F13B9AA" Ref="R401"  Part="1" 
+F 0 "R401" V 1900 6450 50  0000 C CNN
+F 1 "1K" V 2000 6450 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 1930 6450 50  0001 C CNN
+F 3 "~" H 2000 6450 50  0001 C CNN
+	1    2000 6450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2000 6650 2000 6600
+Wire Wire Line
+	2000 6300 2000 6250
+Wire Wire Line
+	2000 6950 2000 7000
+$Comp
+L 0xLib_MK:Key_Switch_LED K402
+U 2 1 5F13B9B7
+P 2300 6800
+F 0 "K402" V 2400 6800 50  0000 R CNN
+F 1 "1U" H 2300 6700 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 2300 6800 50  0001 C CNN
+F 3 "" H 2300 6800 50  0001 C CNN
+	2    2300 6800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F13B9C1
+P 2300 6450
+AR Path="/5F13B9C1" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F13B9C1" Ref="R402"  Part="1" 
+F 0 "R402" V 2200 6450 50  0000 C CNN
+F 1 "1K" V 2300 6450 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 2230 6450 50  0001 C CNN
+F 3 "~" H 2300 6450 50  0001 C CNN
+	1    2300 6450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2300 6650 2300 6600
+Wire Wire Line
+	2300 6300 2300 6250
+Wire Wire Line
+	2300 6950 2300 7000
+$Comp
+L 0xLib_MK:Key_Switch_LED K403
+U 2 1 5F13B9CE
+P 2600 6800
+F 0 "K403" V 2700 6800 50  0000 R CNN
+F 1 "1U" H 2600 6700 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 2600 6800 50  0001 C CNN
+F 3 "" H 2600 6800 50  0001 C CNN
+	2    2600 6800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F13B9D8
+P 2600 6450
+AR Path="/5F13B9D8" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F13B9D8" Ref="R403"  Part="1" 
+F 0 "R403" V 2500 6450 50  0000 C CNN
+F 1 "1K" V 2600 6450 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 2530 6450 50  0001 C CNN
+F 3 "~" H 2600 6450 50  0001 C CNN
+	1    2600 6450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2600 6650 2600 6600
+Wire Wire Line
+	2600 6300 2600 6250
+Wire Wire Line
+	2600 6950 2600 7000
+$Comp
+L 0xLib_MK:Key_Switch_LED K404
+U 2 1 5F13B9E5
+P 2900 6800
+F 0 "K404" V 3000 6800 50  0000 R CNN
+F 1 "1U" H 2900 6700 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 2900 6800 50  0001 C CNN
+F 3 "" H 2900 6800 50  0001 C CNN
+	2    2900 6800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F13B9EF
+P 2900 6450
+AR Path="/5F13B9EF" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F13B9EF" Ref="R404"  Part="1" 
+F 0 "R404" V 2800 6450 50  0000 C CNN
+F 1 "1K" V 2900 6450 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 2830 6450 50  0001 C CNN
+F 3 "~" H 2900 6450 50  0001 C CNN
+	1    2900 6450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2900 6650 2900 6600
+Wire Wire Line
+	2900 6300 2900 6250
+Wire Wire Line
+	2900 6950 2900 7000
+$Comp
+L 0xLib_MK:Key_Switch_LED K405
+U 2 1 5F13B9FC
+P 3200 6800
+F 0 "K405" V 3300 6800 50  0000 R CNN
+F 1 "1U" H 3200 6700 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 3200 6800 50  0001 C CNN
+F 3 "" H 3200 6800 50  0001 C CNN
+	2    3200 6800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F13BA06
+P 3200 6450
+AR Path="/5F13BA06" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F13BA06" Ref="R405"  Part="1" 
+F 0 "R405" V 3100 6450 50  0000 C CNN
+F 1 "1K" V 3200 6450 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 3130 6450 50  0001 C CNN
+F 3 "~" H 3200 6450 50  0001 C CNN
+	1    3200 6450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3200 6650 3200 6600
+Wire Wire Line
+	3200 6300 3200 6250
+Wire Wire Line
+	3200 6950 3200 7000
+$Comp
+L 0xLib_MK:Key_Switch_LED K406
+U 2 1 5F13BA13
+P 3500 6800
+F 0 "K406" V 3600 6800 50  0000 R CNN
+F 1 "1U" H 3500 6700 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 3500 6800 50  0001 C CNN
+F 3 "" H 3500 6800 50  0001 C CNN
+	2    3500 6800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F13BA1D
+P 3500 6450
+AR Path="/5F13BA1D" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F13BA1D" Ref="R406"  Part="1" 
+F 0 "R406" V 3400 6450 50  0000 C CNN
+F 1 "1K" V 3500 6450 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 3430 6450 50  0001 C CNN
+F 3 "~" H 3500 6450 50  0001 C CNN
+	1    3500 6450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3500 6650 3500 6600
+Wire Wire Line
+	3500 6300 3500 6250
+Wire Wire Line
+	3500 6950 3500 7000
+$Comp
+L 0xLib_MK:Key_Switch_LED K407
+U 2 1 5F13BA2A
+P 3800 6800
+F 0 "K407" V 3900 6800 50  0000 R CNN
+F 1 "1U" H 3800 6700 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 3800 6800 50  0001 C CNN
+F 3 "" H 3800 6800 50  0001 C CNN
+	2    3800 6800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F13BA34
+P 3800 6450
+AR Path="/5F13BA34" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F13BA34" Ref="R407"  Part="1" 
+F 0 "R407" V 3700 6450 50  0000 C CNN
+F 1 "1K" V 3800 6450 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 3730 6450 50  0001 C CNN
+F 3 "~" H 3800 6450 50  0001 C CNN
+	1    3800 6450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3800 6650 3800 6600
+Wire Wire Line
+	3800 6300 3800 6250
+Wire Wire Line
+	3800 6950 3800 7000
+$Comp
+L 0xLib_MK:Key_Switch_LED K408
+U 2 1 5F13BA41
+P 4100 6800
+F 0 "K408" V 4200 6800 50  0000 R CNN
+F 1 "1U" H 4100 6700 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 4100 6800 50  0001 C CNN
+F 3 "" H 4100 6800 50  0001 C CNN
+	2    4100 6800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F13BA4B
+P 4100 6450
+AR Path="/5F13BA4B" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F13BA4B" Ref="R408"  Part="1" 
+F 0 "R408" V 4000 6450 50  0000 C CNN
+F 1 "1K" V 4100 6450 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 4030 6450 50  0001 C CNN
+F 3 "~" H 4100 6450 50  0001 C CNN
+	1    4100 6450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4100 6650 4100 6600
+Wire Wire Line
+	4100 6300 4100 6250
+Wire Wire Line
+	4100 6950 4100 7000
+$Comp
+L 0xLib_MK:Key_Switch_LED K409
+U 2 1 5F13BA58
+P 4400 6800
+F 0 "K409" V 4500 6800 50  0000 R CNN
+F 1 "1U" H 4400 6700 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 4400 6800 50  0001 C CNN
+F 3 "" H 4400 6800 50  0001 C CNN
+	2    4400 6800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F13BA62
+P 4400 6450
+AR Path="/5F13BA62" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F13BA62" Ref="R409"  Part="1" 
+F 0 "R409" V 4300 6450 50  0000 C CNN
+F 1 "1K" V 4400 6450 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 4330 6450 50  0001 C CNN
+F 3 "~" H 4400 6450 50  0001 C CNN
+	1    4400 6450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4400 6650 4400 6600
+Wire Wire Line
+	4400 6300 4400 6250
+Wire Wire Line
+	4400 6950 4400 7000
+$Comp
+L 0xLib_MK:Key_Switch_LED K410
+U 2 1 5F13BA6F
+P 4700 6800
+F 0 "K410" V 4800 6800 50  0000 R CNN
+F 1 "1U" H 4700 6700 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 4700 6800 50  0001 C CNN
+F 3 "" H 4700 6800 50  0001 C CNN
+	2    4700 6800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F13BA79
+P 4700 6450
+AR Path="/5F13BA79" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F13BA79" Ref="R410"  Part="1" 
+F 0 "R410" V 4600 6450 50  0000 C CNN
+F 1 "1K" V 4700 6450 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 4630 6450 50  0001 C CNN
+F 3 "~" H 4700 6450 50  0001 C CNN
+	1    4700 6450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4700 6650 4700 6600
+Wire Wire Line
+	4700 6300 4700 6250
+Wire Wire Line
+	4700 6950 4700 7000
+$Comp
+L 0xLib_MK:Key_Switch_LED K411
+U 2 1 5F13BA86
+P 5000 6800
+F 0 "K411" V 5100 6800 50  0000 R CNN
+F 1 "1U" H 5000 6700 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 5000 6800 50  0001 C CNN
+F 3 "" H 5000 6800 50  0001 C CNN
+	2    5000 6800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F13BA90
+P 5000 6450
+AR Path="/5F13BA90" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F13BA90" Ref="R411"  Part="1" 
+F 0 "R411" V 4900 6450 50  0000 C CNN
+F 1 "1K" V 5000 6450 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 4930 6450 50  0001 C CNN
+F 3 "~" H 5000 6450 50  0001 C CNN
+	1    5000 6450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5000 6650 5000 6600
+Wire Wire Line
+	5000 6300 5000 6250
+Wire Wire Line
+	5000 6950 5000 7000
+$Comp
+L 0xLib_MK:Key_Switch_LED K412
+U 2 1 5F13BA9D
+P 5300 6800
+F 0 "K412" V 5400 6800 50  0000 R CNN
+F 1 "1U" H 5300 6700 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 5300 6800 50  0001 C CNN
+F 3 "" H 5300 6800 50  0001 C CNN
+	2    5300 6800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F13BAA7
+P 5300 6450
+AR Path="/5F13BAA7" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F13BAA7" Ref="R412"  Part="1" 
+F 0 "R412" V 5200 6450 50  0000 C CNN
+F 1 "1K" V 5300 6450 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 5230 6450 50  0001 C CNN
+F 3 "~" H 5300 6450 50  0001 C CNN
+	1    5300 6450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5300 6650 5300 6600
+Wire Wire Line
+	5300 6300 5300 6250
+Wire Wire Line
+	5300 6950 5300 7000
+$Comp
+L Device:R R?
+U 1 1 5F13BAB4
+P 5600 6450
+AR Path="/5F13BAB4" Ref="R?"  Part="1" 
+AR Path="/5DA8D286/5F13BAB4" Ref="R413"  Part="1" 
+F 0 "R413" V 5500 6450 50  0000 C CNN
+F 1 "1K" V 5600 6450 50  0000 C CNN
+F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 5530 6450 50  0001 C CNN
+F 3 "~" H 5600 6450 50  0001 C CNN
+	1    5600 6450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5600 6650 5600 6600
+Wire Wire Line
+	5600 6300 5600 6250
+Wire Wire Line
+	5600 6950 5600 7000
+Wire Wire Line
+	1700 6250 2000 6250
+Connection ~ 2000 6250
+Wire Wire Line
+	2000 6250 2300 6250
+Connection ~ 2300 6250
+Wire Wire Line
+	2300 6250 2600 6250
+Connection ~ 2600 6250
+Wire Wire Line
+	2600 6250 2900 6250
+Connection ~ 2900 6250
+Wire Wire Line
+	2900 6250 3200 6250
+Connection ~ 3200 6250
+Wire Wire Line
+	3200 6250 3500 6250
+Connection ~ 3500 6250
+Wire Wire Line
+	3500 6250 3800 6250
+Connection ~ 3800 6250
+Wire Wire Line
+	3800 6250 4100 6250
+Connection ~ 4100 6250
+Wire Wire Line
+	4100 6250 4400 6250
+Connection ~ 4400 6250
+Wire Wire Line
+	4400 6250 4700 6250
+Connection ~ 4700 6250
+Wire Wire Line
+	4700 6250 5000 6250
+Connection ~ 5000 6250
+Wire Wire Line
+	5000 6250 5300 6250
+Connection ~ 5300 6250
+Wire Wire Line
+	5300 6250 5600 6250
+Wire Wire Line
+	5600 7000 5300 7000
+Connection ~ 2000 7000
+Wire Wire Line
+	2000 7000 1700 7000
+Connection ~ 2300 7000
+Wire Wire Line
+	2300 7000 2000 7000
+Connection ~ 2600 7000
+Wire Wire Line
+	2600 7000 2300 7000
+Connection ~ 2900 7000
+Wire Wire Line
+	2900 7000 2600 7000
+Connection ~ 3200 7000
+Wire Wire Line
+	3200 7000 2900 7000
+Connection ~ 3500 7000
+Wire Wire Line
+	3500 7000 3200 7000
+Connection ~ 3800 7000
+Wire Wire Line
+	3800 7000 3500 7000
+Connection ~ 4100 7000
+Wire Wire Line
+	4100 7000 3800 7000
+Connection ~ 4400 7000
+Wire Wire Line
+	4400 7000 4100 7000
+Connection ~ 4700 7000
+Wire Wire Line
+	4700 7000 4400 7000
+Connection ~ 5000 7000
+Wire Wire Line
+	5000 7000 4700 7000
+Connection ~ 5300 7000
+Wire Wire Line
+	5300 7000 5000 7000
+Wire Wire Line
+	5600 7000 5850 7000
+Connection ~ 5600 7000
+Connection ~ 1700 6250
+$Comp
+L 0xLib_MK:Key_Switch_LED K413
+U 2 1 5F13BAF7
+P 5600 6800
+F 0 "K413" V 5700 6800 50  0000 R CNN
+F 1 "1.5U" H 5600 6700 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1.5U" H 5600 6800 50  0001 C CNN
+F 3 "" H 5600 6800 50  0001 C CNN
+	2    5600 6800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K400
+U 2 1 5F13BB01
+P 1700 6800
+F 0 "K400" V 1800 6800 50  0000 R CNN
+F 1 "1.5U" H 1700 6700 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1.5U" H 1700 6800 50  0001 C CNN
+F 3 "" H 1700 6800 50  0001 C CNN
+	2    1700 6800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1450 5300 1450 6250
+Wire Wire Line
+	1450 6250 1700 6250
+Connection ~ 1450 5300
+Wire Wire Line
+	5850 6050 5850 7000
+Connection ~ 5850 7000
+Wire Wire Line
+	5850 7000 5850 7200
+$Comp
+L 0xLib_MK:Key_Switch_LED Kb404
+U 2 1 5F180AE8
+P 3050 6900
+F 0 "Kb404" V 3150 6900 50  0000 R CNN
+F 1 "2U" H 3050 6800 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-2U-ReversedStabilizers" H 3050 6900 50  0001 C CNN
+F 3 "" H 3050 6900 50  0001 C CNN
+	2    3050 6900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED Kb405
+U 2 1 5F180FB2
+P 3350 6900
+F 0 "Kb405" V 3450 6900 50  0000 R CNN
+F 1 "2U" H 3350 6800 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-2U-ReversedStabilizers" H 3350 6900 50  0001 C CNN
+F 3 "" H 3350 6900 50  0001 C CNN
+	2    3350 6900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED Kb408
+U 2 1 5F1812CE
+P 4250 6900
+F 0 "Kb408" V 4350 6900 50  0000 R CNN
+F 1 "2U" H 4250 6800 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-2U-ReversedStabilizers" H 4250 6900 50  0001 C CNN
+F 3 "" H 4250 6900 50  0001 C CNN
+	2    4250 6900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED Kb409
+U 2 1 5F1815CC
+P 4550 6900
+F 0 "Kb409" V 4650 6900 50  0000 R CNN
+F 1 "2U" H 4550 6800 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-2U-ReversedStabilizers" H 4550 6900 50  0001 C CNN
+F 3 "" H 4550 6900 50  0001 C CNN
+	2    4550 6900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2900 6650 3050 6750
+Connection ~ 2900 6650
+Wire Wire Line
+	2900 7000 2900 7100
+Wire Wire Line
+	2900 7100 3050 7100
+Wire Wire Line
+	3050 7100 3050 7050
+Wire Wire Line
+	3200 7000 3200 7100
+Wire Wire Line
+	3200 7100 3350 7100
+Wire Wire Line
+	3350 7100 3350 7050
+Wire Wire Line
+	4100 7000 4100 7100
+Wire Wire Line
+	4100 7100 4250 7100
+Wire Wire Line
+	4250 7100 4250 7050
+Wire Wire Line
+	4550 7050 4550 7100
+Wire Wire Line
+	4550 7100 4400 7100
+Wire Wire Line
+	4400 7100 4400 7000
+Wire Wire Line
+	3200 6650 3350 6750
+Connection ~ 3200 6650
+Wire Wire Line
+	4100 6650 4250 6750
+Connection ~ 4100 6650
+Wire Wire Line
+	4400 6650 4550 6750
+Connection ~ 4400 6650
+$Comp
+L 0xLib_MK:Key_Switch_LED Kb306
+U 2 1 5F77869F
+P 3650 5950
+F 0 "Kb306" V 3750 5950 50  0000 R CNN
+F 1 "1.5U" H 3650 5850 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1.5U-Vertical" H 3650 5950 50  0001 C CNN
+F 3 "" H 3650 5950 50  0001 C CNN
+	2    3650 5950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED Kb307
+U 2 1 5F778FEC
+P 3950 5950
+F 0 "Kb307" V 4050 5950 50  0000 R CNN
+F 1 "1.5U" H 3950 5850 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1.5U-Vertical" H 3950 5950 50  0001 C CNN
+F 3 "" H 3950 5950 50  0001 C CNN
+	2    3950 5950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3500 6050 3500 6150
+Wire Wire Line
+	3500 6150 3650 6150
+Wire Wire Line
+	3650 6150 3650 6100
+Wire Wire Line
+	3800 6050 3800 6150
+Wire Wire Line
+	3800 6150 3950 6150
+Wire Wire Line
+	3950 6150 3950 6100
+Wire Wire Line
+	3500 5700 3650 5800
+Connection ~ 3500 5700
+Wire Wire Line
+	3800 5700 3950 5800
+Connection ~ 3800 5700
+$Comp
+L 0xLib_MK:Key_Switch_LED Kb106
+U 2 1 5F8B91E6
+P 3650 4050
+F 0 "Kb106" V 3750 4050 50  0000 R CNN
+F 1 "1.5U" H 3650 3950 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1.5U-Vertical" H 3650 4050 50  0001 C CNN
+F 3 "" H 3650 4050 50  0001 C CNN
+	2    3650 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED Kb107
+U 2 1 5F8BA02E
+P 3950 4050
+F 0 "Kb107" V 4050 4050 50  0000 R CNN
+F 1 "1.5U" H 3950 3950 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1.5U-Vertical" H 3950 4050 50  0001 C CNN
+F 3 "" H 3950 4050 50  0001 C CNN
+	2    3950 4050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3500 4150 3500 4250
+Wire Wire Line
+	3500 4250 3650 4250
+Wire Wire Line
+	3650 4250 3650 4200
+Wire Wire Line
+	3800 4150 3800 4250
+Wire Wire Line
+	3800 4250 3950 4250
+Wire Wire Line
+	3950 4250 3950 4200
+Wire Wire Line
+	3500 3800 3650 3900
+Connection ~ 3500 3800
+Wire Wire Line
+	3800 3800 3950 3900
+Connection ~ 3800 3800
+$EndSCHEMATC

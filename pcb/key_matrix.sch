@@ -1,0 +1,2793 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 4
+Title "0x42"
+Date "2020-06-23"
+Rev "v01"
+Comp "plut0nium"
+Comment1 ""
+Comment2 "- USB-C, backlight & RGB underglow"
+Comment3 "- For MX-style switches"
+Comment4 "60% Ortholinear Mechanical Keyboard"
+$EndDescr
+Wire Wire Line
+	2400 1600 2350 1600
+Wire Wire Line
+	2350 1600 2350 1650
+Wire Wire Line
+	2950 1600 2900 1600
+Wire Wire Line
+	2900 1600 2900 1650
+Wire Wire Line
+	2700 1600 2750 1600
+Wire Wire Line
+	3250 1600 3300 1600
+Wire Wire Line
+	2350 1850 2350 1900
+Wire Wire Line
+	2900 1900 2350 1900
+Wire Wire Line
+	2150 1900 2350 1900
+Connection ~ 2350 1900
+Wire Wire Line
+	4000 1900 3450 1900
+Wire Wire Line
+	3450 1850 3450 1900
+Wire Wire Line
+	4350 1600 4400 1600
+Wire Wire Line
+	3800 1600 3850 1600
+Wire Wire Line
+	4000 1600 4000 1650
+Wire Wire Line
+	4050 1600 4000 1600
+Wire Wire Line
+	4000 1850 4000 1900
+Wire Wire Line
+	3450 1600 3450 1650
+Wire Wire Line
+	3500 1600 3450 1600
+Wire Wire Line
+	2900 1850 2900 1900
+Wire Wire Line
+	3450 1900 2900 1900
+Connection ~ 3450 1900
+Connection ~ 2900 1900
+Wire Wire Line
+	4600 1600 4550 1600
+Wire Wire Line
+	4550 1600 4550 1650
+Wire Wire Line
+	5150 1600 5100 1600
+Wire Wire Line
+	5100 1600 5100 1650
+Wire Wire Line
+	4900 1600 4950 1600
+Wire Wire Line
+	5450 1600 5500 1600
+Wire Wire Line
+	4550 1850 4550 1900
+Wire Wire Line
+	5100 1900 4550 1900
+Connection ~ 4550 1900
+Wire Wire Line
+	5100 1850 5100 1900
+Connection ~ 5100 1900
+Wire Wire Line
+	7900 1600 7850 1600
+Wire Wire Line
+	7850 1600 7850 1650
+Wire Wire Line
+	8200 1600 8250 1600
+Wire Wire Line
+	8950 1900 8400 1900
+Wire Wire Line
+	8400 1850 8400 1900
+Wire Wire Line
+	9300 1600 9350 1600
+Wire Wire Line
+	8750 1600 8800 1600
+Wire Wire Line
+	8950 1600 8950 1650
+Wire Wire Line
+	9000 1600 8950 1600
+Wire Wire Line
+	8950 1850 8950 1900
+Wire Wire Line
+	8400 1600 8400 1650
+Wire Wire Line
+	8450 1600 8400 1600
+Wire Wire Line
+	7850 1850 7850 1900
+Wire Wire Line
+	8400 1900 7850 1900
+Connection ~ 8400 1900
+Connection ~ 7850 1900
+Wire Wire Line
+	6250 1600 6200 1600
+Wire Wire Line
+	6200 1600 6200 1650
+Wire Wire Line
+	6800 1600 6750 1600
+Wire Wire Line
+	6750 1600 6750 1650
+Wire Wire Line
+	6550 1600 6600 1600
+Wire Wire Line
+	7100 1600 7150 1600
+Wire Wire Line
+	6200 1850 6200 1900
+Wire Wire Line
+	6750 1850 6750 1900
+Wire Wire Line
+	4000 1900 4550 1900
+Connection ~ 4000 1900
+Wire Wire Line
+	3300 1600 3300 2350
+Wire Wire Line
+	4400 1600 4400 2350
+Wire Wire Line
+	3850 1600 3850 2350
+Wire Wire Line
+	4950 1600 4950 2350
+Wire Wire Line
+	5500 1600 5500 2350
+Wire Wire Line
+	7150 1600 7150 2350
+Wire Wire Line
+	7700 1600 7700 2350
+Wire Wire Line
+	8250 1600 8250 2350
+Wire Wire Line
+	9350 1600 9350 2350
+Wire Wire Line
+	8800 1600 8800 2350
+Wire Wire Line
+	2400 2350 2350 2350
+Wire Wire Line
+	2350 2350 2350 2400
+Wire Wire Line
+	2950 2350 2900 2350
+Wire Wire Line
+	2900 2350 2900 2400
+Wire Wire Line
+	2700 2350 2750 2350
+Wire Wire Line
+	3250 2350 3300 2350
+Wire Wire Line
+	2350 2600 2350 2650
+Wire Wire Line
+	2150 2650 2350 2650
+Wire Wire Line
+	4000 2650 3450 2650
+Wire Wire Line
+	3450 2600 3450 2650
+Wire Wire Line
+	4350 2350 4400 2350
+Wire Wire Line
+	3800 2350 3850 2350
+Wire Wire Line
+	4000 2350 4000 2400
+Wire Wire Line
+	4050 2350 4000 2350
+Wire Wire Line
+	4000 2600 4000 2650
+Wire Wire Line
+	3450 2350 3450 2400
+Wire Wire Line
+	3500 2350 3450 2350
+Wire Wire Line
+	2900 2600 2900 2650
+Wire Wire Line
+	3450 2650 2900 2650
+Connection ~ 3450 2650
+Wire Wire Line
+	4600 2350 4550 2350
+Wire Wire Line
+	4550 2350 4550 2400
+Wire Wire Line
+	5150 2350 5100 2350
+Wire Wire Line
+	5100 2350 5100 2400
+Wire Wire Line
+	4900 2350 4950 2350
+Wire Wire Line
+	5450 2350 5500 2350
+Wire Wire Line
+	4550 2600 4550 2650
+Wire Wire Line
+	5100 2650 4550 2650
+Connection ~ 4550 2650
+Wire Wire Line
+	6750 2650 6200 2650
+Wire Wire Line
+	6200 2600 6200 2650
+Wire Wire Line
+	7100 2350 7150 2350
+Wire Wire Line
+	6550 2350 6600 2350
+Wire Wire Line
+	6750 2350 6750 2400
+Wire Wire Line
+	6800 2350 6750 2350
+Wire Wire Line
+	6750 2600 6750 2650
+Wire Wire Line
+	6200 2350 6200 2400
+Wire Wire Line
+	6250 2350 6200 2350
+Wire Wire Line
+	5100 2600 5100 2650
+Connection ~ 6200 2650
+Connection ~ 5100 2650
+Wire Wire Line
+	7350 2350 7300 2350
+Wire Wire Line
+	7300 2350 7300 2400
+Wire Wire Line
+	7900 2350 7850 2350
+Wire Wire Line
+	7850 2350 7850 2400
+Wire Wire Line
+	7650 2350 7700 2350
+Wire Wire Line
+	8200 2350 8250 2350
+Wire Wire Line
+	7300 2600 7300 2650
+Wire Wire Line
+	7850 2650 7300 2650
+Connection ~ 7300 2650
+Wire Wire Line
+	8950 2650 8400 2650
+Wire Wire Line
+	8400 2600 8400 2650
+Wire Wire Line
+	9300 2350 9350 2350
+Wire Wire Line
+	8750 2350 8800 2350
+Wire Wire Line
+	8950 2350 8950 2400
+Wire Wire Line
+	9000 2350 8950 2350
+Wire Wire Line
+	8950 2600 8950 2650
+Wire Wire Line
+	8400 2350 8400 2400
+Wire Wire Line
+	8450 2350 8400 2350
+Wire Wire Line
+	7850 2600 7850 2650
+Wire Wire Line
+	8400 2650 7850 2650
+Connection ~ 8400 2650
+Connection ~ 7850 2650
+Wire Wire Line
+	6750 2650 7300 2650
+Connection ~ 6750 2650
+Wire Wire Line
+	4000 2650 4550 2650
+Connection ~ 4000 2650
+Connection ~ 2750 2350
+Connection ~ 2350 2650
+Wire Wire Line
+	2900 2650 2350 2650
+Connection ~ 2900 2650
+Text HLabel 2150 1900 0    50   Input ~ 0
+Row0
+Text HLabel 2150 2650 0    50   Input ~ 0
+Row1
+Connection ~ 3300 2350
+Connection ~ 3850 2350
+Connection ~ 4400 2350
+Connection ~ 4950 2350
+Connection ~ 5500 2350
+Connection ~ 6600 2350
+Connection ~ 7150 2350
+Connection ~ 7700 2350
+Connection ~ 8250 2350
+Connection ~ 8800 2350
+Connection ~ 9350 2350
+$Comp
+L 0xLib_Diode_Transistor:Diode D000
+U 1 1 5EA30005
+P 2350 1750
+F 0 "D000" V 2350 1672 50  0000 R CNN
+F 1 "Diode" H 2350 1660 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 2350 1750 50  0001 C CNN
+F 3 "" H 2350 1750 50  0001 C CNN
+F 4 "C81598" H 2350 1750 50  0001 C CNN "LCSC"
+	1    2350 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D100
+U 1 1 5EAFCE7A
+P 2350 2500
+F 0 "D100" V 2350 2422 50  0000 R CNN
+F 1 "Diode" H 2350 2410 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 2350 2500 50  0001 C CNN
+F 3 "" H 2350 2500 50  0001 C CNN
+F 4 "C81598" H 2350 2500 50  0001 C CNN "LCSC"
+	1    2350 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D001
+U 1 1 5EAFD782
+P 2900 1750
+F 0 "D001" V 2900 1672 50  0000 R CNN
+F 1 "Diode" H 2900 1660 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 2900 1750 50  0001 C CNN
+F 3 "" H 2900 1750 50  0001 C CNN
+F 4 "C81598" H 2900 1750 50  0001 C CNN "LCSC"
+	1    2900 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D101
+U 1 1 5EAFDF5E
+P 2900 2500
+F 0 "D101" V 2900 2422 50  0000 R CNN
+F 1 "Diode" H 2900 2410 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 2900 2500 50  0001 C CNN
+F 3 "" H 2900 2500 50  0001 C CNN
+F 4 "C81598" H 2900 2500 50  0001 C CNN "LCSC"
+	1    2900 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D102
+U 1 1 5EAFE7BD
+P 3450 2500
+F 0 "D102" V 3450 2422 50  0000 R CNN
+F 1 "Diode" H 3450 2410 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 3450 2500 50  0001 C CNN
+F 3 "" H 3450 2500 50  0001 C CNN
+F 4 "C81598" H 3450 2500 50  0001 C CNN "LCSC"
+	1    3450 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D002
+U 1 1 5EAFEEE5
+P 3450 1750
+F 0 "D002" V 3450 1672 50  0000 R CNN
+F 1 "Diode" H 3450 1660 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 3450 1750 50  0001 C CNN
+F 3 "" H 3450 1750 50  0001 C CNN
+F 4 "C81598" H 3450 1750 50  0001 C CNN "LCSC"
+	1    3450 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D003
+U 1 1 5EAFF230
+P 4000 1750
+F 0 "D003" V 4000 1672 50  0000 R CNN
+F 1 "Diode" H 4000 1660 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 4000 1750 50  0001 C CNN
+F 3 "" H 4000 1750 50  0001 C CNN
+F 4 "C81598" H 4000 1750 50  0001 C CNN "LCSC"
+	1    4000 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D103
+U 1 1 5EAFF824
+P 4000 2500
+F 0 "D103" V 4000 2422 50  0000 R CNN
+F 1 "Diode" H 4000 2410 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 4000 2500 50  0001 C CNN
+F 3 "" H 4000 2500 50  0001 C CNN
+F 4 "C81598" H 4000 2500 50  0001 C CNN "LCSC"
+	1    4000 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D104
+U 1 1 5EAFFE60
+P 4550 2500
+F 0 "D104" V 4550 2422 50  0000 R CNN
+F 1 "Diode" H 4550 2410 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 4550 2500 50  0001 C CNN
+F 3 "" H 4550 2500 50  0001 C CNN
+F 4 "C81598" H 4550 2500 50  0001 C CNN "LCSC"
+	1    4550 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D004
+U 1 1 5EB005CF
+P 4550 1750
+F 0 "D004" V 4550 1672 50  0000 R CNN
+F 1 "Diode" H 4550 1660 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 4550 1750 50  0001 C CNN
+F 3 "" H 4550 1750 50  0001 C CNN
+F 4 "C81598" H 4550 1750 50  0001 C CNN "LCSC"
+	1    4550 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D005
+U 1 1 5EB008EA
+P 5100 1750
+F 0 "D005" V 5100 1672 50  0000 R CNN
+F 1 "Diode" H 5100 1660 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 5100 1750 50  0001 C CNN
+F 3 "" H 5100 1750 50  0001 C CNN
+F 4 "C81598" H 5100 1750 50  0001 C CNN "LCSC"
+	1    5100 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D105
+U 1 1 5EB01006
+P 5100 2500
+F 0 "D105" V 5100 2422 50  0000 R CNN
+F 1 "Diode" H 5100 2410 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 5100 2500 50  0001 C CNN
+F 3 "" H 5100 2500 50  0001 C CNN
+F 4 "C81598" H 5100 2500 50  0001 C CNN "LCSC"
+	1    5100 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D107
+U 1 1 5EB016AF
+P 6200 2500
+F 0 "D107" V 6200 2422 50  0000 R CNN
+F 1 "Diode" H 6200 2410 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 6200 2500 50  0001 C CNN
+F 3 "" H 6200 2500 50  0001 C CNN
+F 4 "C81598" H 6200 2500 50  0001 C CNN "LCSC"
+	1    6200 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D108
+U 1 1 5EB02746
+P 6750 2500
+F 0 "D108" V 6750 2422 50  0000 R CNN
+F 1 "Diode" H 6750 2410 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 6750 2500 50  0001 C CNN
+F 3 "" H 6750 2500 50  0001 C CNN
+F 4 "C81598" H 6750 2500 50  0001 C CNN "LCSC"
+	1    6750 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D109
+U 1 1 5EB0307B
+P 7300 2500
+F 0 "D109" V 7300 2422 50  0000 R CNN
+F 1 "Diode" H 7300 2410 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 7300 2500 50  0001 C CNN
+F 3 "" H 7300 2500 50  0001 C CNN
+F 4 "C81598" H 7300 2500 50  0001 C CNN "LCSC"
+	1    7300 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D010
+U 1 1 5EB03BA9
+P 7850 1750
+F 0 "D010" V 7850 1672 50  0000 R CNN
+F 1 "Diode" H 7850 1660 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 7850 1750 50  0001 C CNN
+F 3 "" H 7850 1750 50  0001 C CNN
+F 4 "C81598" H 7850 1750 50  0001 C CNN "LCSC"
+	1    7850 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D110
+U 1 1 5EB0442D
+P 7850 2500
+F 0 "D110" V 7850 2422 50  0000 R CNN
+F 1 "Diode" H 7850 2410 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 7850 2500 50  0001 C CNN
+F 3 "" H 7850 2500 50  0001 C CNN
+F 4 "C81598" H 7850 2500 50  0001 C CNN "LCSC"
+	1    7850 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D111
+U 1 1 5EB04B2B
+P 8400 2500
+F 0 "D111" V 8400 2422 50  0000 R CNN
+F 1 "Diode" H 8400 2410 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 8400 2500 50  0001 C CNN
+F 3 "" H 8400 2500 50  0001 C CNN
+F 4 "C81598" H 8400 2500 50  0001 C CNN "LCSC"
+	1    8400 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D011
+U 1 1 5EB052AD
+P 8400 1750
+F 0 "D011" V 8400 1672 50  0000 R CNN
+F 1 "Diode" H 8400 1660 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 8400 1750 50  0001 C CNN
+F 3 "" H 8400 1750 50  0001 C CNN
+F 4 "C81598" H 8400 1750 50  0001 C CNN "LCSC"
+	1    8400 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D012
+U 1 1 5EB0559C
+P 8950 1750
+F 0 "D012" V 8950 1672 50  0000 R CNN
+F 1 "Diode" H 8950 1660 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 8950 1750 50  0001 C CNN
+F 3 "" H 8950 1750 50  0001 C CNN
+F 4 "C81598" H 8950 1750 50  0001 C CNN "LCSC"
+	1    8950 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D112
+U 1 1 5EB05E3A
+P 8950 2500
+F 0 "D112" V 8950 2422 50  0000 R CNN
+F 1 "Diode" H 8950 2410 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 8950 2500 50  0001 C CNN
+F 3 "" H 8950 2500 50  0001 C CNN
+F 4 "C81598" H 8950 2500 50  0001 C CNN "LCSC"
+	1    8950 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D007
+U 1 1 5EB06EC1
+P 6200 1750
+F 0 "D007" V 6200 1672 50  0000 R CNN
+F 1 "Diode" H 6200 1660 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 6200 1750 50  0001 C CNN
+F 3 "" H 6200 1750 50  0001 C CNN
+F 4 "C81598" H 6200 1750 50  0001 C CNN "LCSC"
+	1    6200 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D008
+U 1 1 5EB07152
+P 6750 1750
+F 0 "D008" V 6750 1672 50  0000 R CNN
+F 1 "Diode" H 6750 1660 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 6750 1750 50  0001 C CNN
+F 3 "" H 6750 1750 50  0001 C CNN
+F 4 "C81598" H 6750 1750 50  0001 C CNN "LCSC"
+	1    6750 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K001
+U 1 1 5EC54EC5
+P 3100 1600
+F 0 "K001" H 3100 1749 50  0000 C CNN
+F 1 "1U" H 3100 1535 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 3100 1600 50  0001 C CNN
+F 3 "" H 3100 1600 50  0001 C CNN
+	1    3100 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K002
+U 1 1 5EC54ECF
+P 3650 1600
+F 0 "K002" H 3650 1749 50  0000 C CNN
+F 1 "1U" H 3650 1535 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 3650 1600 50  0001 C CNN
+F 3 "" H 3650 1600 50  0001 C CNN
+	1    3650 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K003
+U 1 1 5EC54ED9
+P 4200 1600
+F 0 "K003" H 4200 1749 50  0000 C CNN
+F 1 "1U" H 4200 1535 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 4200 1600 50  0001 C CNN
+F 3 "" H 4200 1600 50  0001 C CNN
+	1    4200 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K004
+U 1 1 5EC54EE3
+P 4750 1600
+F 0 "K004" H 4750 1749 50  0000 C CNN
+F 1 "1U" H 4750 1535 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 4750 1600 50  0001 C CNN
+F 3 "" H 4750 1600 50  0001 C CNN
+	1    4750 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K005
+U 1 1 5EC54EED
+P 5300 1600
+F 0 "K005" H 5300 1749 50  0000 C CNN
+F 1 "1U" H 5300 1535 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 5300 1600 50  0001 C CNN
+F 3 "" H 5300 1600 50  0001 C CNN
+	1    5300 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K010
+U 1 1 5EC54F15
+P 8050 1600
+F 0 "K010" H 8050 1749 50  0000 C CNN
+F 1 "1U" H 8050 1535 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 8050 1600 50  0001 C CNN
+F 3 "" H 8050 1600 50  0001 C CNN
+	1    8050 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K011
+U 1 1 5EC54F1F
+P 8600 1600
+F 0 "K011" H 8600 1749 50  0000 C CNN
+F 1 "1U" H 8600 1535 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 8600 1600 50  0001 C CNN
+F 3 "" H 8600 1600 50  0001 C CNN
+	1    8600 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K012
+U 1 1 5EC54F29
+P 9150 1600
+F 0 "K012" H 9150 1749 50  0000 C CNN
+F 1 "1U" H 9150 1535 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 9150 1600 50  0001 C CNN
+F 3 "" H 9150 1600 50  0001 C CNN
+	1    9150 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K007
+U 1 1 5EC54F33
+P 6400 1600
+F 0 "K007" H 6400 1749 50  0000 C CNN
+F 1 "1U" H 6400 1535 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 6400 1600 50  0001 C CNN
+F 3 "" H 6400 1600 50  0001 C CNN
+	1    6400 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K008
+U 1 1 5EC54F3D
+P 6950 1600
+F 0 "K008" H 6950 1749 50  0000 C CNN
+F 1 "1U" H 6950 1535 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 6950 1600 50  0001 C CNN
+F 3 "" H 6950 1600 50  0001 C CNN
+	1    6950 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K100
+U 1 1 5ECEEA5D
+P 2550 2350
+F 0 "K100" H 2550 2499 50  0000 C CNN
+F 1 "1.5U" H 2550 2285 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1.5U" H 2550 2350 50  0001 C CNN
+F 3 "" H 2550 2350 50  0001 C CNN
+	1    2550 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K101
+U 1 1 5ECEEA67
+P 3100 2350
+F 0 "K101" H 3100 2499 50  0000 C CNN
+F 1 "1U" H 3100 2285 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 3100 2350 50  0001 C CNN
+F 3 "" H 3100 2350 50  0001 C CNN
+	1    3100 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K102
+U 1 1 5ECEEA71
+P 3650 2350
+F 0 "K102" H 3650 2499 50  0000 C CNN
+F 1 "1U" H 3650 2285 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 3650 2350 50  0001 C CNN
+F 3 "" H 3650 2350 50  0001 C CNN
+	1    3650 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K103
+U 1 1 5ECEEA7B
+P 4200 2350
+F 0 "K103" H 4200 2499 50  0000 C CNN
+F 1 "1U" H 4200 2285 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 4200 2350 50  0001 C CNN
+F 3 "" H 4200 2350 50  0001 C CNN
+	1    4200 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K104
+U 1 1 5ECEEA85
+P 4750 2350
+F 0 "K104" H 4750 2499 50  0000 C CNN
+F 1 "1U" H 4750 2285 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 4750 2350 50  0001 C CNN
+F 3 "" H 4750 2350 50  0001 C CNN
+	1    4750 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K105
+U 1 1 5ECEEA8F
+P 5300 2350
+F 0 "K105" H 5300 2499 50  0000 C CNN
+F 1 "1U" H 5300 2285 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 5300 2350 50  0001 C CNN
+F 3 "" H 5300 2350 50  0001 C CNN
+	1    5300 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K107
+U 1 1 5ECEEA99
+P 6400 2350
+F 0 "K107" H 6400 2499 50  0000 C CNN
+F 1 "1U" H 6400 2285 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U-Flipped" H 6400 2350 50  0001 C CNN
+F 3 "" H 6400 2350 50  0001 C CNN
+	1    6400 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K108
+U 1 1 5ECEEAA3
+P 6950 2350
+F 0 "K108" H 6950 2499 50  0000 C CNN
+F 1 "1U" H 6950 2285 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 6950 2350 50  0001 C CNN
+F 3 "" H 6950 2350 50  0001 C CNN
+	1    6950 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K109
+U 1 1 5ECEEAAD
+P 7500 2350
+F 0 "K109" H 7500 2499 50  0000 C CNN
+F 1 "1U" H 7500 2285 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 7500 2350 50  0001 C CNN
+F 3 "" H 7500 2350 50  0001 C CNN
+	1    7500 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K110
+U 1 1 5ECEEAB7
+P 8050 2350
+F 0 "K110" H 8050 2499 50  0000 C CNN
+F 1 "1U" H 8050 2285 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 8050 2350 50  0001 C CNN
+F 3 "" H 8050 2350 50  0001 C CNN
+	1    8050 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K111
+U 1 1 5ECEEAC1
+P 8600 2350
+F 0 "K111" H 8600 2499 50  0000 C CNN
+F 1 "1U" H 8600 2285 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 8600 2350 50  0001 C CNN
+F 3 "" H 8600 2350 50  0001 C CNN
+	1    8600 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K112
+U 1 1 5ECEEACB
+P 9150 2350
+F 0 "K112" H 9150 2499 50  0000 C CNN
+F 1 "1U" H 9150 2285 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 9150 2350 50  0001 C CNN
+F 3 "" H 9150 2350 50  0001 C CNN
+	1    9150 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K000
+U 1 1 5EC54EBB
+P 2550 1600
+F 0 "K000" H 2550 1749 50  0000 C CNN
+F 1 "1.5U" H 2550 1535 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1.5U-Vertical" H 2550 1600 50  0001 C CNN
+F 3 "" H 2550 1600 50  0001 C CNN
+	1    2550 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 1600 7300 1600
+Wire Wire Line
+	7300 1600 7300 1650
+Wire Wire Line
+	7650 1600 7700 1600
+Wire Wire Line
+	7300 1850 7300 1900
+$Comp
+L 0xLib_Diode_Transistor:Diode D009
+U 1 1 5F11B635
+P 7300 1750
+F 0 "D009" V 7300 1672 50  0000 R CNN
+F 1 "Diode" H 7300 1660 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 7300 1750 50  0001 C CNN
+F 3 "" H 7300 1750 50  0001 C CNN
+F 4 "C81598" H 7300 1750 50  0001 C CNN "LCSC"
+	1    7300 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K009
+U 1 1 5F11B671
+P 7500 1600
+F 0 "K009" H 7500 1749 50  0000 C CNN
+F 1 "1U" H 7500 1535 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 7500 1600 50  0001 C CNN
+F 3 "" H 7500 1600 50  0001 C CNN
+	1    7500 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 1600 6600 2100
+Wire Wire Line
+	2750 1600 2750 2350
+Wire Wire Line
+	5100 1900 5650 1900
+Connection ~ 6200 1900
+Wire Wire Line
+	6200 1900 6750 1900
+Connection ~ 6750 1900
+Wire Wire Line
+	6750 1900 7300 1900
+Connection ~ 7300 1900
+Wire Wire Line
+	7300 1900 7850 1900
+Wire Wire Line
+	6200 2650 5650 2650
+$Comp
+L 0xLib_Diode_Transistor:Diode D106
+U 1 1 5F102EC1
+P 5650 2500
+F 0 "D106" V 5650 2422 50  0000 R CNN
+F 1 "Diode" H 5650 2410 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 5650 2500 50  0001 C CNN
+F 3 "" H 5650 2500 50  0001 C CNN
+F 4 "C81598" H 5650 2500 50  0001 C CNN "LCSC"
+	1    5650 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K106
+U 1 1 5F103414
+P 5850 2350
+F 0 "K106" H 5850 2499 50  0000 C CNN
+F 1 "1U" H 5850 2285 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U-Flipped" H 5850 2350 50  0001 C CNN
+F 3 "" H 5850 2350 50  0001 C CNN
+	1    5850 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 2350 5650 2350
+Wire Wire Line
+	5650 2350 5650 2400
+Wire Wire Line
+	5650 2600 5650 2650
+Connection ~ 5650 2650
+Wire Wire Line
+	5650 2650 5100 2650
+Wire Wire Line
+	6000 2350 6050 2350
+Wire Wire Line
+	6050 1600 6050 2100
+Connection ~ 6050 2350
+$Comp
+L 0xLib_Diode_Transistor:Diode D006
+U 1 1 5F0F41EF
+P 5650 1750
+F 0 "D006" V 5650 1672 50  0000 R CNN
+F 1 "Diode" H 5650 1660 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 5650 1750 50  0001 C CNN
+F 3 "" H 5650 1750 50  0001 C CNN
+F 4 "C81598" H 5650 1750 50  0001 C CNN "LCSC"
+	1    5650 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K006
+U 1 1 5F0F41FA
+P 5850 1600
+F 0 "K006" H 5850 1749 50  0000 C CNN
+F 1 "1U" H 5850 1535 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 5850 1600 50  0001 C CNN
+F 3 "" H 5850 1600 50  0001 C CNN
+	1    5850 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 1600 5650 1600
+Wire Wire Line
+	5650 1600 5650 1650
+Wire Wire Line
+	5650 1850 5650 1900
+Wire Wire Line
+	6000 1600 6050 1600
+Connection ~ 5650 1900
+Wire Wire Line
+	5650 1900 6200 1900
+Wire Wire Line
+	9500 1900 8950 1900
+Wire Wire Line
+	9850 1600 9900 1600
+Wire Wire Line
+	9500 1600 9500 1650
+Wire Wire Line
+	9550 1600 9500 1600
+Wire Wire Line
+	9500 1850 9500 1900
+Wire Wire Line
+	9900 1600 9900 2350
+Wire Wire Line
+	9500 2650 8950 2650
+Wire Wire Line
+	9850 2350 9900 2350
+Wire Wire Line
+	9500 2350 9500 2400
+Wire Wire Line
+	9550 2350 9500 2350
+Wire Wire Line
+	9500 2600 9500 2650
+Connection ~ 9900 2350
+$Comp
+L 0xLib_Diode_Transistor:Diode D013
+U 1 1 5F155CE0
+P 9500 1750
+F 0 "D013" V 9500 1672 50  0000 R CNN
+F 1 "Diode" H 9500 1660 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 9500 1750 50  0001 C CNN
+F 3 "" H 9500 1750 50  0001 C CNN
+F 4 "C81598" H 9500 1750 50  0001 C CNN "LCSC"
+	1    9500 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D113
+U 1 1 5F155D01
+P 9500 2500
+F 0 "D113" V 9500 2422 50  0000 R CNN
+F 1 "Diode" H 9500 2410 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 9500 2500 50  0001 C CNN
+F 3 "" H 9500 2500 50  0001 C CNN
+F 4 "C81598" H 9500 2500 50  0001 C CNN "LCSC"
+	1    9500 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K013
+U 1 1 5F155D22
+P 9700 1600
+F 0 "K013" H 9700 1749 50  0000 C CNN
+F 1 "1.5U" H 9700 1535 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1.5U" H 9700 1600 50  0001 C CNN
+F 3 "" H 9700 1600 50  0001 C CNN
+	1    9700 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K113
+U 1 1 5F155D43
+P 9700 2350
+F 0 "K113" H 9700 2499 50  0000 C CNN
+F 1 "1.5U" H 9700 2285 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1.5U" H 9700 2350 50  0001 C CNN
+F 3 "" H 9700 2350 50  0001 C CNN
+	1    9700 2350
+	1    0    0    -1  
+$EndComp
+Connection ~ 8950 1900
+Connection ~ 8950 2650
+Wire Wire Line
+	6600 3600 6600 3850
+Connection ~ 6600 3600
+Wire Wire Line
+	6550 3600 6600 3600
+Connection ~ 6200 3850
+Wire Wire Line
+	6200 3600 6200 3850
+Wire Wire Line
+	6250 3600 6200 3600
+Connection ~ 5650 3850
+$Comp
+L 0xLib_MK:Key_Switch_LED Kb307
+U 1 1 5F450D0A
+P 6400 3600
+F 0 "Kb307" H 6400 3749 50  0000 C CNN
+F 1 "1.5U" H 6400 3535 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1.5U-Vertical-Flipped" H 6400 3600 50  0001 C CNN
+F 3 "" H 6400 3600 50  0001 C CNN
+	1    6400 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 4350 7700 4600
+Connection ~ 7700 4350
+Wire Wire Line
+	7650 4350 7700 4350
+Connection ~ 7300 4600
+Wire Wire Line
+	7300 4350 7300 4600
+Wire Wire Line
+	7350 4350 7300 4350
+Wire Wire Line
+	7150 4350 7150 4600
+Connection ~ 7150 4350
+Wire Wire Line
+	7100 4350 7150 4350
+Connection ~ 6750 4600
+Wire Wire Line
+	6750 4350 6750 4600
+Wire Wire Line
+	6800 4350 6750 4350
+Connection ~ 5100 4600
+Wire Wire Line
+	5100 4350 5100 4600
+Wire Wire Line
+	5500 4350 5500 4600
+Connection ~ 5500 4350
+Wire Wire Line
+	5450 4350 5500 4350
+Wire Wire Line
+	5100 4350 5150 4350
+Connection ~ 4550 4600
+Wire Wire Line
+	4550 4350 4550 4600
+Wire Wire Line
+	4600 4350 4550 4350
+Wire Wire Line
+	4950 4350 4950 4600
+Connection ~ 4950 4350
+Wire Wire Line
+	4950 4350 4900 4350
+$Comp
+L 0xLib_MK:Key_Switch_LED Kb408
+U 1 1 5EFA13AA
+P 6950 4350
+F 0 "Kb408" H 6950 4499 50  0000 C CNN
+F 1 "2U" H 6950 4285 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-2U-ReversedStabilizers" H 6950 4350 50  0001 C CNN
+F 3 "" H 6950 4350 50  0001 C CNN
+	1    6950 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED Kb409
+U 1 1 5EFA0C2E
+P 7500 4350
+F 0 "Kb409" H 7500 4499 50  0000 C CNN
+F 1 "2U" H 7500 4285 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-2U-ReversedStabilizers" H 7500 4350 50  0001 C CNN
+F 3 "" H 7500 4350 50  0001 C CNN
+	1    7500 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED Kb405
+U 1 1 5EFA04BC
+P 5300 4350
+F 0 "Kb405" H 5300 4499 50  0000 C CNN
+F 1 "2U" H 5300 4285 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-2U-ReversedStabilizers" H 5300 4350 50  0001 C CNN
+F 3 "" H 5300 4350 50  0001 C CNN
+	1    5300 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED Kb404
+U 1 1 5EF9FF07
+P 4750 4350
+F 0 "Kb404" H 4750 4499 50  0000 C CNN
+F 1 "2U" H 4750 4285 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-2U-ReversedStabilizers" H 4750 4350 50  0001 C CNN
+F 3 "" H 4750 4350 50  0001 C CNN
+	1    4750 4350
+	1    0    0    -1  
+$EndComp
+Connection ~ 9900 4600
+Connection ~ 9350 4600
+Connection ~ 8800 4600
+Connection ~ 8250 4600
+Connection ~ 7700 4600
+Connection ~ 7150 4600
+Connection ~ 6600 4600
+Connection ~ 6050 4600
+Connection ~ 5500 4600
+Connection ~ 4950 4600
+Connection ~ 4400 4600
+Connection ~ 3850 4600
+Connection ~ 3300 4600
+Connection ~ 2750 4600
+Wire Wire Line
+	9900 3100 9900 3850
+Wire Wire Line
+	6600 3100 6600 3600
+Wire Wire Line
+	8800 3100 8800 3850
+Wire Wire Line
+	9350 3100 9350 3850
+Wire Wire Line
+	8250 3100 8250 3850
+Wire Wire Line
+	7700 3100 7700 3850
+Wire Wire Line
+	7150 3100 7150 3850
+Wire Wire Line
+	5500 3100 5500 3850
+Wire Wire Line
+	4950 3100 4950 3850
+Wire Wire Line
+	3850 3100 3850 3850
+Wire Wire Line
+	4400 3100 4400 3850
+Wire Wire Line
+	3300 3100 3300 3850
+Wire Wire Line
+	2750 3100 2750 3850
+Connection ~ 9900 3100
+Connection ~ 9350 3100
+Connection ~ 8800 3100
+Connection ~ 8250 3100
+Connection ~ 7700 3100
+Connection ~ 7150 3100
+Connection ~ 6600 3100
+Connection ~ 6050 3100
+Connection ~ 5500 3100
+Connection ~ 4950 3100
+Connection ~ 4400 3100
+Connection ~ 3850 3100
+Connection ~ 3300 3100
+Connection ~ 2750 3100
+$Comp
+L 0xLib_MK:Key_Switch_LED K401
+U 1 1 5EBF057B
+P 3100 4600
+F 0 "K401" H 3100 4749 50  0000 C CNN
+F 1 "1U" H 3100 4535 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 3100 4600 50  0001 C CNN
+F 3 "" H 3100 4600 50  0001 C CNN
+	1    3100 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 4600 7150 5050
+Wire Wire Line
+	7150 4600 7100 4600
+Connection ~ 6750 4900
+Wire Wire Line
+	6750 4850 6750 4900
+Wire Wire Line
+	6750 4600 6750 4650
+Wire Wire Line
+	6800 4600 6750 4600
+$Comp
+L 0xLib_MK:Key_Switch_LED K408
+U 1 1 5F0256D2
+P 6950 4600
+F 0 "K408" H 6950 4749 50  0000 C CNN
+F 1 "1U" H 6950 4535 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 6950 4600 50  0001 C CNN
+F 3 "" H 6950 4600 50  0001 C CNN
+	1    6950 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D408
+U 1 1 5F0256C8
+P 6750 4750
+F 0 "D408" V 6750 4672 50  0000 R CNN
+F 1 "Diode" H 6750 4660 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 6750 4750 50  0001 C CNN
+F 3 "" H 6750 4750 50  0001 C CNN
+F 4 "C81598" H 6750 4750 50  0001 C CNN "LCSC"
+	1    6750 4750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7300 4900 6750 4900
+Wire Wire Line
+	5500 4600 5500 5050
+Wire Wire Line
+	5500 4600 5450 4600
+Connection ~ 5100 4900
+Wire Wire Line
+	5100 4850 5100 4900
+Wire Wire Line
+	5100 4600 5100 4650
+Wire Wire Line
+	5150 4600 5100 4600
+$Comp
+L 0xLib_MK:Key_Switch_LED K405
+U 1 1 5EFF756C
+P 5300 4600
+F 0 "K405" H 5300 4749 50  0000 C CNN
+F 1 "1U" H 5300 4535 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 5300 4600 50  0001 C CNN
+F 3 "" H 5300 4600 50  0001 C CNN
+	1    5300 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D405
+U 1 1 5EFF7562
+P 5100 4750
+F 0 "D405" V 5100 4672 50  0000 R CNN
+F 1 "Diode" H 5100 4660 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 5100 4750 50  0001 C CNN
+F 3 "" H 5100 4750 50  0001 C CNN
+F 4 "C81598" H 5100 4750 50  0001 C CNN "LCSC"
+	1    5100 4750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5650 4900 5100 4900
+Wire Wire Line
+	6600 2350 6600 3100
+Wire Wire Line
+	6050 2350 6050 3100
+Wire Wire Line
+	7150 2350 7150 3100
+Wire Wire Line
+	6200 4900 6750 4900
+Wire Wire Line
+	4550 4900 5100 4900
+Wire Wire Line
+	5500 2350 5500 3100
+Wire Wire Line
+	4950 2350 4950 3100
+Connection ~ 8950 4900
+Connection ~ 8950 3400
+Connection ~ 8950 4150
+$Comp
+L 0xLib_MK:Key_Switch_LED K213
+U 1 1 5F155D38
+P 9700 3100
+F 0 "K213" H 9700 3249 50  0000 C CNN
+F 1 "1.5U" H 9700 3035 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1.5U" H 9700 3100 50  0001 C CNN
+F 3 "" H 9700 3100 50  0001 C CNN
+	1    9700 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K313
+U 1 1 5F155D2D
+P 9700 3850
+F 0 "K313" H 9700 3999 50  0000 C CNN
+F 1 "1.5U" H 9700 3785 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1.5U" H 9700 3850 50  0001 C CNN
+F 3 "" H 9700 3850 50  0001 C CNN
+	1    9700 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K413
+U 1 1 5F155D17
+P 9700 4600
+F 0 "K413" H 9700 4749 50  0000 C CNN
+F 1 "1.5U" H 9700 4535 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1.5U" H 9700 4600 50  0001 C CNN
+F 3 "" H 9700 4600 50  0001 C CNN
+	1    9700 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D413
+U 1 1 5F155D0C
+P 9500 4750
+F 0 "D413" V 9500 4672 50  0000 R CNN
+F 1 "Diode" H 9500 4660 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 9500 4750 50  0001 C CNN
+F 3 "" H 9500 4750 50  0001 C CNN
+F 4 "C81598" H 9500 4750 50  0001 C CNN "LCSC"
+	1    9500 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D213
+U 1 1 5F155CF6
+P 9500 3250
+F 0 "D213" V 9500 3172 50  0000 R CNN
+F 1 "Diode" H 9500 3160 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 9500 3250 50  0001 C CNN
+F 3 "" H 9500 3250 50  0001 C CNN
+F 4 "C81598" H 9500 3250 50  0001 C CNN "LCSC"
+	1    9500 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D313
+U 1 1 5F155CEB
+P 9500 4000
+F 0 "D313" V 9500 3922 50  0000 R CNN
+F 1 "Diode" H 9500 3910 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 9500 4000 50  0001 C CNN
+F 3 "" H 9500 4000 50  0001 C CNN
+F 4 "C81598" H 9500 4000 50  0001 C CNN "LCSC"
+	1    9500 4000
+	0    -1   -1   0   
+$EndComp
+Connection ~ 9900 3850
+Text HLabel 9900 5050 3    50   Input ~ 0
+Col13
+Wire Wire Line
+	9900 2350 9900 3100
+Wire Wire Line
+	9500 4850 9500 4900
+Wire Wire Line
+	9550 4600 9500 4600
+Wire Wire Line
+	9500 4600 9500 4650
+Wire Wire Line
+	9850 4600 9900 4600
+Wire Wire Line
+	9900 4600 9900 5050
+Wire Wire Line
+	9500 4900 8950 4900
+Wire Wire Line
+	9500 4100 9500 4150
+Wire Wire Line
+	9550 3850 9500 3850
+Wire Wire Line
+	9500 3850 9500 3900
+Wire Wire Line
+	9850 3850 9900 3850
+Wire Wire Line
+	9900 3850 9900 4600
+Wire Wire Line
+	9500 4150 8950 4150
+Wire Wire Line
+	9500 3350 9500 3400
+Wire Wire Line
+	9550 3100 9500 3100
+Wire Wire Line
+	9500 3100 9500 3150
+Wire Wire Line
+	9850 3100 9900 3100
+Wire Wire Line
+	9500 3400 8950 3400
+Connection ~ 6050 3850
+Wire Wire Line
+	5650 4150 5100 4150
+Connection ~ 5650 4150
+Wire Wire Line
+	6050 3850 6050 4600
+Wire Wire Line
+	6000 3850 6050 3850
+Wire Wire Line
+	5650 4100 5650 4150
+Wire Wire Line
+	5650 3850 5650 3900
+Wire Wire Line
+	5700 3850 5650 3850
+$Comp
+L 0xLib_MK:Key_Switch_LED K306
+U 1 1 5F0CAEBD
+P 5850 3850
+F 0 "K306" H 5850 3999 50  0000 C CNN
+F 1 "1U" H 5850 3785 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 5850 3850 50  0001 C CNN
+F 3 "" H 5850 3850 50  0001 C CNN
+	1    5850 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D306
+U 1 1 5F0CAEB2
+P 5650 4000
+F 0 "D306" V 5650 3922 50  0000 R CNN
+F 1 "Diode" H 5650 3910 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 5650 4000 50  0001 C CNN
+F 3 "" H 5650 4000 50  0001 C CNN
+F 4 "C81598" H 5650 4000 50  0001 C CNN "LCSC"
+	1    5650 4000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5650 3400 5100 3400
+Connection ~ 5650 3400
+Wire Wire Line
+	6000 3100 6050 3100
+Wire Wire Line
+	5650 3350 5650 3400
+Wire Wire Line
+	5650 3100 5650 3150
+Wire Wire Line
+	5700 3100 5650 3100
+$Comp
+L 0xLib_MK:Key_Switch_LED K206
+U 1 1 5F0A1255
+P 5850 3100
+F 0 "K206" H 5850 3249 50  0000 C CNN
+F 1 "1U" H 5850 3035 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 5850 3100 50  0001 C CNN
+F 3 "" H 5850 3100 50  0001 C CNN
+	1    5850 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D206
+U 1 1 5F0A124A
+P 5650 3250
+F 0 "D206" V 5650 3172 50  0000 R CNN
+F 1 "Diode" H 5650 3160 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 5650 3250 50  0001 C CNN
+F 3 "" H 5650 3250 50  0001 C CNN
+F 4 "C81598" H 5650 3250 50  0001 C CNN "LCSC"
+	1    5650 3250
+	0    -1   -1   0   
+$EndComp
+Text HLabel 6050 5050 3    50   Input ~ 0
+Col6
+Wire Wire Line
+	6050 4600 6050 5050
+Wire Wire Line
+	6050 4600 6000 4600
+Connection ~ 5650 4900
+Wire Wire Line
+	5650 4850 5650 4900
+Wire Wire Line
+	5650 4600 5650 4650
+Wire Wire Line
+	5700 4600 5650 4600
+$Comp
+L 0xLib_MK:Key_Switch_LED K406
+U 1 1 5F10278A
+P 5850 4600
+F 0 "K406" H 5850 4749 50  0000 C CNN
+F 1 "1U" H 5850 4535 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 5850 4600 50  0001 C CNN
+F 3 "" H 5850 4600 50  0001 C CNN
+	1    5850 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D406
+U 1 1 5F102369
+P 5650 4750
+F 0 "D406" V 5650 4672 50  0000 R CNN
+F 1 "Diode" H 5650 4660 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 5650 4750 50  0001 C CNN
+F 3 "" H 5650 4750 50  0001 C CNN
+F 4 "C81598" H 5650 4750 50  0001 C CNN "LCSC"
+	1    5650 4750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 4900 5650 4900
+Wire Wire Line
+	8800 2350 8800 3100
+Wire Wire Line
+	8250 2350 8250 3100
+Wire Wire Line
+	2350 3100 2350 3150
+$Comp
+L 0xLib_MK:Key_Switch_LED K212
+U 1 1 5ECBC33B
+P 9150 3100
+F 0 "K212" H 9150 3249 50  0000 C CNN
+F 1 "1U" H 9150 3035 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 9150 3100 50  0001 C CNN
+F 3 "" H 9150 3100 50  0001 C CNN
+	1    9150 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K211
+U 1 1 5ECBC331
+P 8600 3100
+F 0 "K211" H 8600 3249 50  0000 C CNN
+F 1 "1U" H 8600 3035 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 8600 3100 50  0001 C CNN
+F 3 "" H 8600 3100 50  0001 C CNN
+	1    8600 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K210
+U 1 1 5ECBC327
+P 8050 3100
+F 0 "K210" H 8050 3249 50  0000 C CNN
+F 1 "1U" H 8050 3035 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 8050 3100 50  0001 C CNN
+F 3 "" H 8050 3100 50  0001 C CNN
+	1    8050 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K209
+U 1 1 5ECBC31D
+P 7500 3100
+F 0 "K209" H 7500 3249 50  0000 C CNN
+F 1 "1U" H 7500 3035 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 7500 3100 50  0001 C CNN
+F 3 "" H 7500 3100 50  0001 C CNN
+	1    7500 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K208
+U 1 1 5ECBC313
+P 6950 3100
+F 0 "K208" H 6950 3249 50  0000 C CNN
+F 1 "1U" H 6950 3035 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 6950 3100 50  0001 C CNN
+F 3 "" H 6950 3100 50  0001 C CNN
+	1    6950 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K207
+U 1 1 5ECBC309
+P 6400 3100
+F 0 "K207" H 6400 3249 50  0000 C CNN
+F 1 "1U" H 6400 3035 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 6400 3100 50  0001 C CNN
+F 3 "" H 6400 3100 50  0001 C CNN
+	1    6400 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K205
+U 1 1 5ECBC2FF
+P 5300 3100
+F 0 "K205" H 5300 3249 50  0000 C CNN
+F 1 "1U" H 5300 3035 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 5300 3100 50  0001 C CNN
+F 3 "" H 5300 3100 50  0001 C CNN
+	1    5300 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K204
+U 1 1 5ECBC2F5
+P 4750 3100
+F 0 "K204" H 4750 3249 50  0000 C CNN
+F 1 "1U" H 4750 3035 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 4750 3100 50  0001 C CNN
+F 3 "" H 4750 3100 50  0001 C CNN
+	1    4750 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K203
+U 1 1 5ECBC2EB
+P 4200 3100
+F 0 "K203" H 4200 3249 50  0000 C CNN
+F 1 "1U" H 4200 3035 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 4200 3100 50  0001 C CNN
+F 3 "" H 4200 3100 50  0001 C CNN
+	1    4200 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K202
+U 1 1 5ECBC2E1
+P 3650 3100
+F 0 "K202" H 3650 3249 50  0000 C CNN
+F 1 "1U" H 3650 3035 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 3650 3100 50  0001 C CNN
+F 3 "" H 3650 3100 50  0001 C CNN
+	1    3650 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K201
+U 1 1 5ECBC2D7
+P 3100 3100
+F 0 "K201" H 3100 3249 50  0000 C CNN
+F 1 "1U" H 3100 3035 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 3100 3100 50  0001 C CNN
+F 3 "" H 3100 3100 50  0001 C CNN
+	1    3100 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K200
+U 1 1 5ECBC2CD
+P 2550 3100
+F 0 "K200" H 2550 3249 50  0000 C CNN
+F 1 "1.5U" H 2550 3035 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1.5U" H 2550 3100 50  0001 C CNN
+F 3 "" H 2550 3100 50  0001 C CNN
+	1    2550 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K312
+U 1 1 5EC8895F
+P 9150 3850
+F 0 "K312" H 9150 3999 50  0000 C CNN
+F 1 "1U" H 9150 3785 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 9150 3850 50  0001 C CNN
+F 3 "" H 9150 3850 50  0001 C CNN
+	1    9150 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K311
+U 1 1 5EC88955
+P 8600 3850
+F 0 "K311" H 8600 3999 50  0000 C CNN
+F 1 "1U" H 8600 3785 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 8600 3850 50  0001 C CNN
+F 3 "" H 8600 3850 50  0001 C CNN
+	1    8600 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K310
+U 1 1 5EC8894B
+P 8050 3850
+F 0 "K310" H 8050 3999 50  0000 C CNN
+F 1 "1U" H 8050 3785 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 8050 3850 50  0001 C CNN
+F 3 "" H 8050 3850 50  0001 C CNN
+	1    8050 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K309
+U 1 1 5EC88941
+P 7500 3850
+F 0 "K309" H 7500 3999 50  0000 C CNN
+F 1 "1U" H 7500 3785 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 7500 3850 50  0001 C CNN
+F 3 "" H 7500 3850 50  0001 C CNN
+	1    7500 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K308
+U 1 1 5EC88937
+P 6950 3850
+F 0 "K308" H 6950 3999 50  0000 C CNN
+F 1 "1U" H 6950 3785 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 6950 3850 50  0001 C CNN
+F 3 "" H 6950 3850 50  0001 C CNN
+	1    6950 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K307
+U 1 1 5EC8892D
+P 6400 3850
+F 0 "K307" H 6400 3999 50  0000 C CNN
+F 1 "1U" H 6400 3785 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 6400 3850 50  0001 C CNN
+F 3 "" H 6400 3850 50  0001 C CNN
+	1    6400 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K305
+U 1 1 5EC88923
+P 5300 3850
+F 0 "K305" H 5300 3999 50  0000 C CNN
+F 1 "1U" H 5300 3785 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 5300 3850 50  0001 C CNN
+F 3 "" H 5300 3850 50  0001 C CNN
+	1    5300 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K304
+U 1 1 5EC88919
+P 4750 3850
+F 0 "K304" H 4750 3999 50  0000 C CNN
+F 1 "1U" H 4750 3785 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 4750 3850 50  0001 C CNN
+F 3 "" H 4750 3850 50  0001 C CNN
+	1    4750 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K303
+U 1 1 5EC8890F
+P 4200 3850
+F 0 "K303" H 4200 3999 50  0000 C CNN
+F 1 "1U" H 4200 3785 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 4200 3850 50  0001 C CNN
+F 3 "" H 4200 3850 50  0001 C CNN
+	1    4200 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K302
+U 1 1 5EC88905
+P 3650 3850
+F 0 "K302" H 3650 3999 50  0000 C CNN
+F 1 "1U" H 3650 3785 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 3650 3850 50  0001 C CNN
+F 3 "" H 3650 3850 50  0001 C CNN
+	1    3650 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K301
+U 1 1 5EC888FB
+P 3100 3850
+F 0 "K301" H 3100 3999 50  0000 C CNN
+F 1 "1U" H 3100 3785 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 3100 3850 50  0001 C CNN
+F 3 "" H 3100 3850 50  0001 C CNN
+	1    3100 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K300
+U 1 1 5EC888F1
+P 2550 3850
+F 0 "K300" H 2550 3999 50  0000 C CNN
+F 1 "1.5U" H 2550 3785 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1.5U" H 2550 3850 50  0001 C CNN
+F 3 "" H 2550 3850 50  0001 C CNN
+	1    2550 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K412
+U 1 1 5EBF05DF
+P 9150 4600
+F 0 "K412" H 9150 4749 50  0000 C CNN
+F 1 "1U" H 9150 4535 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 9150 4600 50  0001 C CNN
+F 3 "" H 9150 4600 50  0001 C CNN
+	1    9150 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K411
+U 1 1 5EBF05D5
+P 8600 4600
+F 0 "K411" H 8600 4749 50  0000 C CNN
+F 1 "1U" H 8600 4535 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 8600 4600 50  0001 C CNN
+F 3 "" H 8600 4600 50  0001 C CNN
+	1    8600 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K410
+U 1 1 5EBF05CB
+P 8050 4600
+F 0 "K410" H 8050 4749 50  0000 C CNN
+F 1 "1U" H 8050 4535 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 8050 4600 50  0001 C CNN
+F 3 "" H 8050 4600 50  0001 C CNN
+	1    8050 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K409
+U 1 1 5EBF05C1
+P 7500 4600
+F 0 "K409" H 7500 4749 50  0000 C CNN
+F 1 "1U" H 7500 4535 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 7500 4600 50  0001 C CNN
+F 3 "" H 7500 4600 50  0001 C CNN
+	1    7500 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K407
+U 1 1 5EBF05AD
+P 6400 4600
+F 0 "K407" H 6400 4749 50  0000 C CNN
+F 1 "1U" H 6400 4535 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 6400 4600 50  0001 C CNN
+F 3 "" H 6400 4600 50  0001 C CNN
+	1    6400 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K404
+U 1 1 5EBF0599
+P 4750 4600
+F 0 "K404" H 4750 4749 50  0000 C CNN
+F 1 "1U" H 4750 4535 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 4750 4600 50  0001 C CNN
+F 3 "" H 4750 4600 50  0001 C CNN
+	1    4750 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K403
+U 1 1 5EBF058F
+P 4200 4600
+F 0 "K403" H 4200 4749 50  0000 C CNN
+F 1 "1U" H 4200 4535 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 4200 4600 50  0001 C CNN
+F 3 "" H 4200 4600 50  0001 C CNN
+	1    4200 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K402
+U 1 1 5EBF0585
+P 3650 4600
+F 0 "K402" H 3650 4749 50  0000 C CNN
+F 1 "1U" H 3650 4535 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1U" H 3650 4600 50  0001 C CNN
+F 3 "" H 3650 4600 50  0001 C CNN
+	1    3650 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED K400
+U 1 1 5EBF0571
+P 2550 4600
+F 0 "K400" H 2550 4749 50  0000 C CNN
+F 1 "1.5U" H 2550 4535 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1.5U" H 2550 4600 50  0001 C CNN
+F 3 "" H 2550 4600 50  0001 C CNN
+	1    2550 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D412
+U 1 1 5EB061A0
+P 8950 4750
+F 0 "D412" V 8950 4672 50  0000 R CNN
+F 1 "Diode" H 8950 4660 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 8950 4750 50  0001 C CNN
+F 3 "" H 8950 4750 50  0001 C CNN
+F 4 "C81598" H 8950 4750 50  0001 C CNN "LCSC"
+	1    8950 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D212
+U 1 1 5EB05BAA
+P 8950 3250
+F 0 "D212" V 8950 3172 50  0000 R CNN
+F 1 "Diode" H 8950 3160 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 8950 3250 50  0001 C CNN
+F 3 "" H 8950 3250 50  0001 C CNN
+F 4 "C81598" H 8950 3250 50  0001 C CNN "LCSC"
+	1    8950 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D312
+U 1 1 5EB0584E
+P 8950 4000
+F 0 "D312" V 8950 3922 50  0000 R CNN
+F 1 "Diode" H 8950 3910 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 8950 4000 50  0001 C CNN
+F 3 "" H 8950 4000 50  0001 C CNN
+F 4 "C81598" H 8950 4000 50  0001 C CNN "LCSC"
+	1    8950 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D311
+U 1 1 5EB050ED
+P 8400 4000
+F 0 "D311" V 8400 3922 50  0000 R CNN
+F 1 "Diode" H 8400 3910 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 8400 4000 50  0001 C CNN
+F 3 "" H 8400 4000 50  0001 C CNN
+F 4 "C81598" H 8400 4000 50  0001 C CNN "LCSC"
+	1    8400 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D211
+U 1 1 5EB04EC7
+P 8400 3250
+F 0 "D211" V 8400 3172 50  0000 R CNN
+F 1 "Diode" H 8400 3160 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 8400 3250 50  0001 C CNN
+F 3 "" H 8400 3250 50  0001 C CNN
+F 4 "C81598" H 8400 3250 50  0001 C CNN "LCSC"
+	1    8400 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D411
+U 1 1 5EB04996
+P 8400 4750
+F 0 "D411" V 8400 4672 50  0000 R CNN
+F 1 "Diode" H 8400 4660 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 8400 4750 50  0001 C CNN
+F 3 "" H 8400 4750 50  0001 C CNN
+F 4 "C81598" H 8400 4750 50  0001 C CNN "LCSC"
+	1    8400 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D410
+U 1 1 5EB04690
+P 7850 4750
+F 0 "D410" V 7850 4672 50  0000 R CNN
+F 1 "Diode" H 7850 4660 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 7850 4750 50  0001 C CNN
+F 3 "" H 7850 4750 50  0001 C CNN
+F 4 "C81598" H 7850 4750 50  0001 C CNN "LCSC"
+	1    7850 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D210
+U 1 1 5EB040DF
+P 7850 3250
+F 0 "D210" V 7850 3172 50  0000 R CNN
+F 1 "Diode" H 7850 3160 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 7850 3250 50  0001 C CNN
+F 3 "" H 7850 3250 50  0001 C CNN
+F 4 "C81598" H 7850 3250 50  0001 C CNN "LCSC"
+	1    7850 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D310
+U 1 1 5EB03D83
+P 7850 4000
+F 0 "D310" V 7850 3922 50  0000 R CNN
+F 1 "Diode" H 7850 3910 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 7850 4000 50  0001 C CNN
+F 3 "" H 7850 4000 50  0001 C CNN
+F 4 "C81598" H 7850 4000 50  0001 C CNN "LCSC"
+	1    7850 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D309
+U 1 1 5EB0363E
+P 7300 4000
+F 0 "D309" V 7300 3922 50  0000 R CNN
+F 1 "Diode" H 7300 3910 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 7300 4000 50  0001 C CNN
+F 3 "" H 7300 4000 50  0001 C CNN
+F 4 "C81598" H 7300 4000 50  0001 C CNN "LCSC"
+	1    7300 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D209
+U 1 1 5EB0331F
+P 7300 3250
+F 0 "D209" V 7300 3172 50  0000 R CNN
+F 1 "Diode" H 7300 3160 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 7300 3250 50  0001 C CNN
+F 3 "" H 7300 3250 50  0001 C CNN
+F 4 "C81598" H 7300 3250 50  0001 C CNN "LCSC"
+	1    7300 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D409
+U 1 1 5EB02DDD
+P 7300 4750
+F 0 "D409" V 7300 4672 50  0000 R CNN
+F 1 "Diode" H 7300 4660 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 7300 4750 50  0001 C CNN
+F 3 "" H 7300 4750 50  0001 C CNN
+F 4 "C81598" H 7300 4750 50  0001 C CNN "LCSC"
+	1    7300 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D208
+U 1 1 5EB024E6
+P 6750 3250
+F 0 "D208" V 6750 3172 50  0000 R CNN
+F 1 "Diode" H 6750 3160 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 6750 3250 50  0001 C CNN
+F 3 "" H 6750 3250 50  0001 C CNN
+F 4 "C81598" H 6750 3250 50  0001 C CNN "LCSC"
+	1    6750 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D308
+U 1 1 5EB02175
+P 6750 4000
+F 0 "D308" V 6750 3922 50  0000 R CNN
+F 1 "Diode" H 6750 3910 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 6750 4000 50  0001 C CNN
+F 3 "" H 6750 4000 50  0001 C CNN
+F 4 "C81598" H 6750 4000 50  0001 C CNN "LCSC"
+	1    6750 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D307
+U 1 1 5EB01BEF
+P 6200 4000
+F 0 "D307" V 6200 3922 50  0000 R CNN
+F 1 "Diode" H 6200 3910 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 6200 4000 50  0001 C CNN
+F 3 "" H 6200 4000 50  0001 C CNN
+F 4 "C81598" H 6200 4000 50  0001 C CNN "LCSC"
+	1    6200 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D207
+U 1 1 5EB0190F
+P 6200 3250
+F 0 "D207" V 6200 3172 50  0000 R CNN
+F 1 "Diode" H 6200 3160 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 6200 3250 50  0001 C CNN
+F 3 "" H 6200 3250 50  0001 C CNN
+F 4 "C81598" H 6200 3250 50  0001 C CNN "LCSC"
+	1    6200 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D407
+U 1 1 5EB01536
+P 6200 4750
+F 0 "D407" V 6200 4672 50  0000 R CNN
+F 1 "Diode" H 6200 4660 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 6200 4750 50  0001 C CNN
+F 3 "" H 6200 4750 50  0001 C CNN
+F 4 "C81598" H 6200 4750 50  0001 C CNN "LCSC"
+	1    6200 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D205
+U 1 1 5EB00CD0
+P 5100 3250
+F 0 "D205" V 5100 3172 50  0000 R CNN
+F 1 "Diode" H 5100 3160 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 5100 3250 50  0001 C CNN
+F 3 "" H 5100 3250 50  0001 C CNN
+F 4 "C81598" H 5100 3250 50  0001 C CNN "LCSC"
+	1    5100 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D305
+U 1 1 5EB00A70
+P 5100 4000
+F 0 "D305" V 5100 3922 50  0000 R CNN
+F 1 "Diode" H 5100 3910 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 5100 4000 50  0001 C CNN
+F 3 "" H 5100 4000 50  0001 C CNN
+F 4 "C81598" H 5100 4000 50  0001 C CNN "LCSC"
+	1    5100 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D304
+U 1 1 5EB00435
+P 4550 4000
+F 0 "D304" V 4550 3922 50  0000 R CNN
+F 1 "Diode" H 4550 3910 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 4550 4000 50  0001 C CNN
+F 3 "" H 4550 4000 50  0001 C CNN
+F 4 "C81598" H 4550 4000 50  0001 C CNN "LCSC"
+	1    4550 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D204
+U 1 1 5EB0010A
+P 4550 3250
+F 0 "D204" V 4550 3172 50  0000 R CNN
+F 1 "Diode" H 4550 3160 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 4550 3250 50  0001 C CNN
+F 3 "" H 4550 3250 50  0001 C CNN
+F 4 "C81598" H 4550 3250 50  0001 C CNN "LCSC"
+	1    4550 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D404
+U 1 1 5EAFFD45
+P 4550 4750
+F 0 "D404" V 4550 4672 50  0000 R CNN
+F 1 "Diode" H 4550 4660 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 4550 4750 50  0001 C CNN
+F 3 "" H 4550 4750 50  0001 C CNN
+F 4 "C81598" H 4550 4750 50  0001 C CNN "LCSC"
+	1    4550 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D403
+U 1 1 5EAFFAD0
+P 4000 4750
+F 0 "D403" V 4000 4672 50  0000 R CNN
+F 1 "Diode" H 4000 4660 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 4000 4750 50  0001 C CNN
+F 3 "" H 4000 4750 50  0001 C CNN
+F 4 "C81598" H 4000 4750 50  0001 C CNN "LCSC"
+	1    4000 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D203
+U 1 1 5EAFF5F2
+P 4000 3250
+F 0 "D203" V 4000 3172 50  0000 R CNN
+F 1 "Diode" H 4000 3160 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 4000 3250 50  0001 C CNN
+F 3 "" H 4000 3250 50  0001 C CNN
+F 4 "C81598" H 4000 3250 50  0001 C CNN "LCSC"
+	1    4000 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D303
+U 1 1 5EAFF3E6
+P 4000 4000
+F 0 "D303" V 4000 3922 50  0000 R CNN
+F 1 "Diode" H 4000 3910 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 4000 4000 50  0001 C CNN
+F 3 "" H 4000 4000 50  0001 C CNN
+F 4 "C81598" H 4000 4000 50  0001 C CNN "LCSC"
+	1    4000 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D302
+U 1 1 5EAFEC36
+P 3450 4000
+F 0 "D302" V 3450 3922 50  0000 R CNN
+F 1 "Diode" H 3450 3910 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 3450 4000 50  0001 C CNN
+F 3 "" H 3450 4000 50  0001 C CNN
+F 4 "C81598" H 3450 4000 50  0001 C CNN "LCSC"
+	1    3450 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D202
+U 1 1 5EAFE9C9
+P 3450 3250
+F 0 "D202" V 3450 3172 50  0000 R CNN
+F 1 "Diode" H 3450 3160 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 3450 3250 50  0001 C CNN
+F 3 "" H 3450 3250 50  0001 C CNN
+F 4 "C81598" H 3450 3250 50  0001 C CNN "LCSC"
+	1    3450 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D402
+U 1 1 5EAFE55D
+P 3450 4750
+F 0 "D402" V 3450 4672 50  0000 R CNN
+F 1 "Diode" H 3450 4660 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 3450 4750 50  0001 C CNN
+F 3 "" H 3450 4750 50  0001 C CNN
+F 4 "C81598" V 3450 4750 50  0001 C CNN "LCSC"
+	1    3450 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D401
+U 1 1 5EAFE266
+P 2900 4750
+F 0 "D401" V 2900 4672 50  0000 R CNN
+F 1 "Diode" H 2900 4660 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 2900 4750 50  0001 C CNN
+F 3 "" H 2900 4750 50  0001 C CNN
+F 4 "C81598" V 2900 4750 50  0001 C CNN "LCSC"
+	1    2900 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D201
+U 1 1 5EAFDD85
+P 2900 3250
+F 0 "D201" V 2900 3172 50  0000 R CNN
+F 1 "Diode" H 2900 3160 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 2900 3250 50  0001 C CNN
+F 3 "" H 2900 3250 50  0001 C CNN
+F 4 "C81598" H 2900 3250 50  0001 C CNN "LCSC"
+	1    2900 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D301
+U 1 1 5EAFDA7B
+P 2900 4000
+F 0 "D301" V 2900 3922 50  0000 R CNN
+F 1 "Diode" H 2900 3910 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 2900 4000 50  0001 C CNN
+F 3 "" H 2900 4000 50  0001 C CNN
+F 4 "C81598" H 2900 4000 50  0001 C CNN "LCSC"
+	1    2900 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D400
+U 1 1 5EAFD1B3
+P 2350 4750
+F 0 "D400" V 2350 4672 50  0000 R CNN
+F 1 "Diode" H 2350 4660 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 2350 4750 50  0001 C CNN
+F 3 "" H 2350 4750 50  0001 C CNN
+F 4 "C81598" V 2350 4750 50  0001 C CNN "LCSC"
+	1    2350 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D200
+U 1 1 5EAFCB21
+P 2350 3250
+F 0 "D200" V 2350 3172 50  0000 R CNN
+F 1 "Diode" H 2350 3160 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 2350 3250 50  0001 C CNN
+F 3 "" H 2350 3250 50  0001 C CNN
+F 4 "C81598" H 2350 3250 50  0001 C CNN "LCSC"
+	1    2350 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0xLib_Diode_Transistor:Diode D300
+U 1 1 5EAFC763
+P 2350 4000
+F 0 "D300" V 2350 3922 50  0000 R CNN
+F 1 "Diode" H 2350 3910 50  0001 C CNN
+F 2 "0xLib_Diode_Transistor:D_SOD-323" H 2350 4000 50  0001 C CNN
+F 3 "" H 2350 4000 50  0001 C CNN
+F 4 "C81598" H 2350 4000 50  0001 C CNN "LCSC"
+	1    2350 4000
+	0    -1   -1   0   
+$EndComp
+Connection ~ 9350 3850
+Connection ~ 8800 3850
+Connection ~ 8250 3850
+Connection ~ 7700 3850
+Connection ~ 7150 3850
+Connection ~ 6600 3850
+Connection ~ 5500 3850
+Connection ~ 4950 3850
+Connection ~ 4400 3850
+Connection ~ 3850 3850
+Connection ~ 3300 3850
+Connection ~ 2750 3850
+Wire Wire Line
+	2700 3100 2750 3100
+Wire Wire Line
+	2750 3850 2750 4600
+Wire Wire Line
+	2400 3100 2350 3100
+Wire Wire Line
+	2350 3350 2350 3400
+Connection ~ 2350 3400
+Wire Wire Line
+	2900 3400 2350 3400
+Wire Wire Line
+	2150 3400 2350 3400
+Text HLabel 9350 5050 3    50   Input ~ 0
+Col12
+Text HLabel 8800 5050 3    50   Input ~ 0
+Col11
+Text HLabel 8250 5050 3    50   Input ~ 0
+Col10
+Text HLabel 7700 5050 3    50   Input ~ 0
+Col9
+Text HLabel 7150 5050 3    50   Input ~ 0
+Col8
+Text HLabel 6600 5050 3    50   Input ~ 0
+Col7
+Text HLabel 5500 5050 3    50   Input ~ 0
+Col5
+Text HLabel 4950 5050 3    50   Input ~ 0
+Col4
+Text HLabel 4400 5050 3    50   Input ~ 0
+Col3
+Text HLabel 3850 5050 3    50   Input ~ 0
+Col2
+Text HLabel 3300 5050 3    50   Input ~ 0
+Col1
+Text HLabel 2750 5050 3    50   Input ~ 0
+Col0
+Text HLabel 2150 4900 0    50   Input ~ 0
+Row4
+Text HLabel 2150 3400 0    50   Input ~ 0
+Row2
+Text HLabel 2150 4150 0    50   Input ~ 0
+Row3
+Wire Wire Line
+	2750 4600 2750 5050
+Wire Wire Line
+	2350 4900 2900 4900
+Wire Wire Line
+	2350 4600 2350 4650
+Wire Wire Line
+	2400 4600 2350 4600
+Connection ~ 2900 4900
+Connection ~ 4000 4900
+Wire Wire Line
+	4000 4900 4550 4900
+Wire Wire Line
+	9350 2350 9350 3100
+Wire Wire Line
+	7700 2350 7700 3100
+Connection ~ 7850 4900
+Connection ~ 8400 4900
+Wire Wire Line
+	8400 4900 7850 4900
+Wire Wire Line
+	7850 4850 7850 4900
+Wire Wire Line
+	8450 4600 8400 4600
+Wire Wire Line
+	8400 4600 8400 4650
+Wire Wire Line
+	8950 4850 8950 4900
+Wire Wire Line
+	9000 4600 8950 4600
+Wire Wire Line
+	8950 4600 8950 4650
+Wire Wire Line
+	8750 4600 8800 4600
+Wire Wire Line
+	8800 4600 8800 5050
+Wire Wire Line
+	9300 4600 9350 4600
+Wire Wire Line
+	9350 4600 9350 5050
+Wire Wire Line
+	8400 4850 8400 4900
+Wire Wire Line
+	8950 4900 8400 4900
+Connection ~ 7300 4900
+Wire Wire Line
+	7850 4900 7300 4900
+Wire Wire Line
+	7300 4850 7300 4900
+Wire Wire Line
+	8250 4600 8250 5050
+Wire Wire Line
+	8200 4600 8250 4600
+Wire Wire Line
+	7700 4600 7700 5050
+Wire Wire Line
+	7650 4600 7700 4600
+Wire Wire Line
+	7850 4600 7850 4650
+Wire Wire Line
+	7900 4600 7850 4600
+Wire Wire Line
+	7300 4600 7300 4650
+Wire Wire Line
+	7350 4600 7300 4600
+Connection ~ 6200 4900
+Wire Wire Line
+	6250 4600 6200 4600
+Wire Wire Line
+	6200 4600 6200 4650
+Wire Wire Line
+	6550 4600 6600 4600
+Wire Wire Line
+	6600 4600 6600 5050
+Wire Wire Line
+	6200 4850 6200 4900
+Connection ~ 4550 4900
+Wire Wire Line
+	4550 4850 4550 4900
+Wire Wire Line
+	4950 4600 4950 5050
+Wire Wire Line
+	4900 4600 4950 4600
+Wire Wire Line
+	4550 4600 4550 4650
+Wire Wire Line
+	4600 4600 4550 4600
+Wire Wire Line
+	3850 2350 3850 3100
+Wire Wire Line
+	4400 2350 4400 3100
+Wire Wire Line
+	3300 2350 3300 3100
+Wire Wire Line
+	2750 2350 2750 3100
+Connection ~ 3450 4900
+Wire Wire Line
+	3450 4900 2900 4900
+Wire Wire Line
+	2900 4850 2900 4900
+Wire Wire Line
+	3500 4600 3450 4600
+Wire Wire Line
+	3450 4600 3450 4650
+Wire Wire Line
+	4000 4850 4000 4900
+Wire Wire Line
+	4050 4600 4000 4600
+Wire Wire Line
+	4000 4600 4000 4650
+Wire Wire Line
+	3800 4600 3850 4600
+Wire Wire Line
+	3850 4600 3850 5050
+Wire Wire Line
+	4350 4600 4400 4600
+Wire Wire Line
+	4400 4600 4400 5050
+Wire Wire Line
+	3450 4850 3450 4900
+Wire Wire Line
+	4000 4900 3450 4900
+Connection ~ 2350 4900
+Wire Wire Line
+	2150 4900 2350 4900
+Wire Wire Line
+	2350 4850 2350 4900
+Wire Wire Line
+	3300 4600 3300 5050
+Wire Wire Line
+	3250 4600 3300 4600
+Wire Wire Line
+	2700 4600 2750 4600
+Wire Wire Line
+	2900 4600 2900 4650
+Wire Wire Line
+	2950 4600 2900 4600
+Connection ~ 4000 3400
+Wire Wire Line
+	4000 3400 4550 3400
+Connection ~ 4000 4150
+Wire Wire Line
+	4000 4150 4550 4150
+Connection ~ 6750 3400
+Wire Wire Line
+	6750 3400 7300 3400
+Connection ~ 6750 4150
+Wire Wire Line
+	6750 4150 7300 4150
+Connection ~ 7850 4150
+Connection ~ 8400 4150
+Wire Wire Line
+	8400 4150 7850 4150
+Wire Wire Line
+	7850 4100 7850 4150
+Wire Wire Line
+	8450 3850 8400 3850
+Wire Wire Line
+	8400 3850 8400 3900
+Wire Wire Line
+	8950 4100 8950 4150
+Wire Wire Line
+	9000 3850 8950 3850
+Wire Wire Line
+	8950 3850 8950 3900
+Wire Wire Line
+	8750 3850 8800 3850
+Wire Wire Line
+	8800 3850 8800 4600
+Wire Wire Line
+	9300 3850 9350 3850
+Wire Wire Line
+	9350 3850 9350 4600
+Wire Wire Line
+	8400 4100 8400 4150
+Wire Wire Line
+	8950 4150 8400 4150
+Connection ~ 7300 4150
+Wire Wire Line
+	7850 4150 7300 4150
+Wire Wire Line
+	7300 4100 7300 4150
+Wire Wire Line
+	8250 3850 8250 4600
+Wire Wire Line
+	8200 3850 8250 3850
+Wire Wire Line
+	7700 3850 7700 4350
+Wire Wire Line
+	7650 3850 7700 3850
+Wire Wire Line
+	7850 3850 7850 3900
+Wire Wire Line
+	7900 3850 7850 3850
+Wire Wire Line
+	7300 3850 7300 3900
+Wire Wire Line
+	7350 3850 7300 3850
+Connection ~ 7850 3400
+Connection ~ 8400 3400
+Wire Wire Line
+	8400 3400 7850 3400
+Wire Wire Line
+	7850 3350 7850 3400
+Wire Wire Line
+	8450 3100 8400 3100
+Wire Wire Line
+	8400 3100 8400 3150
+Wire Wire Line
+	8950 3350 8950 3400
+Wire Wire Line
+	9000 3100 8950 3100
+Wire Wire Line
+	8950 3100 8950 3150
+Wire Wire Line
+	8750 3100 8800 3100
+Wire Wire Line
+	9300 3100 9350 3100
+Wire Wire Line
+	8400 3350 8400 3400
+Wire Wire Line
+	8950 3400 8400 3400
+Connection ~ 7300 3400
+Wire Wire Line
+	7850 3400 7300 3400
+Wire Wire Line
+	7300 3350 7300 3400
+Wire Wire Line
+	8200 3100 8250 3100
+Wire Wire Line
+	7650 3100 7700 3100
+Wire Wire Line
+	7850 3100 7850 3150
+Wire Wire Line
+	7900 3100 7850 3100
+Wire Wire Line
+	7300 3100 7300 3150
+Wire Wire Line
+	7350 3100 7300 3100
+Connection ~ 5100 4150
+Connection ~ 6200 4150
+Wire Wire Line
+	6200 4150 5650 4150
+Wire Wire Line
+	5100 4100 5100 4150
+Wire Wire Line
+	6250 3850 6200 3850
+Wire Wire Line
+	6200 3850 6200 3900
+Wire Wire Line
+	6750 4100 6750 4150
+Wire Wire Line
+	6800 3850 6750 3850
+Wire Wire Line
+	6750 3850 6750 3900
+Wire Wire Line
+	6550 3850 6600 3850
+Wire Wire Line
+	6600 3850 6600 4600
+Wire Wire Line
+	7100 3850 7150 3850
+Wire Wire Line
+	7150 3850 7150 4350
+Wire Wire Line
+	6200 4100 6200 4150
+Wire Wire Line
+	6750 4150 6200 4150
+Connection ~ 4550 4150
+Wire Wire Line
+	5100 4150 4550 4150
+Wire Wire Line
+	4550 4100 4550 4150
+Wire Wire Line
+	5500 3850 5500 4350
+Wire Wire Line
+	5450 3850 5500 3850
+Wire Wire Line
+	4950 3850 4950 4350
+Wire Wire Line
+	4900 3850 4950 3850
+Wire Wire Line
+	5100 3850 5100 3900
+Wire Wire Line
+	5150 3850 5100 3850
+Wire Wire Line
+	4550 3850 4550 3900
+Wire Wire Line
+	4600 3850 4550 3850
+Connection ~ 5100 3400
+Connection ~ 6200 3400
+Wire Wire Line
+	6200 3400 5650 3400
+Wire Wire Line
+	5100 3350 5100 3400
+Wire Wire Line
+	6250 3100 6200 3100
+Wire Wire Line
+	6200 3100 6200 3150
+Wire Wire Line
+	6750 3350 6750 3400
+Wire Wire Line
+	6800 3100 6750 3100
+Wire Wire Line
+	6750 3100 6750 3150
+Wire Wire Line
+	6550 3100 6600 3100
+Wire Wire Line
+	7100 3100 7150 3100
+Wire Wire Line
+	6200 3350 6200 3400
+Wire Wire Line
+	6750 3400 6200 3400
+Connection ~ 4550 3400
+Wire Wire Line
+	5100 3400 4550 3400
+Wire Wire Line
+	4550 3350 4550 3400
+Wire Wire Line
+	5450 3100 5500 3100
+Wire Wire Line
+	4900 3100 4950 3100
+Wire Wire Line
+	5100 3100 5100 3150
+Wire Wire Line
+	5150 3100 5100 3100
+Wire Wire Line
+	4550 3100 4550 3150
+Wire Wire Line
+	4600 3100 4550 3100
+Connection ~ 2900 4150
+Connection ~ 3450 4150
+Wire Wire Line
+	3450 4150 2900 4150
+Wire Wire Line
+	2900 4100 2900 4150
+Wire Wire Line
+	3500 3850 3450 3850
+Wire Wire Line
+	3450 3850 3450 3900
+Wire Wire Line
+	4000 4100 4000 4150
+Wire Wire Line
+	4050 3850 4000 3850
+Wire Wire Line
+	4000 3850 4000 3900
+Wire Wire Line
+	3800 3850 3850 3850
+Wire Wire Line
+	3850 3850 3850 4600
+Wire Wire Line
+	4350 3850 4400 3850
+Wire Wire Line
+	4400 3850 4400 4600
+Wire Wire Line
+	3450 4100 3450 4150
+Wire Wire Line
+	4000 4150 3450 4150
+Connection ~ 2350 4150
+Wire Wire Line
+	2150 4150 2350 4150
+Wire Wire Line
+	2900 4150 2350 4150
+Wire Wire Line
+	2350 4100 2350 4150
+Wire Wire Line
+	3300 3850 3300 4600
+Wire Wire Line
+	3250 3850 3300 3850
+Wire Wire Line
+	2700 3850 2750 3850
+Wire Wire Line
+	2900 3850 2900 3900
+Wire Wire Line
+	2950 3850 2900 3850
+Wire Wire Line
+	2350 3850 2350 3900
+Wire Wire Line
+	2400 3850 2350 3850
+Connection ~ 2900 3400
+Connection ~ 3450 3400
+Wire Wire Line
+	3450 3400 2900 3400
+Wire Wire Line
+	2900 3350 2900 3400
+Wire Wire Line
+	3500 3100 3450 3100
+Wire Wire Line
+	3450 3100 3450 3150
+Wire Wire Line
+	4000 3350 4000 3400
+Wire Wire Line
+	4050 3100 4000 3100
+Wire Wire Line
+	4000 3100 4000 3150
+Wire Wire Line
+	3800 3100 3850 3100
+Wire Wire Line
+	4350 3100 4400 3100
+Wire Wire Line
+	3450 3350 3450 3400
+Wire Wire Line
+	4000 3400 3450 3400
+Wire Wire Line
+	3250 3100 3300 3100
+Wire Wire Line
+	2900 3100 2900 3150
+Wire Wire Line
+	2950 3100 2900 3100
+$Comp
+L 0xLib_MK:Key_Switch_LED Kb107
+U 1 1 5F691A3F
+P 6400 2100
+F 0 "Kb107" H 6400 2249 50  0000 C CNN
+F 1 "1.5U" H 6400 2035 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1.5U-Vertical" H 6400 2100 50  0001 C CNN
+F 3 "" H 6400 2100 50  0001 C CNN
+	1    6400 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0xLib_MK:Key_Switch_LED Kb106
+U 1 1 5F692134
+P 5850 2100
+F 0 "Kb106" H 5850 2249 50  0000 C CNN
+F 1 "1.5U" H 5850 2035 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1.5U-Vertical" H 5850 2100 50  0001 C CNN
+F 3 "" H 5850 2100 50  0001 C CNN
+	1    5850 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 2100 6000 2100
+Connection ~ 6050 2100
+Wire Wire Line
+	6050 2100 6050 2350
+Wire Wire Line
+	5700 2100 5650 2100
+Wire Wire Line
+	5650 2100 5650 2350
+Connection ~ 5650 2350
+Wire Wire Line
+	6250 2100 6200 2100
+Wire Wire Line
+	6200 2100 6200 2350
+Connection ~ 6200 2350
+Wire Wire Line
+	6550 2100 6600 2100
+Connection ~ 6600 2100
+Wire Wire Line
+	6600 2100 6600 2350
+Wire Wire Line
+	5650 3600 5650 3850
+Wire Wire Line
+	5700 3600 5650 3600
+Wire Wire Line
+	6050 3100 6050 3600
+Wire Wire Line
+	6050 3600 6000 3600
+Connection ~ 6050 3600
+Wire Wire Line
+	6050 3600 6050 3850
+$Comp
+L 0xLib_MK:Key_Switch_LED Kb306
+U 1 1 5F450683
+P 5850 3600
+F 0 "Kb306" H 5850 3749 50  0000 C CNN
+F 1 "1.5U" H 5850 3535 50  0001 C CNN
+F 2 "0xLib_MK_Switches:MXOnly-1.5U-Vertical-Flipped" H 5850 3600 50  0001 C CNN
+F 3 "" H 5850 3600 50  0001 C CNN
+	1    5850 3600
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
