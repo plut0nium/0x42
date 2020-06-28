@@ -766,53 +766,11 @@ U 5DA8D286
 F0 "Leds" 50
 F1 "leds.sch" 50
 F2 "LED_DIN" I L 8900 3950 50 
-F3 "LED_GND" I L 8900 4100 50 
 $EndSheet
 Wire Wire Line
 	6650 4600 6900 4600
 Wire Wire Line
 	6900 2700 6650 2700
-Wire Wire Line
-	6650 2600 7100 2600
-$Comp
-L Device:R R8
-U 1 1 5EB8CFA0
-P 7250 2600
-F 0 "R8" V 7150 2600 50  0000 C CNN
-F 1 "100" V 7250 2600 50  0000 C CNN
-F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 7180 2600 50  0001 C CNN
-F 3 "~" H 7250 2600 50  0001 C CNN
-	1    7250 2600
-	0    1    1    0   
-$EndComp
-$Comp
-L Transistor_FET:2N7002 Q1
-U 1 1 5EB8E756
-P 7700 2600
-F 0 "Q1" H 7904 2646 50  0000 L CNN
-F 1 "2N7002" H 7904 2555 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 7900 2525 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 7700 2600 50  0001 L CNN
-	1    7700 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0105
-U 1 1 5EB9C6F9
-P 7800 3050
-F 0 "#PWR0105" H 7800 2800 50  0001 C CNN
-F 1 "GND" H 7805 2877 50  0000 C CNN
-F 2 "" H 7800 3050 50  0001 C CNN
-F 3 "" H 7800 3050 50  0001 C CNN
-	1    7800 3050
-	1    0    0    -1  
-$EndComp
-Text GLabel 8550 4100 0    50   Input ~ 0
-LED_GND
-Wire Wire Line
-	7800 2400 7800 2300
-Text GLabel 7800 2300 1    50   Input ~ 0
-LED_GND
 Wire Wire Line
 	2050 2950 3100 2950
 Wire Wire Line
@@ -835,8 +793,6 @@ Text Label 2550 2850 0    50   ~ 0
 BUS_D-
 Text Label 2550 2950 0    50   ~ 0
 BUS_D+
-Text Label 6700 2600 0    50   ~ 0
-LED_PWM
 Text Label 6900 1350 0    50   ~ 0
 MISO
 Text Label 6900 1450 0    50   ~ 0
@@ -969,10 +925,6 @@ Wire Wire Line
 Wire Wire Line
 	1350 3750 1350 3850
 Wire Wire Line
-	7400 2600 7450 2600
-Wire Wire Line
-	7800 2800 7800 3000
-Wire Wire Line
 	1050 3750 1050 3800
 $Comp
 L power:GND #PWR0106
@@ -1011,33 +963,8 @@ Text GLabel 6900 3400 2    50   Input ~ 0
 Col6
 Wire Wire Line
 	6900 3400 6650 3400
-$Comp
-L Device:R R9
-U 1 1 5FAAAD36
-P 7450 2800
-F 0 "R9" V 7350 2800 50  0000 C CNN
-F 1 "10k" V 7450 2800 50  0000 C CNN
-F 2 "0xLib_Passive_SMD:R_0603_1608Metric" V 7380 2800 50  0001 C CNN
-F 3 "~" H 7450 2800 50  0001 C CNN
-	1    7450 2800
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7450 2650 7450 2600
-Connection ~ 7450 2600
-Wire Wire Line
-	7450 2600 7500 2600
-Wire Wire Line
-	7450 2950 7450 3000
-Wire Wire Line
-	7450 3000 7800 3000
-Connection ~ 7800 3000
-Wire Wire Line
-	7800 3050 7800 3000
 Text GLabel 1050 3800 3    50   Input ~ 0
 Shield
-NoConn ~ 6650 2900
-NoConn ~ 6650 3000
 $Comp
 L Device:C C16
 U 1 1 5F094A13
@@ -1067,8 +994,15 @@ Text GLabel 10300 1300 2    50   Input ~ 0
 Col13
 Wire Wire Line
 	10300 1300 10050 1300
-Wire Wire Line
-	8550 4100 8900 4100
 Text GLabel 6900 3100 2    50   Input ~ 0
 Col13
+Wire Wire Line
+	6650 3000 6900 3000
+Wire Wire Line
+	6650 2900 6900 2900
+Text GLabel 6900 3000 2    50   Input ~ 0
+SDA
+Text GLabel 6900 2900 2    50   Input ~ 0
+SCL
+NoConn ~ 6650 2600
 $EndSCHEMATC
