@@ -3,4 +3,6 @@
   (lib (name 0xLib_Diode_Transistor)(type Legacy)(uri ${KICAD_USER_LIB}/Diode_Transistor.lib)(options "")(descr ""))
   (lib (name 0xLib_MK)(type Legacy)(uri ${KICAD_USER_LIB}/MK.lib)(options "")(descr ""))
   (lib (name 0xLib_LEDs)(type Legacy)(uri ${KICAD_USER_LIB}/LEDs.lib)(options "")(descr ""))
+  (lib (name 0xLib_Logic_Level_Translator)(type Legacy)(uri ${KICAD_USER_LIB}/Logic_Level_Translator.lib)(options "")(descr ""))
+  (lib (name 0xLib_Switch_Button)(type Legacy)(uri ${KICAD_USER_LIB}/Switch_Button.lib)(options "")(descr ""))
 )

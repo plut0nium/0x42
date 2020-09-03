@@ -3,13 +3,13 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 4
+Sheet 2 3
 Title "0x42"
 Date "2020-06-23"
 Rev "v01"
 Comp "plut0nium"
 Comment1 ""
-Comment2 "- USB-C, backlight & RGB underglow"
+Comment2 "- USB-C, per-key LED backlight, encoder"
 Comment3 "- For MX-style switches"
 Comment4 "60% Ortholinear Mechanical Keyboard"
 $EndDescr
@@ -21,21 +21,19 @@ Wire Notes Line
 	9650 5100 1850 5100
 Wire Notes Line
 	1850 5100 1850 1800
+Wire Wire Line
+	6200 2850 6200 2950
+Text GLabel 6200 2950 3    50   Input ~ 0
+Shield
 $Comp
-L Mechanical:MountingHole_Pad H1
-U 1 1 5F07F590
-P 5000 2000
-F 0 "H1" H 5100 2049 50  0000 L CNN
-F 1 "MountingHole_Pad" H 5100 1958 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.5mm_Pad" H 5000 2000 50  0001 C CNN
-F 3 "~" H 5000 2000 50  0001 C CNN
-	1    5000 2000
+L 0xLib_MK:MK_Board BRD0
+U 1 1 601B4087
+P 5800 2500
+F 0 "BRD0" H 6328 2488 50  0000 L CNN
+F 1 "MK_Board" H 6328 2397 50  0000 L CNN
+F 2 "0xLib_MK_Boards:60_Outline_Ortho" H 5800 2500 50  0001 C CNN
+F 3 "" H 5800 2500 50  0001 C CNN
+	1    5800 2500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5000 2100 5000 2200
-Wire Wire Line
-	5000 2200 4900 2200
-Text GLabel 4900 2200 0    50   Input ~ 0
-Shield
 $EndSCHEMATC
