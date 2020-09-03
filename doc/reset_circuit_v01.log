@@ -1,0 +1,22 @@
+Circuit: * C:\Users\plut0nium\Projects\0x42\doc\reset_circuit_v01.asc
+
+WARNING: Specified period is not longer than the sum of Trise, Tfall, and Ton for v3.  Increasing period to 5.002
+Direct Newton iteration for .op point succeeded.
+
+Date: Tue Aug 04 13:33:38 2020
+Total elapsed time: 0.085 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 3418
+traniter = 3402
+tranpoints = 1461
+accept = 1354
+rejected = 107
+matrix size = 12
+fillins = 0
+solver = Normal
+Matrix Compiler1: 374 bytes object code size  0.1/0.1/[0.1]
+Matrix Compiler2: off  [0.1]/0.2/0.1
+
