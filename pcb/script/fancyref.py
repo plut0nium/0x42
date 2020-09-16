@@ -2,12 +2,12 @@ import pcbnew
 from kicad_extra import parse_schematic_data
 
 def update_references():
-    sch_data = parse_schematic_data("0x3E.net", False)[1]
+    sch_data = parse_schematic_data("0x42.net", False)[1]
     board = pcbnew.GetBoard()
     for c_ref, fields in sch_data.items():
         if "FancyRef" not in fields:
             continue
-#        print(c_ref)
+        #print(c_ref, fields)
         m = board.FindModuleByReference(c_ref)
         has_fref = False
         # generate FancyRef - f_ref
@@ -22,10 +22,10 @@ def update_references():
                 # we already have an item with the right text
                 has_fref = True
         if has_fref:
-            print "- not updated (has f_ref) : ", c_ref
+            print("- not updated (has f_ref) : ", c_ref)
             continue
         updated_items = []
-        if c_ref.startswith('S'):
+        if c_ref.startswith('S') or c_ref.startswith('K'):
             # switch
             # only update the %R fields
             for gi in m.GraphicalItems():
@@ -46,10 +46,11 @@ def update_references():
                 newRef.SetTextSize(ui.GetTextSize())
                 newRef.SetThickness(ui.GetThickness())
                 newRef.SetLayer(ui.GetLayer())
+                newRef.SetMirrored(ui.IsMirrored())
                 newRef.SetVisible(True)
                 m.Add(newRef)
                 ui.SetVisible(False)
-        print "- updated : ", c_ref
+        print("- updated : ", c_ref)
 
 #    board.Save("0x48_test.kicad_pcb")
 
