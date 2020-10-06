@@ -25,6 +25,15 @@ This PCB features USB-C with ESD protection, both onboard and through daughterbo
 
 ![0x42 layouts](doc/renders/layout.png "0x42 layouts")
 
+## Keyboard cases
+
+Please note that due to the ortholinear layout, some mounting holes on the PCB had to be moved (the 2 in the center part of the PCB), and consequently will not align with the standoffs commonly found in 60% tray-mount cases.
+Only the 4 outer mounting holes are available in such situation.
+This nevertheless results in a good fixation, particularly if using a switch plate, and should not be an issue for most users.
+
+Other mounting types should not be affected.
+
+
 ## BOM
 
 tbd
