@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title "0x42"
-Date "2020-06-23"
-Rev "v01"
+Date "2020-09-16"
+Rev "0"
 Comp "plut0nium"
 Comment1 ""
 Comment2 "- USB-C, per-key LED backlight, encoder"
