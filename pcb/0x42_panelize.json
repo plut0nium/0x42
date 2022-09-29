@@ -1,0 +1,49 @@
+{
+    "source": {
+        "type": "auto",
+        "tolerance": "10mm",
+    },
+    "layout": {
+        "type": "grid",
+        "rows": 1,
+        "cols": 1,
+        "space": "2.4mm",
+    },
+    "tabs": {
+        "type": "annotation",
+    },
+    "cuts": {
+        "type": "mousebites",
+        "drill": "0.5mm",
+        "spacing": "1mm",
+        "offset": "-0.25mm",
+    },
+    "framing": {
+        "type": "frame",
+        "width": "10mm",
+        "space": "2.4mm",
+        "cuts": "both",
+        "fillet": "1mm",
+    },
+    "tooling": {
+        "type": "3hole",
+        "hoffset": "3.5mm",
+        "voffset": "3.5mm",
+        "size": "1.152mm",
+    },
+    "text": {
+        "type": "simple",
+//        "text": "{boardTitle} Rev. {boardRevision} - by {boardCompany}",
+        "text": "0x42 Rev1 - by plut0nium",
+        "anchor": "mb",
+        "voffset": "-5mm",
+        "vjustify": "center",
+        "hjustify": "center",
+        "width": "3mm",
+        "height": "3mm",
+        "thickness": "0.5mm",
+    },
+    "post": {
+        "millradius": "1mm",
+    }
+}
