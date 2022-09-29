@@ -12,4 +12,6 @@
   (lib (name "drawings")(type "KiCad")(uri "${KIPRJMOD}/drawings.pretty")(options "")(descr ""))
   (lib (name "0xLib_Graphics")(type "KiCad")(uri "${KICAD6_USER_LIB}/Graphics.pretty")(options "")(descr ""))
   (lib (name "kikit")(type "KiCad")(uri "${KICAD6_3RD_PARTY}/footprints/com_github_yaqwsx_kikit-library/kikit.pretty")(options "")(descr ""))
+  (lib (name "0xLib_Package_DFN_QFN")(type "KiCad")(uri "${KICAD6_USER_LIB}/Package_DFN_QFN.pretty")(options "")(descr ""))
+  (lib (name "0xLib_TO_SOT_SMD")(type "KiCad")(uri "${KICAD6_USER_LIB}/TO_SOT_SMD.pretty")(options "")(descr ""))
 )

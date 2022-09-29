@@ -3,4 +3,5 @@
   (lib (name "0xLib_MK")(type "KiCad")(uri "${KICAD6_USER_LIB}/MK.kicad_sym")(options "")(descr ""))
   (lib (name "0xLib_Switch_Button")(type "KiCad")(uri "${KICAD6_USER_LIB}/Switch_Button.kicad_sym")(options "")(descr ""))
   (lib (name "0xLib_STM32")(type "KiCad")(uri "${KICAD6_USER_LIB}/STM32.kicad_sym")(options "")(descr ""))
+  (lib (name "0xLib_MCU_RaspberryPi_RP2040")(type "KiCad")(uri "${KICAD6_USER_LIB}/MCU_RaspberryPi_RP2040.kicad_sym")(options "")(descr ""))
 )
