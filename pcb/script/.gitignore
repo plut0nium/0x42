@@ -1,7 +1,0 @@
-*.pyc
-
-# test kicad files in current folder
-*.kicad_pcb
-*.pro
-*.net
-
