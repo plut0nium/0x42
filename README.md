@@ -41,9 +41,32 @@ Other mounting types should not be affected.
 
 _TODO: add link to QMK repo_
 
-## BOM
+## PCB Manufacturing & Assembly
 
-tbd
+### Panelization
+
+[Kikit][kikit-url] can be used to produce a panelized PCB.
+
+The included configuration in `0x42_panelize.json` will produce a single-board panel, i.e. adding a 10mm frame with tabs and mousebites.
+This is not strictly required, but provides extra room for tooling holes, as well as order number placement.
+
+```
+kikit panelize -p 0x42_panelize.json 0x42.kicad_pcb panel/0x42_panel.kicad_pcb
+```
+
+### BOM
+
+The schematic symbols have a "LCSC" property with LCSC/JLCPCB part # for suggested component reference.
+As far as possible, JLCPCB _basic parts_ have been selected.
+Some Kicad plugins make use of this information to extract a *.CSV BOM file that can be used for assembly.
+
+There are many alternative references for compatible NOR flash chips, with varying capacity, from 8 to 32 Mbit or even more (note that RP2040 has a limit of 128Mbit/16MB)...
+
+### JLCPCB
+
+The [Kicad JLCPCB Tools][kicad-jlcpcb-url] plugin has been used to produce the required files (Gerber, drill, BOM & CPL) to have the board manufactured and assembled by JLCPCB. 
+
+Kikit can also be used for this purpose, using `kikit fab`.
 
 ## License
 
@@ -51,8 +74,9 @@ CC-BY-SA 4.0
 
 ## Versions
 
- * Mk II (current) is based on Raspberry Pi RP2040 MCU
- * Rev. 0 / Mk I was based on a STM32F072 MCU
+ * __Rev 2__ is almost identical to Rev 1, with MiniMELF diodes
+ * __Rev 1__ is based on Raspberry Pi RP2040 MCU
+ * __Rev 0__ is the original design and was based on a STM32F072 MCU
 
 ## Credits
 
@@ -66,3 +90,5 @@ CC-BY-SA 4.0
 [ai03-url]: https://github.com/ai03-2725
 [acheron-url]: https://github.com/AcheronProject
 [ebastler-url]: https://github.com/ebastler
+[kikit-url]: https://yaqwsx.github.io/KiKit/
+[kicad-jlcpcb-url]: https://github.com/Bouni/kicad-jlcpcb-tools
