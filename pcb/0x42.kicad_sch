@@ -6,8 +6,8 @@
 
   (title_block
     (title "0x42")
-    (date "2020-09-16")
-    (rev "0")
+    (date "2023-12-30")
+    (rev "2")
     (company "plut0nium")
     (comment 2 "- USB-C, per-key LED backlight, encoder")
     (comment 3 "- For MX-style switches")
