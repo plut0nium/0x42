@@ -74,7 +74,7 @@ CC-BY-SA 4.0
 
 ## Versions
 
- * __Rev 2__ is almost identical to Rev 1, with MiniMELF diodes
+ * __Rev 2__ _(work in progress)_ is almost identical to Rev 1, with MiniMELF diodes
  * __Rev 1__ is based on Raspberry Pi RP2040 MCU
  * __Rev 0__ is the original design and was based on a STM32F072 MCU
 
