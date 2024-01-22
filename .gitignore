@@ -31,5 +31,5 @@ fp-info-cache
 *.csv
 
 # CAD folder
-cad/*
+#cad/*
 
