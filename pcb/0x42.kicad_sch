@@ -10047,7 +10047,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000060cad6c2")
 		(property "Reference" "Cb1"
 			(at 34.671 120.7516 0)
@@ -11077,7 +11077,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "26c431b3-3ddf-4533-bb0e-f51223190224")
 		(property "Reference" "J3"
 			(at 102.87 141.605 0)
