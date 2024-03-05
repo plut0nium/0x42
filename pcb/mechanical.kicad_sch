@@ -1,103 +1,240 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 00f96ac0-aaf4-4765-a792-3cd963420dc4)
-
-  (paper "A4")
-
-  (title_block
-    (title "0x42")
-    (date "2020-09-16")
-    (rev "0")
-    (company "plut0nium")
-    (comment 2 "- USB-C, per-key LED backlight, encoder")
-    (comment 3 "- For MX-style switches")
-    (comment 4 "60% Ortholinear Mechanical Keyboard")
-  )
-
-  (lib_symbols
-    (symbol "0xLib_MK:MK_Board" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "BRD" (at -10.795 7.62 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "MK_Board" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Generic symbol for a MK board with shield" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "MK_Board_0_1"
-        (rectangle (start -12.7 6.35) (end 12.7 -6.35)
-          (stroke (width 0) (type default))
-          (fill (type background))
-        )
-      )
-      (symbol "MK_Board_1_1"
-        (pin passive line (at 10.16 -8.89 90) (length 2.54)
-          (name "Shield" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-
-  (wire (pts (xy 157.48 72.39) (xy 157.48 74.93))
-    (stroke (width 0) (type default))
-    (uuid 0e374470-e3fa-408d-9bb9-2ae5c4fd7bb2)
-  )
-  (polyline (pts (xy 46.99 45.72) (xy 245.11 45.72))
-    (stroke (width 0) (type default))
-    (uuid 1c68d538-4745-4c15-8e6c-7ff85e345aa2)
-  )
-  (polyline (pts (xy 245.11 129.54) (xy 46.99 129.54))
-    (stroke (width 0) (type default))
-    (uuid 3270da43-96ee-4cdb-a00a-48d32cd6da29)
-  )
-  (polyline (pts (xy 46.99 129.54) (xy 46.99 45.72))
-    (stroke (width 0) (type default))
-    (uuid 57c7b30f-27a8-4479-80bb-6b3a7ab80405)
-  )
-  (polyline (pts (xy 245.11 45.72) (xy 245.11 129.54))
-    (stroke (width 0) (type default))
-    (uuid a0dc17d8-da41-4de4-a2bc-95faff6ef0c7)
-  )
-
-  (global_label "Shield" (shape input) (at 157.48 74.93 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid e47e6c5b-ee20-4de9-966b-f04939f38608)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-
-  (symbol (lib_id "0xLib_MK:MK_Board") (at 147.32 63.5 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-0000601b4087)
-    (property "Reference" "BRD0" (at 160.7312 63.8048 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MK_Board" (at 160.7312 66.1162 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "0xLib_MK_Boards:60_Outline_Ortho" (at 147.32 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 147.32 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d7cb79fc-f856-426b-9da4-7288f57b3be8))
-    (instances
-      (project "0x42"
-        (path "/dfc3817c-10b2-4fc1-9dc0-b111f2dbf673/00000000-0000-0000-0000-00005f06c5ee"
-          (reference "BRD0") (unit 1)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "00f96ac0-aaf4-4765-a792-3cd963420dc4")
+	(paper "A4")
+	(title_block
+		(title "0x42")
+		(date "2020-09-16")
+		(rev "0")
+		(company "plut0nium")
+		(comment 2 "- USB-C, per-key LED backlight, encoder")
+		(comment 3 "- For MX-style switches")
+		(comment 4 "60% Ortholinear Mechanical Keyboard")
+	)
+	(lib_symbols
+		(symbol "0xLib_MK:MK_Board"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BRD"
+				(at -10.795 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MK_Board"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic symbol for a MK board with shield"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MK_Board_0_1"
+				(rectangle
+					(start -12.7 6.35)
+					(end 12.7 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "MK_Board_1_1"
+				(pin passive line
+					(at 10.16 -8.89 90)
+					(length 2.54)
+					(name "Shield"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 157.48 72.39) (xy 157.48 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e374470-e3fa-408d-9bb9-2ae5c4fd7bb2")
+	)
+	(polyline
+		(pts
+			(xy 46.99 45.72) (xy 245.11 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c68d538-4745-4c15-8e6c-7ff85e345aa2")
+	)
+	(polyline
+		(pts
+			(xy 245.11 129.54) (xy 46.99 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3270da43-96ee-4cdb-a00a-48d32cd6da29")
+	)
+	(polyline
+		(pts
+			(xy 46.99 129.54) (xy 46.99 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57c7b30f-27a8-4479-80bb-6b3a7ab80405")
+	)
+	(polyline
+		(pts
+			(xy 245.11 45.72) (xy 245.11 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0dc17d8-da41-4de4-a2bc-95faff6ef0c7")
+	)
+	(global_label "Shield"
+		(shape input)
+		(at 157.48 74.93 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e47e6c5b-ee20-4de9-966b-f04939f38608")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0xLib_MK:MK_Board")
+		(at 147.32 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000601b4087")
+		(property "Reference" "BRD0"
+			(at 160.7312 63.8048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MK_Board"
+			(at 160.7312 66.1162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0xLib_MK_Boards:60_Outline_Ortho"
+			(at 147.32 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7cb79fc-f856-426b-9da4-7288f57b3be8")
+		)
+		(instances
+			(project "0x42"
+				(path "/dfc3817c-10b2-4fc1-9dc0-b111f2dbf673/00000000-0000-0000-0000-00005f06c5ee"
+					(reference "BRD0")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
