@@ -33,3 +33,5 @@ fp-info-cache
 # CAD folder
 #cad/*
 
+# JLCPCB Tools
+*/jlcpcb/project.db
